@@ -194,11 +194,11 @@ def extract_conference_proceeding(input_file,output_path):
 
 
 ####################################################################################
-#################  paper_belong_to_proceedings       ################################################
+#################  paper_belong_to_conferences       ################################################
 ####################################################################################
 
-def extract_paper_proceeding_from_csv(file_path):
-    paper_proceeding = {"start_id": [], "end_id": []}
+def extract_paper_conference_from_csv(file_path):
+    paper_conference = {"start_id": [], "end_id": []}
     seen_combinations = set()
 
     with open(file_path, newline='', encoding='utf-8') as csvfile:
@@ -206,26 +206,26 @@ def extract_paper_proceeding_from_csv(file_path):
         for row in reader:
             DOI = row["DOI"].strip()
             conference_name = row["Conference name"].strip()
-            source_title = row["Source title"].strip()
-            if conference_name and source_title:
-                combined_key = (DOI, source_title)
+            # source_title = row["Source title"].strip()
+            if conference_name:
+                combined_key = (DOI, conference_name)
                 if combined_key not in seen_combinations:
                     seen_combinations.add(combined_key)
-                    paper_proceeding["start_id"].append(DOI)
-                    paper_proceeding["end_id"].append(source_title)
+                    paper_conference["start_id"].append(DOI)
+                    paper_conference["end_id"].append(conference_name)
 
-    return paper_proceeding
+    return paper_conference
 
-def extract_paper_proceeding(input_file, output_path):
+def extract_paper_conference(input_file, output_path):
     #  extract
-    paper_proceeding_data = extract_paper_proceeding_from_csv(input_file)
+    paper_conference_data = extract_paper_conference_from_csv(input_file)
 
     # write csv
-    output_file_name = "paper_belong_to_proceeding.csv"
+    output_file_name = "paper_presented_in_conference.csv"
     output_file_path = os.path.join(output_path, output_file_name)
-    export_to_csv(paper_proceeding_data, output_file_path)
+    export_to_csv(paper_conference_data, output_file_path)
 
-    print("paper_proceeding.csv  write to:", output_file_path)
+    print("paper_conference.csv  write to:", output_file_path)
 
 ####################################################################################
 #################  paper_belong_to_journal       ################################################
@@ -454,16 +454,18 @@ def extract_review(input_file, output_path):
     print("author_review written")
 
 if __name__ == "__main__":
-    input_path = "/Users/wanglinhan/Desktop/BDMA/UPC/SDM/labs/bdma-upc-sdm-lab1/raw_data"
+    # input_path = "/Users/wanglinhan/Desktop/BDMA/UPC/SDM/labs/bdma-upc-sdm-lab1/raw_data"
+    input_path = "/Users/zzy13/Desktop/Classes_at_UPC/SDM_Semantic_data_management/Lab_1/Codes/Data/Row_data"
     input_name = "sample.csv"
     input_file = os.path.join(input_path, input_name)
-    output_path = "/Users/wanglinhan/Desktop/BDMA/UPC/SDM/labs/bdma-upc-sdm-lab1/processed_data"
+    # output_path = "/Users/wanglinhan/Desktop/BDMA/UPC/SDM/labs/bdma-upc-sdm-lab1/processed_data"
+    output_path = "/Users/zzy13/Desktop/Classes_at_UPC/SDM_Semantic_data_management/Lab_1/Codes/Data/Processed_data"
     extract_paper(input_file=input_file, output_path=output_path)
     extract_journal(input_file=input_file, output_path=output_path)
     extract_proceeding(input_file=input_file, output_path=output_path)
     extract_conference(input_file=input_file, output_path=output_path)
     extract_conference_proceeding(input_file=input_file, output_path=output_path)
-    extract_paper_proceeding(input_file=input_file, output_path=output_path)
+    extract_paper_conference(input_file=input_file, output_path=output_path)
     extract_paper_journal(input_file=input_file, output_path=output_path)
     extract_cite(input_file=input_file, output_path=output_path)
     extract_author_and_write(input_file=input_file, output_path=output_path)
