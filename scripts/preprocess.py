@@ -438,108 +438,50 @@ def generate_random_text(length):
 
 def extract_review(input_file, output_path):
     df = pd.read_csv(input_file)
-    paper_author = pd.read_csv("processed_data/author_write.csv",low_memory=False)
-    papers = list(set(list(df["DOI"])))
+    paper_author = pd.read_csv("processed_data/author_write.csv")
+    papers = list(df["DOI"])
     # Create an empty list to store data
     data = []
 
-    for i in range(len(papers)):
-        print(i)
-        paper = papers[i]
-        # reviewer_bank = list(paper_author[paper_author["paper_id"]!=paper]["author_id"].drop_duplicates())
-        reviewers = random.sample(list(paper_author["author_id"]), 3)
+    for paper in papers:
+        reviewer_bank = list(paper_author[paper_author["paper_id"]!=paper]["author_id"].drop_duplicates())
+        reviewers = random.sample(reviewer_bank, 3)
         for reviewer in reviewers:
             data.append({
                 "paper_id": paper,
                 "reviewer_id": reviewer,
-                "review_content": generate_random_text(50),
-                "accept_possibility": random.random()
+                "review_content": generate_random_text(50)
             })
 
     new_df = pd.DataFrame(data)
     new_df.to_csv(os.path.join(output_path, "author_review.csv"), index=False)
     print("author_review written")
 
-####################################################################################
-#################  paper_in_year       ###################################################
-####################################################################################
-def paper_year(input_file_path):
-    paper_year = {
-        "start_id": [],
-        "end_id": []
-    }
+def extract_year(input_file, output_path):
+    df = pd.read_csv(input_file)
+    df_year = df["Year"]
+    df_year = df_year.drop_duplicates()
+    df_year.to_csv(os.path.join(output_path, "year.csv"), index=False)
+    print("extract year success!")
 
-    with open(input_file_path, newline='', encoding='utf-8') as csvfile:
-        reader = csv.DictReader(csvfile)
-        for idx, row in enumerate(reader):
-            paper_year["start_id"].append(row["DOI"])
-            paper_year["end_id"].append(row["Year"])
-    return paper_year
-
-def extract_paper_year(input_file, output_path):
-    papers_in_year = paper_year(input_file_path=input_file)
-    papers_in_year_name = 'paper_in_year.csv'
-    output_file_path = os.path.join(output_path, papers_in_year_name)
-    export_to_csv(papers_in_year, output_file_path)
-    print("paper_in_year.csv write to:", output_file_path)
-
-####################################################################################
-#################  year      ##############################################
-####################################################################################
-
-def extract_years_from_csv(input_file, output_path):
-    conference_years = []
-    with open(input_file, newline='', encoding='utf-8') as csvfile:
-        reader = csv.DictReader(csvfile)
-        for row in reader:
-            conference_date = row["Conference date"].strip()
-            if conference_date:
-                year_match = re.search(r'\d{4}', conference_date)
-                year = year_match.group(0) if year_match else None
-                if year:
-                    conference_years.append(year)
-            year = row["Year"].strip()
-            if year:
-                conference_years.append(year)
-    
-    unique_years = list(set(conference_years))  # Get unique years
-    unique_years.sort()  # Sort the list of unique years
-     # Create Year dictionary
-    Year = {"year": unique_years}
-
-    # Write Year dictionary to CSV
-    output_file = os.path.join(output_path, "year.csv")
-    with open(output_file, 'w', newline='', encoding='utf-8') as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=["year"])
-        writer.writeheader()
-        for row_data in Year["year"]:
-            writer.writerow({"year": row_data})
-
-    print("year.csv write to:", output_path)
 
 if __name__ == "__main__":
-    # Linhan File Path
-    # input_path = "/Users/wanglinhan/Desktop/BDMA/UPC/SDM/labs/bdma-upc-sdm-lab1/raw_data"
-    # input_name = "scopus_20000_nonull.csv"
-    # output_path = "/Users/wanglinhan/Desktop/BDMA/UPC/SDM/labs/bdma-upc-sdm-lab1/processed_data"
-    
-    # Ziyong File Path
-    input_path = "/Users/zzy13/Desktop/Classes_at_UPC/SDM_Semantic_data_management/Lab_1/Codes/Data/Row_data"
-    input_name = "sample.csv"
-    output_path = "/Users/zzy13/Desktop/Classes_at_UPC/SDM_Semantic_data_management/Lab_1/Codes/Data/Processed_data"
-
+    input_path = "/Users/wanglinhan/Desktop/BDMA/UPC/SDM/labs/bdma-upc-sdm-lab1/raw_data"
+    # input_path = "/Users/zzy13/Desktop/Classes_at_UPC/SDM_Semantic_data_management/Lab_1/Codes/Data/Row_data"
+    input_name = "scopus_500.csv"
     input_file = os.path.join(input_path, input_name)
-    # extract_paper(input_file=input_file, output_path=output_path)
-    # extract_journal(input_file=input_file, output_path=output_path)
-    # extract_proceeding(input_file=input_file, output_path=output_path)
-    # extract_conference(input_file=input_file, output_path=output_path)
-    # extract_conference_proceeding(input_file=input_file, output_path=output_path)
-    # extract_paper_conference(input_file=input_file, output_path=output_path)
-    # extract_paper_journal(input_file=input_file, output_path=output_path)
-    # extract_cite(input_file=input_file, output_path=output_path)
-    # extract_author_and_write(input_file=input_file, output_path=output_path)
-    # extract_keywords(input_file=input_file, output_path=output_path)
-    # extract_paper_has_keywords(input_file=input_file, output_path=output_path)
-    # extract_review(input_file=input_file, output_path=output_path)
-    extract_years_from_csv(input_file=input_file, output_path=output_path)
-    extract_paper_year(input_file=input_file, output_path=output_path)
+    output_path = "/Users/wanglinhan/Desktop/BDMA/UPC/SDM/labs/bdma-upc-sdm-lab1/processed_data"
+    # output_path = "/Users/zzy13/Desktop/Classes_at_UPC/SDM_Semantic_data_management/Lab_1/Codes/Data/Processed_data"
+    extract_paper(input_file=input_file, output_path=output_path)
+    extract_journal(input_file=input_file, output_path=output_path)
+    extract_proceeding(input_file=input_file, output_path=output_path)
+    extract_conference(input_file=input_file, output_path=output_path)
+    extract_conference_proceeding(input_file=input_file, output_path=output_path)
+    extract_paper_conference(input_file=input_file, output_path=output_path)
+    extract_paper_journal(input_file=input_file, output_path=output_path)
+    extract_cite(input_file=input_file, output_path=output_path)
+    extract_author_and_write(input_file=input_file, output_path=output_path)
+    extract_keywords(input_file=input_file, output_path=output_path)
+    extract_paper_has_keywords(input_file=input_file, output_path=output_path)
+    extract_review(input_file=input_file, output_path=output_path)
+    extract_year(input_file=input_file, output_path=output_path)

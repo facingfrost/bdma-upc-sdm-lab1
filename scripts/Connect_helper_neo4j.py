@@ -7,9 +7,12 @@ def delete_and_detach_all_nodes(session):
 
 def create_session():
     ############### Can change to your own URI, username and pwd here ###############
-    URI = "neo4j+s://2c8207ff.databases.neo4j.io"
+    # URI = "neo4j+s://2c8207ff.databases.neo4j.io"
+    # username = 'neo4j'
+    # password = 'B_YGrnwwnkPrbikiT3MaQ_SG9khS7ICupTiT8mLQCVA'
+    URI = "neo4j+s://5b7afbed.databases.neo4j.io"
     username = 'neo4j'
-    password = 'B_YGrnwwnkPrbikiT3MaQ_SG9khS7ICupTiT8mLQCVA'
+    password = 'BCtlDMBoyBR-gaaWJejbwe9tI2YlQ9S6_VDD2_dRT1c' 
 
     print('Creating neo4j connection...')
     driver = GraphDatabase.driver(URI, auth=(username, password))
