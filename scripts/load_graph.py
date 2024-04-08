@@ -51,8 +51,7 @@ def load_node_author(session):
         """LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/Ziyong-Zhang/SDM_Lab_1/main/Data/authors.csv' AS node
             CREATE (:Authors {
                 author_id: node.author_id,
-                author_name: node.author_name,
-                author_affiliation: node.author_institution
+                author_name: node.author_name
         })"""
     )
 
