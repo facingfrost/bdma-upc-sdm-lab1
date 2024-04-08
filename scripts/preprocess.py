@@ -460,22 +460,62 @@ def extract_review(input_file, output_path):
     new_df.to_csv(os.path.join(output_path, "author_review.csv"), index=False)
     print("author_review written")
 
+####################################################################################
+#################  year      ##############################################
+####################################################################################
+
+def extract_years_from_csv(input_file, output_path):
+    conference_years = []
+    with open(input_file, newline='', encoding='utf-8') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            conference_date = row["Conference date"].strip()
+            if conference_date:
+                year_match = re.search(r'\d{4}', conference_date)
+                year = year_match.group(0) if year_match else None
+                if year:
+                    conference_years.append(year)
+            year = row["Year"].strip()
+            if year:
+                conference_years.append(year)
+    
+    unique_years = list(set(conference_years))  # Get unique years
+    unique_years.sort()  # Sort the list of unique years
+     # Create Year dictionary
+    Year = {"year": unique_years}
+
+    # Write Year dictionary to CSV
+    output_file = os.path.join(output_path, "year.csv")
+    with open(output_file, 'w', newline='', encoding='utf-8') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=["year"])
+        writer.writeheader()
+        for row_data in Year["year"]:
+            writer.writerow({"year": row_data})
+
+    print("year.csv write to:", output_path)
+
 if __name__ == "__main__":
-    input_path = "/Users/wanglinhan/Desktop/BDMA/UPC/SDM/labs/bdma-upc-sdm-lab1/raw_data"
-    # input_path = "/Users/zzy13/Desktop/Classes_at_UPC/SDM_Semantic_data_management/Lab_1/Codes/Data/Row_data"
-    input_name = "scopus_20000_nonull.csv"
+    # Linhan File Path
+    # input_path = "/Users/wanglinhan/Desktop/BDMA/UPC/SDM/labs/bdma-upc-sdm-lab1/raw_data"
+    # input_name = "scopus_20000_nonull.csv"
+    # output_path = "/Users/wanglinhan/Desktop/BDMA/UPC/SDM/labs/bdma-upc-sdm-lab1/processed_data"
+    
+    # Ziyong File Path
+    input_path = "/Users/zzy13/Desktop/Classes_at_UPC/SDM_Semantic_data_management/Lab_1/Codes/Data/Row_data"
+    input_name = "sample.csv"
+    output_path = "/Users/zzy13/Desktop/Classes_at_UPC/SDM_Semantic_data_management/Lab_1/Codes/Data/Processed_data"
+
     input_file = os.path.join(input_path, input_name)
-    output_path = "/Users/wanglinhan/Desktop/BDMA/UPC/SDM/labs/bdma-upc-sdm-lab1/processed_data"
-    # output_path = "/Users/zzy13/Desktop/Classes_at_UPC/SDM_Semantic_data_management/Lab_1/Codes/Data/Processed_data"
-    extract_paper(input_file=input_file, output_path=output_path)
-    extract_journal(input_file=input_file, output_path=output_path)
-    extract_proceeding(input_file=input_file, output_path=output_path)
-    extract_conference(input_file=input_file, output_path=output_path)
-    extract_conference_proceeding(input_file=input_file, output_path=output_path)
-    extract_paper_conference(input_file=input_file, output_path=output_path)
-    extract_paper_journal(input_file=input_file, output_path=output_path)
-    extract_cite(input_file=input_file, output_path=output_path)
-    extract_author_and_write(input_file=input_file, output_path=output_path)
-    extract_keywords(input_file=input_file, output_path=output_path)
-    extract_paper_has_keywords(input_file=input_file, output_path=output_path)
-    extract_review(input_file=input_file, output_path=output_path)
+    # extract_paper(input_file=input_file, output_path=output_path)
+    # extract_journal(input_file=input_file, output_path=output_path)
+    # extract_proceeding(input_file=input_file, output_path=output_path)
+    # extract_conference(input_file=input_file, output_path=output_path)
+    # extract_conference_proceeding(input_file=input_file, output_path=output_path)
+    # extract_paper_conference(input_file=input_file, output_path=output_path)
+    # extract_paper_journal(input_file=input_file, output_path=output_path)
+    # extract_cite(input_file=input_file, output_path=output_path)
+    # extract_author_and_write(input_file=input_file, output_path=output_path)
+    # extract_keywords(input_file=input_file, output_path=output_path)
+    # extract_paper_has_keywords(input_file=input_file, output_path=output_path)
+    # extract_review(input_file=input_file, output_path=output_path)
+    extract_years_from_csv(input_file=input_file, output_path=output_path)
