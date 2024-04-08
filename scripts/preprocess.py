@@ -44,7 +44,7 @@ def extract_paper_from_csv(input_file_path):
             papers["pages"].append(f"{row['Page start']}-{row['Page end']}")
             papers["DOI"].append(row["DOI"])
             papers["link"].append(row["Link"])
-            papers["year"].append(row["Year"])
+            papers["year"].append(str(row["Year"]))
 
     return papers
 
@@ -458,30 +458,46 @@ def extract_review(input_file, output_path):
     print("author_review written")
 
 def extract_year(input_file, output_path):
-    df = pd.read_csv(input_file)
-    df_year = df["Year"]
+    df = pd.read_csv(input_file, sep=None)  # 指定sep=None自动识别分隔符
+    df.rename(columns={"Year": "year"}, inplace=True)
+    df_year = df["year"]
     df_year = df_year.drop_duplicates()
-    df_year.to_csv(os.path.join(output_path, "year.csv"), index=False)
-    print("extract year success!")
+    df_year.to_csv(os.path.join(output_path, "year.csv"), index=True, sep=",")  # 指定逗号分隔符并保留索引
+    print("Extract year success!")
+
+# def get_year(input_file):
+#     year = {"year": []}
+#     with open(input_file, newline='', encoding='utf-8') as csvfile:
+#         reader = csv.DictReader(csvfile)
+#         for row in reader:
+#             year["year"].append(row["Year"])
+#     year["year"] = list(set(year["year"]))
+#     return year
+# def extract_year(input_file, output_path):
+#     year_data = get_year(input_file)
+#     year_name = 'year.csv'
+#     output_file_path = os.path.join(output_path, year_name)
+#     export_to_csv(year_data, output_file_path)
+#     print("year.csv write to:", output_file_path)
 
 
 if __name__ == "__main__":
-    input_path = "/Users/wanglinhan/Desktop/BDMA/UPC/SDM/labs/bdma-upc-sdm-lab1/raw_data"
-    # input_path = "/Users/zzy13/Desktop/Classes_at_UPC/SDM_Semantic_data_management/Lab_1/Codes/Data/Row_data"
+    # input_path = "/Users/wanglinhan/Desktop/BDMA/UPC/SDM/labs/bdma-upc-sdm-lab1/raw_data"
+    input_path = "/Users/zzy13/Desktop/Classes_at_UPC/SDM_Semantic_data_management/Lab_1/Codes/Data/Row_data"
     input_name = "scopus_500.csv"
     input_file = os.path.join(input_path, input_name)
-    output_path = "/Users/wanglinhan/Desktop/BDMA/UPC/SDM/labs/bdma-upc-sdm-lab1/processed_data"
-    # output_path = "/Users/zzy13/Desktop/Classes_at_UPC/SDM_Semantic_data_management/Lab_1/Codes/Data/Processed_data"
-    extract_paper(input_file=input_file, output_path=output_path)
-    extract_journal(input_file=input_file, output_path=output_path)
-    extract_proceeding(input_file=input_file, output_path=output_path)
-    extract_conference(input_file=input_file, output_path=output_path)
-    extract_conference_proceeding(input_file=input_file, output_path=output_path)
-    extract_paper_conference(input_file=input_file, output_path=output_path)
-    extract_paper_journal(input_file=input_file, output_path=output_path)
-    extract_cite(input_file=input_file, output_path=output_path)
-    extract_author_and_write(input_file=input_file, output_path=output_path)
-    extract_keywords(input_file=input_file, output_path=output_path)
-    extract_paper_has_keywords(input_file=input_file, output_path=output_path)
-    extract_review(input_file=input_file, output_path=output_path)
+    # output_path = "/Users/wanglinhan/Desktop/BDMA/UPC/SDM/labs/bdma-upc-sdm-lab1/processed_data"
+    output_path = "/Users/zzy13/Desktop/Classes_at_UPC/SDM_Semantic_data_management/Lab_1/Codes/Data/Processed_data"
+    # extract_paper(input_file=input_file, output_path=output_path)
+    # extract_journal(input_file=input_file, output_path=output_path)
+    # extract_proceeding(input_file=input_file, output_path=output_path)
+    # extract_conference(input_file=input_file, output_path=output_path)
+    # extract_conference_proceeding(input_file=input_file, output_path=output_path)
+    # extract_paper_conference(input_file=input_file, output_path=output_path)
+    # extract_paper_journal(input_file=input_file, output_path=output_path)
+    # extract_cite(input_file=input_file, output_path=output_path)
+    # extract_author_and_write(input_file=input_file, output_path=output_path)
+    # extract_keywords(input_file=input_file, output_path=output_path)
+    # extract_paper_has_keywords(input_file=input_file, output_path=output_path)
+    # extract_review(input_file=input_file, output_path=output_path)
     extract_year(input_file=input_file, output_path=output_path)

@@ -16,16 +16,11 @@ def load_node_paper(session):
                 abstract: node.abstract,
                 pages: node.pages,
                 doi: node.DOI,
-                link: node.link
+                link: node.link,
+                year: toInteger(node.year)
         })"""
     )
 
-def load_node_year(session):
-    session.run(
-        """LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/Ziyong-Zhang/SDM_Lab_1/main/Data/year.csv' AS node
-            CREATE (:Year {year: node.Year})
-        """
-    )
 
 def load_node_conference(session):
     session.run(
@@ -70,11 +65,10 @@ def load_node_keywords(session):
         })"""
     )
 
-################### pending test
 def load_node_year(session):
     session.run(
         """LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/Ziyong-Zhang/SDM_Lab_1/main/Data/year.csv' AS node
-            CREATE (:year {
+            CREATE (:Year {
                 year: node.year
         })"""
     )
@@ -114,7 +108,7 @@ def load_relation_paper_in_year(session):
             MATCH (paper:Paper {doi: relation.DOI})
             WITH paper, relation
             MATCH (y:Year {year: relation.year})
-            CREATE (paper)-[:in_year]->(y)"""
+            CREATE (paper)-[:published_in_year]->(y)"""
     )
 
 
@@ -157,24 +151,24 @@ def load_relation_paper_has_keywords(session):
     )
 
 ################### pending test
-def load_relation_paper_publish_in_year(session):
+def load_relation_conference_in_year(session):
     session.run(
-        """LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/Ziyong-Zhang/SDM_Lab_1/main/Data/paper_in_year.csv' AS relation
-            MATCH (paper:Paper {doi: relation.start_id})
-            WITH paper, relation
-            MATCH (year:year {year: relation.end_id})
-            CREATE (paper)-[:publish_in_year]->(year)"""
+        """LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/Ziyong-Zhang/SDM_Lab_1/main/Data/conference.csv' AS relation
+            MATCH (con:Conference {name: relation.name})
+            WITH con, relation
+            MATCH (y:Year {year: relation.year})
+            CREATE (con)-[:in_year]->(y)"""
     )
 
 
 def main():
     # URI examples: "neo4j://localhost", "neo4j+s://xxx.databases.neo4j.io"
     # Account of Linhan: 
-    URI = "neo4j+s://5b7afbed.databases.neo4j.io"
-    AUTH = ("neo4j", "BCtlDMBoyBR-gaaWJejbwe9tI2YlQ9S6_VDD2_dRT1c")
+    # URI = "neo4j+s://5b7afbed.databases.neo4j.io"
+    # AUTH = ("neo4j", "BCtlDMBoyBR-gaaWJejbwe9tI2YlQ9S6_VDD2_dRT1c")
     # Account of Ziyong:
-    # URI = "neo4j+s://2c8207ff.databases.neo4j.io"
-    # AUTH = ("neo4j", "B_YGrnwwnkPrbikiT3MaQ_SG9khS7ICupTiT8mLQCVA")
+    URI = "neo4j+s://2c8207ff.databases.neo4j.io"
+    AUTH = ("neo4j", "B_YGrnwwnkPrbikiT3MaQ_SG9khS7ICupTiT8mLQCVA")
 
     with GraphDatabase.driver(URI, auth=AUTH) as driver:
         print("connection successful!")
@@ -196,6 +190,7 @@ def main():
                 session.execute_write(load_relation_author_review)
                 session.execute_write(load_relation_paper_has_keywords)
                 session.execute_write(load_relation_paper_in_year)
+                session.execute_write(load_relation_conference_in_year)
                 print('Creation and loading done for the database.')
 
 
