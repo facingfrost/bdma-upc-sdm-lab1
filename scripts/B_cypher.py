@@ -1,9 +1,12 @@
 from neo4j import GraphDatabase
 import csv
+import os
 
 
 def write_to_csv(data, filename):
-    with open(filename, 'w', newline='') as csvfile:
+    output_path = '/Users/zzy13/Desktop/Classes_at_UPC/SDM_Semantic_data_management/Lab_1/Codes/Data/query_result'
+    file_path = os.path.join(output_path, filename)
+    with open(file_path, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
         if data:  # Write header only if data is not empty
             writer.writerow([key for key in data[0].keys()])
@@ -151,7 +154,7 @@ def main():
     with GraphDatabase.driver(URI, auth=AUTH) as driver:
         print("connection successful!")
         with driver.session(database="neo4j") as session:
-                # session.execute_write(find_top3_cited)
+                session.execute_write(find_top3_cited)
                 # session.execute_write(find_commu)
                 # session.execute_write(find_if)
                 # session.execute_write(find_hindex)
