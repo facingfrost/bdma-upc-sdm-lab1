@@ -4,6 +4,7 @@ import os
 import re
 import random
 from faker import Faker
+import random
 
 # Utils
 
@@ -31,7 +32,8 @@ def extract_paper_from_csv(input_file_path):
         "abstract": [],
         "pages": [],
         "DOI": [],
-        "link": []
+        "link": [],
+        "year": []
     }
 
     with open(input_file_path, newline='', encoding='utf-8') as csvfile:
@@ -42,6 +44,7 @@ def extract_paper_from_csv(input_file_path):
             papers["pages"].append(f"{row['Page start']}-{row['Page end']}")
             papers["DOI"].append(row["DOI"])
             papers["link"].append(row["Link"])
+            papers["year"].append(row["Year"])
 
     return papers
 
@@ -304,7 +307,7 @@ def extract_cite(input_file, output_path):
 ####################################################################################
 
 def extract_author_and_write(input_file, output_path):
-    df = pd.read_csv(input_file)
+    df = pd.read_csv(input_file,low_memory=False)
 
     # Split values in "Authors", "Author(s) ID", and "Authors with affiliations" columns
     df["author_name"] = df["Authors"].str.split("; ")
@@ -362,7 +365,7 @@ def extract_author_and_write(input_file, output_path):
 def extract_keywords(input_file, output_path):
     # Keywords
     # Read the original CSV file
-    df = pd.read_csv(input_file)
+    df = pd.read_csv(input_file,low_memory=False)
 
     df.dropna(subset=['Author Keywords'], inplace=True)
     # Split values in "Authors", "Author(s) ID", and "Authors with affiliations" columns
@@ -394,7 +397,7 @@ def extract_keywords(input_file, output_path):
 def extract_paper_has_keywords(input_file, output_path):
     # Keywords
     # Read the original CSV file
-    df = pd.read_csv(input_file)
+    df = pd.read_csv(input_file,dtype={'Index Keywords': 'str'})
 
     df.dropna(subset=['Author Keywords'], inplace=True)
     # Split values in "Authors", "Author(s) ID", and "Authors with affiliations" columns
@@ -418,6 +421,7 @@ def extract_paper_has_keywords(input_file, output_path):
 
     # Write the new DataFrame to a new CSV file
     new_df.to_csv(os.path.join(output_path, "paper_has_keywords.csv"), index=False)
+    print("paper_has_keywords written")
 
 
 
@@ -434,19 +438,22 @@ def generate_random_text(length):
 
 def extract_review(input_file, output_path):
     df = pd.read_csv(input_file)
-    paper_author = pd.read_csv("processed_data/author_write.csv")
-    papers = list(df["DOI"])
+    paper_author = pd.read_csv("processed_data/author_write.csv",low_memory=False)
+    papers = list(set(list(df["DOI"])))
     # Create an empty list to store data
     data = []
 
-    for paper in papers:
-        reviewer_bank = list(paper_author[paper_author["paper_id"]!=paper]["author_id"].drop_duplicates())
-        reviewers = random.sample(reviewer_bank, 3)
+    for i in range(len(papers)):
+        print(i)
+        paper = papers[i]
+        # reviewer_bank = list(paper_author[paper_author["paper_id"]!=paper]["author_id"].drop_duplicates())
+        reviewers = random.sample(list(paper_author["author_id"]), 3)
         for reviewer in reviewers:
             data.append({
                 "paper_id": paper,
                 "reviewer_id": reviewer,
-                "review_content": generate_random_text(50)
+                "review_content": generate_random_text(50),
+                "accept_possibility": random.random()
             })
 
     new_df = pd.DataFrame(data)
@@ -454,12 +461,12 @@ def extract_review(input_file, output_path):
     print("author_review written")
 
 if __name__ == "__main__":
-    # input_path = "/Users/wanglinhan/Desktop/BDMA/UPC/SDM/labs/bdma-upc-sdm-lab1/raw_data"
-    input_path = "/Users/zzy13/Desktop/Classes_at_UPC/SDM_Semantic_data_management/Lab_1/Codes/Data/Row_data"
-    input_name = "sample.csv"
+    input_path = "/Users/wanglinhan/Desktop/BDMA/UPC/SDM/labs/bdma-upc-sdm-lab1/raw_data"
+    # input_path = "/Users/zzy13/Desktop/Classes_at_UPC/SDM_Semantic_data_management/Lab_1/Codes/Data/Row_data"
+    input_name = "scopus_20000_nonull.csv"
     input_file = os.path.join(input_path, input_name)
-    # output_path = "/Users/wanglinhan/Desktop/BDMA/UPC/SDM/labs/bdma-upc-sdm-lab1/processed_data"
-    output_path = "/Users/zzy13/Desktop/Classes_at_UPC/SDM_Semantic_data_management/Lab_1/Codes/Data/Processed_data"
+    output_path = "/Users/wanglinhan/Desktop/BDMA/UPC/SDM/labs/bdma-upc-sdm-lab1/processed_data"
+    # output_path = "/Users/zzy13/Desktop/Classes_at_UPC/SDM_Semantic_data_management/Lab_1/Codes/Data/Processed_data"
     extract_paper(input_file=input_file, output_path=output_path)
     extract_journal(input_file=input_file, output_path=output_path)
     extract_proceeding(input_file=input_file, output_path=output_path)
