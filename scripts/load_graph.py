@@ -63,6 +63,15 @@ def load_node_keywords(session):
         })"""
     )
 
+################### pending test
+def load_node_year(session):
+    session.run(
+        """LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/Ziyong-Zhang/SDM_Lab_1/main/Data/year.csv' AS node
+            CREATE (:year {
+                year: node.year
+        })"""
+    )
+
 # load_relationship
     
 def load_relation_conference_belong_to_proceeding(session):
@@ -128,6 +137,16 @@ def load_relation_paper_has_keywords(session):
             WITH paper, relation
             MATCH (keywords:Keywords {keywords: relation.keywords})
             CREATE (paper)-[:has_keyword]->(keywords)"""
+    )
+
+################### pending test
+def load_relation_paper_publish_in_year(session):
+    session.run(
+        """LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/Ziyong-Zhang/SDM_Lab_1/main/Data/paper_in_year.csv' AS relation
+            MATCH (paper:Paper {doi: relation.start_id})
+            WITH paper, relation
+            MATCH (year:year {year: relation.end_id})
+            CREATE (paper)-[:publish_in_year]->(year)"""
     )
 
 
