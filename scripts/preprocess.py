@@ -461,6 +461,29 @@ def extract_review(input_file, output_path):
     print("author_review written")
 
 ####################################################################################
+#################  paper_in_year       ###################################################
+####################################################################################
+def paper_year(input_file_path):
+    paper_year = {
+        "start_id": [],
+        "end_id": []
+    }
+
+    with open(input_file_path, newline='', encoding='utf-8') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for idx, row in enumerate(reader):
+            paper_year["start_id"].append(row["DOI"])
+            paper_year["end_id"].append(row["Year"])
+    return paper_year
+
+def extract_paper_year(input_file, output_path):
+    papers_in_year = paper_year(input_file_path=input_file)
+    papers_in_year_name = 'paper_in_year.csv'
+    output_file_path = os.path.join(output_path, papers_in_year_name)
+    export_to_csv(papers_in_year, output_file_path)
+    print("paper_in_year.csv write to:", output_file_path)
+
+####################################################################################
 #################  year      ##############################################
 ####################################################################################
 
@@ -519,3 +542,4 @@ if __name__ == "__main__":
     # extract_paper_has_keywords(input_file=input_file, output_path=output_path)
     # extract_review(input_file=input_file, output_path=output_path)
     extract_years_from_csv(input_file=input_file, output_path=output_path)
+    extract_paper_year(input_file=input_file, output_path=output_path)
