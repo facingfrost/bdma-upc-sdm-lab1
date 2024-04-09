@@ -100,15 +100,6 @@ def algorithm_louvain(session):
         writer = csv.writer(csvfile)
         writer.writerows(data)
 
-    # write mutate stat result
-    # mutate = [["communityCount", "modularity","modularities"]]
-    # for mutate_record in mutate_result:
-    #      mutate.append([mutate_record["communityCount"], mutate_record["modularity"],mutate_record["modularities"]])
-    # mutate_path = os.path.join(output_path, "louvain_mutate.csv")
-    # with open(mutate_path, "w", newline='') as csvfile:
-    #     writer = csv.writer(csvfile)
-    #     writer.writerows(mutate)
-
     records = list(result)
     summary = result.consume()
     return records, summary

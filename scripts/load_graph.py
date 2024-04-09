@@ -181,8 +181,11 @@ def main():
     # URI = "neo4j+s://5b7afbed.databases.neo4j.io"
     # AUTH = ("neo4j", "BCtlDMBoyBR-gaaWJejbwe9tI2YlQ9S6_VDD2_dRT1c")
     # Account of Ziyong:
-    URI = "neo4j+s://2c8207ff.databases.neo4j.io"
-    AUTH = ("neo4j", "B_YGrnwwnkPrbikiT3MaQ_SG9khS7ICupTiT8mLQCVA")
+    # URI = "neo4j+s://2c8207ff.databases.neo4j.io"
+    # AUTH = ("neo4j", "B_YGrnwwnkPrbikiT3MaQ_SG9khS7ICupTiT8mLQCVA")
+    URI = "bolt://localhost:7687"
+    AUTH = ("neo4j", "upcsdmneo4j")
+
 
     with GraphDatabase.driver(URI, auth=AUTH) as driver:
         print("connection successful!")
