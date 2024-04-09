@@ -28,35 +28,26 @@ def find_top3_cited(session):
     for record in results1:
         data.append({"Conference": record['conference'], "TopPapers": record['top_papers'], "CitationNumbers":record['cite_numbers']})
     write_to_csv(data, "top_cited_papers.csv")
-    print(f"Top 3 Cited Papers written to top_cited_papers.csv")
+    print(f"top_cited_papers.csv written")
 
 
-########################## Ongoing ##########################
-# Query 2: For each conference find its community: i.e., those authors that have published papers on that conference in, at least, 4 different editions.
+# Query 2: For each conference find its community: i.e., those authors that have published papers on that conference in, at least, 4 different editions. --- DONE 
 def find_commu(session):
     query2 = """
-    MATCH (a:Authors)-[:CONTRIBUTED]->(p:Paper)-[in_col:presented_in]->(pro:Conference),
-                (p)-[pub_in:published_in]->(y:Year)
-    WITH  a, pro, count(pub_in) as tot_pubs
+    MATCH (p:Paper)-[:written_by]->(a:Authors), (p)-[in_con:presented_in]->(con:Conference),
+                (p)-[pub_in:published_in_year]->(y:Year)
+    WITH  a, con, count(pub_in) as tot_pubs
     WHERE tot_pubs > 3
-    RETURN  a, pro, tot_pubs
+    RETURN  a.author_name as author_name, con.name as conference_name, tot_pubs
     """
-    # MATCH (conf:Conference)<-[:presented_in]-(paper:Paper)<-[:written_by]-(author:Authors)
-    # WITH conf.name AS conference, author
-    # MATCH (author)-[:written_by]->(other:Paper)-[:presented_in]->(otherConf:Conference)
-    # WHERE otherConf.name <> conference
-    # WITH conference, author, count(DISTINCT otherConf.name) AS edition_count
-    # WHERE edition_count >= 4
-    # RETURN conference, collect(DISTINCT author) AS community
     results2 = session.run(query2)
 
     data = []
     for record in results2:
-        data.append({"Conference": record['conference'], "Community Members": record['community']})
+        data.append({"Author": record['author_name'], "Conference": record['conference_name'], "Total Publications": record['tot_pubs']})
 
     write_to_csv(data, "conference_communities.csv")
-    print(f"Conference Communities written to conference_communities.csv")
-
+    print(f"conference_communities.csv written")
 
 # Find the impact factors of the journals in your graph
 # // To calculate impact factor, we will count the number of citations in a paper that was published in year0. Year0 will be pipelined down to the next match to count the number of publications in each journal in Year0-1, and then again in Year0-2. These values are used to finally calculate impact factor. Any journal and year combinations where a year0, year1, and year2 combaination do not exist are automatically disqualified from being calculated as a match will not exist. So the RETURN will only provide values where there were publications and citations in all years.
@@ -64,70 +55,53 @@ def find_if(session):
     """
     This function calculates and retrieves the impact factor for each journal in the graph.
     """
-    query = """
-    MATCH ()-[cite:CITE]->(p0:Paper)-[:published_in]->(jnl:Journal)-[:IN_YEAR]-(y0:Year)
-    MATCH (p0)-[:PUBLISHED_IN]->(y0)
-    WITH jnl, y0, count(cite) as cite_num
+    query3 = """
+    MATCH ()-[cite:cites]->(p0:Paper)-[:published_in]->(jnl:Journal)-[:in_year]-(y0:Year)
+    MATCH (p0)-[:published_in_year]->(y0)
+    WITH jnl, toInteger(y0.year) AS year0, count(cite) as cite_num
 
-    MATCH (p1:Paper)-[:IN_COLLECTION]->(jnl)
-    MATCH (p1)-[pub1:PUBLISHED_IN]->(y1:Year)
-        WHERE y1.year = y0.year - 1
-    WITH jnl, y0, cite_num, y1, count(pub1) AS pub_num1
+    MATCH (p1:Paper)-[:published_in]->(jnl)
+    MATCH (p1)-[pub1:published_in_year]->(y1:Year)
+    WHERE toInteger(y1.year) = year0 - 1
+    WITH jnl, year0, cite_num, count(pub1) AS pub_num1
 
-    MATCH (p2:Paper)-[:IN_COLLECTION]->(jnl)
-    MATCH (p2)-[pub2:PUBLISHED_IN]->(y2)
-        WHERE y2.year = y0.year - 2
-    WITH jnl, y0, y1, y2, cite_num, pub_num1, count(pub2) AS pub_num2
+    MATCH (p2:Paper)-[:published_in]->(jnl)
+    MATCH (p2)-[pub2:published_in_year]->(y2:Year)
+    WHERE toInteger(y2.year) = year0 - 2
+    WITH jnl, year0, cite_num, pub_num1, count(pub2) AS pub_num2
 
-    RETURN jnl AS Journal, y0 AS ImpactFactorYear, cite_num/(pub_num1+pub_num2) AS ImpactFactor
-
+    RETURN jnl.journal_name AS Journal, year0 AS ImpactFactorYear, cite_num/(pub_num1+pub_num2) AS ImpactFactor
     """
-    # MATCH ()-[cite:CITED]->(p0:Paper)-[:IN_COLLECTION]->(jnl:Journal)-[:IN_YEAR]-(y0:Year)
-    # MATCH (p0)-[:PUBLISHED_IN]->(y0)
-    # WITH jnl, y0, count(cite) AS cite_num
-
-    # MATCH (p1:Paper)-[:IN_COLLECTION]->(jnl)
-    # MATCH (p1)-[:PUBLISHED_IN]->(y1:Year)
-    # WHERE y1.year = y0.year - 1
-    # WITH jnl, y0, cite_num, y1, count(p1) AS pub_num1
-
-    # MATCH (p2:Paper)-[:IN_COLLECTION]->(jnl)
-    # MATCH (p2)-[:PUBLISHED_IN]->(y2:Year)
-    # WHERE y2.year = y0.year - 2
-    # WITH jnl AS journal, y0, y1, y2, cite_num, pub_num1, count(p2) AS pub_num2
-
-    # WHERE pub_num1 > 0 AND pub_num2 > 0  # Ensure publications in both previous years
-    # RETURN journal.journal_name AS Journal, y0.year AS ImpactFactorYear, cite_num/(pub_num1+pub_num2) AS ImpactFactor
-    results = session.run(query)
+    results = session.run(query3)
 
     data = []
     for record in results:
         data.append({"Journal": record['Journal'], "Impact Factor Year": record['ImpactFactorYear'], "Impact Factor": record['ImpactFactor']})
 
     write_to_csv(data, "journal_impact_factors.csv")
-    print(f"Journal Impact Factors written to journal_impact_factors.csv")
+    print(f"journal_impact_factors.csv written")
 
 
 # Find the h-indexes of the authors in your graph
 def find_hindex(session):
-    query4 = """
+    query = """
     MATCH (author:Authors)<-[:written_by]-(paper:Paper)
     RETURN author, collect(paper) AS papers
     """
-    results4 = session.run(query4)
+    results = session.run(query)
 
     data = []
-    for record in results4:
+    for record in results:
         author = record['author']
         papers = record['papers']
 
         citation_list = []
         for paper in papers:
+            paper_doi = paper['doi']
             result = session.run("""
-            MATCH (paper:Paper {doi: "{paperDoi}"})
-            WITH count(*) AS citations
-            RETURN citations
-            """.format(paperDoi=paper.doi))
+            MATCH (paperCited:Paper {doi: $paperDoi})<-[:cites]-(paper)
+            RETURN count(*) AS citations
+            """, paperDoi=paper_doi)
             citation_list.append(result.single()['citations'])
 
         citation_list.sort(reverse=True)
@@ -137,10 +111,10 @@ def find_hindex(session):
                 break
             h_index += 1
 
-        data.append({"Author": author['name'], "h-index": h_index})
+        data.append({"Author": author['author_name'], "h-index": h_index})
 
     write_to_csv(data, "author_h_indexes.csv")
-    print(f"Author H-Indexes written to author_h_indexes.csv")
+    print(f"Author_h_indexes.csv written")
 
 
 def main():
@@ -155,9 +129,9 @@ def main():
         print("connection successful!")
         with driver.session(database="neo4j") as session:
                 session.execute_write(find_top3_cited)
-                # session.execute_write(find_commu)
-                # session.execute_write(find_if)
-                # session.execute_write(find_hindex)
+                session.execute_write(find_commu)
+                session.execute_write(find_if)
+                session.execute_write(find_hindex)
                 print('Results output successfully!')
 
 if __name__ == "__main__":
