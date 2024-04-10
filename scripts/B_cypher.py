@@ -63,7 +63,7 @@ def find_commu(session):
     print(f"conference_communities.csv written")
 
 # Find the impact factors of the journals in your graph
-# // To calculate impact factor, we will count the number of citations in a paper that was published in year0. Year0 will be pipelined down to the next match to count the number of publications in each journal in Year0-1, and then again in Year0-2. These values are used to finally calculate impact factor. Any journal and year combinations where a year0, year1, and year2 combaination do not exist are automatically disqualified from being calculated as a match will not exist. So the RETURN will only provide values where there were publications and citations in all years.
+# // To calculate the impact factor of a journal, we need to count the number of times the articles published in that journal were cited in a particular year (called Year0). We then look at the number of articles published in the same journal in the previous two years (Year0-1 and Year0-2) and count how many times they were cited in Year0 as well. Once we have these values, we can use them to calculate the impact factor of the journal. However, we can only calculate the impact factor for those journals and years where there were publications and citations in all three years (Year0, Year0-1, and Year0-2). Any combinations where data is missing for any of these years will be automatically disqualified.
 def find_if(session):
     """
     This function calculates and retrieves the impact factor for each journal in the graph.
