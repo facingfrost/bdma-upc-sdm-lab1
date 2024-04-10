@@ -74,7 +74,7 @@ def load_node_year(session):
 
 # load_relationship
     
-def load_relation_conference_belong_to_proceeding(session):
+def load_relation_proceeding_belong_to_conference(session):
     session.run(
         """LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/Ziyong-Zhang/SDM_Lab_1/main/Data/conference_detail.csv' AS relation
             MATCH (conf:Conference {name: relation.name})
@@ -175,15 +175,6 @@ def load_relation_proceeding_in_year(session):
             CREATE (pro)-[:in_year]->(y)"""
     )
 
-# def load_relation_proceeding_in_year(session):
-#     session.run(
-#         """LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/Ziyong-Zhang/SDM_Lab_1/main/Data/conference_detail.csv' AS relation
-#             MATCH (pro:Proceeding {name: relation.proceeding_name})
-#             WITH pro, relation
-#             MATCH (y:Year {year: relation.year})
-#             CREATE (pro)-[:in_year]->(y)"""
-#     )
-
 def main():
     # URI examples: "neo4j://localhost", "neo4j+s://xxx.databases.neo4j.io"
     URI = "neo4j+s://"
@@ -201,7 +192,7 @@ def main():
                 session.execute_write(load_node_author)
                 session.execute_write(load_node_keywords)
                 session.execute_write(load_node_year)
-                session.execute_write(load_relation_conference_belong_to_proceeding)
+                session.execute_write(load_relation_proceeding_belong_to_conference)
                 session.execute_write(load_relation_paper_published_in_journal)
                 session.execute_write(load_relation_paper_presented_in_conference)
                 session.execute_write(load_relation_paper_cite_paper)
