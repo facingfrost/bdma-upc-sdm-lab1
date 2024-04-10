@@ -551,7 +551,8 @@ def extract_review(input_file, output_path):
             data.append({
                 "paper_id": paper,
                 "reviewer_id": reviewer,
-                "review_content": generate_random_text(50)
+                "review_content": generate_random_text(50),
+                "accept_possibility": random.random()
             })
 
     new_df = pd.DataFrame(data)
@@ -583,26 +584,24 @@ def extract_year(input_file, output_path):
 
 
 if __name__ == "__main__":
-    # input_path = "/Users/wanglinhan/Desktop/BDMA/UPC/SDM/labs/bdma-upc-sdm-lab1/raw_data"
-    input_path = "/Users/zzy13/Desktop/Classes_at_UPC/SDM_Semantic_data_management/Lab_1/Codes/Data/Row_data"
+    input_path = ".../raw_data"
     input_name = "scopus_500.csv"
     input_file = os.path.join(input_path, input_name)
-    # output_path = "/Users/wanglinhan/Desktop/BDMA/UPC/SDM/labs/bdma-upc-sdm-lab1/processed_data"
-    output_path = "/Users/zzy13/Desktop/Classes_at_UPC/SDM_Semantic_data_management/Lab_1/Codes/Data/Processed_data"
-    # extract_paper(input_file=input_file, output_path=output_path)
-    # extract_journal(input_file=input_file, output_path=output_path)
-    # extract_journal_in_year(input_file=input_file, output_path=output_path)
+    output_path = ".../processed_data"
+    extract_paper(input_file=input_file, output_path=output_path)
+    extract_journal(input_file=input_file, output_path=output_path)
+    extract_journal_in_year(input_file=input_file, output_path=output_path)
     extract_proceeding(input_file=input_file, output_path=output_path)
-    # extract_conference(input_file=input_file, output_path=output_path)
-    # extract_conference_detail(input_file=input_file, output_path=output_path)
-    # extract_paper_conference(input_file=input_file, output_path=output_path)
-    # extract_paper_journal(input_file=input_file, output_path=output_path)
-    # extract_cite(input_file=input_file, output_path=output_path)
-    # extract_author_and_write(input_file=input_file, output_path=output_path)
-    # extract_keywords(input_file=input_file, output_path=output_path)
-    # extract_paper_has_keywords(input_file=input_file, output_path=output_path)
-    # extract_review(input_file=input_file, output_path=output_path)
-    # extract_year(input_file=input_file, output_path=output_path)
-    # extract_proceeding_in_year(input_file=input_file, output_path=output_path)
+    extract_conference(input_file=input_file, output_path=output_path)
+    extract_conference_detail(input_file=input_file, output_path=output_path)
+    extract_paper_conference(input_file=input_file, output_path=output_path)
+    extract_paper_journal(input_file=input_file, output_path=output_path)
+    extract_cite(input_file=input_file, output_path=output_path)
+    extract_author_and_write(input_file=input_file, output_path=output_path)
+    extract_keywords(input_file=input_file, output_path=output_path)
+    extract_paper_has_keywords(input_file=input_file, output_path=output_path)
+    extract_review(input_file=input_file, output_path=output_path)
+    extract_year(input_file=input_file, output_path=output_path)
+    extract_proceeding_in_year(input_file=input_file, output_path=output_path)
 
     # extract_conference_proceeding(input_file=input_file, output_path=output_path)

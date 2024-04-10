@@ -210,8 +210,8 @@ RETURN a
 
 def main():
     # URI examples: "neo4j://localhost", "neo4j+s://xxx.databases.neo4j.io"
-    URI = "neo4j+s://5b7afbed.databases.neo4j.io"
-    AUTH = ("neo4j", "BCtlDMBoyBR-gaaWJejbwe9tI2YlQ9S6_VDD2_dRT1c")
+    URI = "neo4j+s://"
+    AUTH = ("neo4j", "your_password")
     with GraphDatabase.driver(URI, auth=AUTH) as driver:
         print("connection successful!")
         with driver.session(database="neo4j") as session:
@@ -219,7 +219,7 @@ def main():
                 print('find_community_query Success!')
                 data = []
                 for record in community:
-                    data.append({"Year": record["p"]['year'], "link": record["p"]['link'], "abstract": record["p"]["abstract"], "doi": record["p"]["doi"]})
+                    data.append({"title": record["p"]['title'],"Year": record["p"]['year'], "link": record["p"]['link'], "abstract": record["p"]["abstract"], "doi": record["p"]["doi"]})
                 write_to_csv(data, "find_community.csv")
                 print(f"find_community.csv written")
                 related_conf = session.run(find_related_jour_conf).data()
@@ -233,7 +233,7 @@ def main():
                 print("top cited found!")
                 data = []
                 for record in top_cited:
-                    data.append({"Year": record['most_cited_paper']['year'], "link": record['most_cited_paper']['link'], "abstract": record['most_cited_paper']["abstract"], "doi": record['most_cited_paper']["doi"]})
+                    data.append({"title": record['most_cited_paper']['title'], "Year": record['most_cited_paper']['year'], "link": record['most_cited_paper']['link'], "abstract": record['most_cited_paper']["abstract"], "doi": record['most_cited_paper']["doi"]})
                 write_to_csv(data, "top_cited.csv")
                 reviewers = session.run(find_reviewers).data()
                 print("find reviewers success!")

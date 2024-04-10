@@ -23,12 +23,8 @@ def evolve_graph(session):
 
 def main():
     # URI examples: "neo4j://localhost", "neo4j+s://xxx.databases.neo4j.io"
-    # Account of Linhan: 
-    URI = "neo4j+s://5b7afbed.databases.neo4j.io"
-    AUTH = ("neo4j", "BCtlDMBoyBR-gaaWJejbwe9tI2YlQ9S6_VDD2_dRT1c")
-    # Account of Ziyong:
-    # URI = "neo4j+s://2c8207ff.databases.neo4j.io"
-    # AUTH = ("neo4j", "B_YGrnwwnkPrbikiT3MaQ_SG9khS7ICupTiT8mLQCVA")
+    URI = "neo4j+s://"
+    AUTH = ("neo4j", "your_password")
     with GraphDatabase.driver(URI, auth=AUTH) as driver:
         print("connection successful!")
         with driver.session(database="neo4j") as session:
