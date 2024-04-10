@@ -27,7 +27,20 @@ def find_top3_cited(session):
     data = []
     for record in results1:
         data.append({"Conference": record['conference'], "TopPapers": record['top_papers'], "CitationNumbers":record['cite_numbers']})
-    write_to_csv(data, "top_cited_papers.csv")
+    output_path = '/Users/zzy13/Desktop/Classes_at_UPC/SDM_Semantic_data_management/Lab_1/Codes/Data/query_result'
+    filename = "top_cited_papers.csv"
+    file_path = os.path.join(output_path, filename)
+    with open(file_path, 'w', newline='') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(["Conference", "Paper", "CitationNumber"])  # Write header
+        for row in data:
+            conference_name = row["Conference"]["name"]
+            top_papers = row["TopPapers"]
+            cite_numbers = row["CitationNumbers"]
+            for paper, cite_number in zip(top_papers, cite_numbers):
+                paper_title = paper["title"]
+                writer.writerow([conference_name, paper_title, cite_number])
+    # write_to_csv(data, "top_cited_papers.csv")
     print(f"top_cited_papers.csv written")
 
 
@@ -123,15 +136,17 @@ def main():
     # URI = "neo4j+s://5b7afbed.databases.neo4j.io"
     # AUTH = ("neo4j", "BCtlDMBoyBR-gaaWJejbwe9tI2YlQ9S6_VDD2_dRT1c")
     # Account of Ziyong:
-    URI = "neo4j+s://2c8207ff.databases.neo4j.io"
-    AUTH = ("neo4j", "B_YGrnwwnkPrbikiT3MaQ_SG9khS7ICupTiT8mLQCVA")
+    # URI = "neo4j+s://2c8207ff.databases.neo4j.io"
+    # AUTH = ("neo4j", "B_YGrnwwnkPrbikiT3MaQ_SG9khS7ICupTiT8mLQCVA")
+    URI = "bolt://localhost:7687"
+    AUTH = ("neo4j", "upcsdmneo4j")
     with GraphDatabase.driver(URI, auth=AUTH) as driver:
         print("connection successful!")
         with driver.session(database="neo4j") as session:
                 session.execute_write(find_top3_cited)
-                session.execute_write(find_commu)
-                session.execute_write(find_if)
-                session.execute_write(find_hindex)
+                # session.execute_write(find_commu)
+                # session.execute_write(find_if)
+                # session.execute_write(find_hindex)
                 print('Results output successfully!')
 
 if __name__ == "__main__":

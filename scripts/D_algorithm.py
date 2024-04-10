@@ -65,36 +65,32 @@ def algorithm_node_similarity(session):
 # According to the manual: 
 # https://neo4j.com/docs/graph-data-science/current/algorithms/louvain/
 
-def algorithm_louvain(session):
-    session.run("""CALL gds.graph.drop('louvain_graph',false);""")
+def algorithm_louvain_paper(session):
+    session.run("""CALL gds.graph.drop('louvain_graph_paper',false);""")
 
     session.run(
          """CALL gds.graph.project(
-            'louvain_graph',
-            'Authors',
+            'louvain_graph_paper',
+            'Paper',
             {
-                written_by: {
+                cites: {
                     orientation: 'UNDIRECTED'
                 }
             })"""
                 )
     result = session.run(
-         """CALL gds.louvain.stream('louvain_graph')
+         """CALL gds.louvain.stream('louvain_graph_paper')
             YIELD nodeId, communityId, intermediateCommunityIds
-            RETURN gds.util.asNode(nodeId).author_name AS Author, communityId
-            ORDER BY Author ASC
+            RETURN gds.util.asNode(nodeId).title AS Paper, communityId
+            ORDER BY communityId ASC
             LIMIT 50"""
     )
-    mutate_result = session.run(
-         """CALL gds.louvain.mutate('louvain_graph', { mutateProperty: 'communityId' })
-            YIELD communityCount, modularity, modularities
-            RETURN communityCount, modularity, modularities"""
-    )
+
     # Write results to CSV
-    data = [["Author", "CommunityId"]]  # Header
+    data = [["Paper", "CommunityId"]]  # Header
     for record in result:
-        data.append([record["Author"], record["communityId"]])
-    path = os.path.join(output_path,"louvain.csv" )
+        data.append([record["Paper"], record["communityId"]])
+    path = os.path.join(output_path,"louvain_paper.csv" )
 
     with open(path, "w", newline='') as csvfile:
         writer = csv.writer(csvfile)
@@ -120,7 +116,8 @@ def main():
         with driver.session(database="neo4j") as session:
                 print('Algorithm Node Similarity Ongoing')
                 session.execute_write(algorithm_node_similarity)
-                # session.execute_write(algorithm_louvain)
+                print('Algorithm Louvain Ongoing')
+                session.execute_write(algorithm_louvain_paper)
                 print('Results output successfully!')
 
 if __name__ == "__main__":

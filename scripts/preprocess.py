@@ -169,8 +169,8 @@ def extract_conference_from_csv(input_file):
                 # year = year_match.group(0) if year_match else None
                 conferences["year"].append(str(row["Year"]))
                 conferences["city"].append(row["Conference location"].strip())
-                conferences["proceeding_name"].append(row["Source title"].strip())
-    
+                conferences["proceeding_name"].append(row["Conference name"].strip())
+                # conferences["proceeding_name"].append(row["Source title"].strip())
     # deduplicate
     unique_conferences = []
     seen = set()
@@ -209,6 +209,20 @@ def extract_proceeding(input_file, output_path):
             writer.writerow([proceeding_name])
     
     print("Unique proceeding names saved to:", proceeding_name_file_path)
+
+def extract_proceeding_in_year(input_file, output_path):
+    pro_in_year_data = extract_conference_from_csv(input_file)
+    unique_pro_in_year = set((entry['proceeding_name'], entry['year']) for entry in pro_in_year_data)
+    
+    # Write unique proceeding names and years to 'proceeding_in_year.csv'
+    pro_in_year_file = 'proceeding_in_year.csv'
+    pro_in_year_file_path = os.path.join(output_path, pro_in_year_file)
+    with open(pro_in_year_file_path, 'w', newline='', encoding='utf-8') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(["proceeding_name", "year"])  # Write header
+        writer.writerows(unique_pro_in_year)
+    
+    print("Unique proceeding_in_year saved to:", pro_in_year_file_path)
 
 def export_conference_to_csv(data, output_file):
     if not data:
@@ -575,18 +589,20 @@ if __name__ == "__main__":
     input_file = os.path.join(input_path, input_name)
     # output_path = "/Users/wanglinhan/Desktop/BDMA/UPC/SDM/labs/bdma-upc-sdm-lab1/processed_data"
     output_path = "/Users/zzy13/Desktop/Classes_at_UPC/SDM_Semantic_data_management/Lab_1/Codes/Data/Processed_data"
-    # extract_paper(input_file=input_file, output_path=output_path)
-    # extract_journal(input_file=input_file, output_path=output_path)
-    # extract_journal_in_year(input_file=input_file, output_path=output_path)
-    # extract_proceeding(input_file=input_file, output_path=output_path)
+    extract_paper(input_file=input_file, output_path=output_path)
+    extract_journal(input_file=input_file, output_path=output_path)
+    extract_journal_in_year(input_file=input_file, output_path=output_path)
+    extract_proceeding(input_file=input_file, output_path=output_path)
     extract_conference(input_file=input_file, output_path=output_path)
-    # extract_conference_detail(input_file=input_file, output_path=output_path)
-    # extract_paper_conference(input_file=input_file, output_path=output_path)
-    # extract_paper_journal(input_file=input_file, output_path=output_path)
-    # extract_cite(input_file=input_file, output_path=output_path)
-    # extract_author_and_write(input_file=input_file, output_path=output_path)
-    # extract_keywords(input_file=input_file, output_path=output_path)
-    # extract_paper_has_keywords(input_file=input_file, output_path=output_path)
-    # extract_review(input_file=input_file, output_path=output_path)
-    # extract_year(input_file=input_file, output_path=output_path)
+    extract_conference_detail(input_file=input_file, output_path=output_path)
+    extract_paper_conference(input_file=input_file, output_path=output_path)
+    extract_paper_journal(input_file=input_file, output_path=output_path)
+    extract_cite(input_file=input_file, output_path=output_path)
+    extract_author_and_write(input_file=input_file, output_path=output_path)
+    extract_keywords(input_file=input_file, output_path=output_path)
+    extract_paper_has_keywords(input_file=input_file, output_path=output_path)
+    extract_review(input_file=input_file, output_path=output_path)
+    extract_year(input_file=input_file, output_path=output_path)
+    extract_proceeding_in_year(input_file=input_file, output_path=output_path)
+
     # extract_conference_proceeding(input_file=input_file, output_path=output_path)
