@@ -197,17 +197,17 @@ def extract_conference(input_file, output_path):
 
 def extract_proceeding(input_file, output_path):
     proceeding_data = extract_conference_from_csv(input_file)
-    unique_proceeding_names = set(entry['proceeding_name'] for entry in proceeding_data)
-    
+    unique_proceeding_names = set((entry['proceeding_name'],entry['city']) for entry in proceeding_data)
     # Write unique proceeding names to 'proceeding.csv'
     proceeding_name_file = 'proceeding.csv'
     proceeding_name_file_path = os.path.join(output_path, proceeding_name_file)
     with open(proceeding_name_file_path, 'w', newline='', encoding='utf-8') as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerow(["proceeding_name"])  # Write header
-        for proceeding_name in unique_proceeding_names:
-            writer.writerow([proceeding_name])
-    
+        writer.writerow(["proceeding_name", "city"])  # Write header
+        unique_proceeding_names
+        writer.writerows(unique_proceeding_names)
+        # for proceeding_name in unique_proceeding_names:
+        #     writer.writerow([proceeding_name])
     print("Unique proceeding names saved to:", proceeding_name_file_path)
 
 def extract_proceeding_in_year(input_file, output_path):
@@ -589,20 +589,20 @@ if __name__ == "__main__":
     input_file = os.path.join(input_path, input_name)
     # output_path = "/Users/wanglinhan/Desktop/BDMA/UPC/SDM/labs/bdma-upc-sdm-lab1/processed_data"
     output_path = "/Users/zzy13/Desktop/Classes_at_UPC/SDM_Semantic_data_management/Lab_1/Codes/Data/Processed_data"
-    extract_paper(input_file=input_file, output_path=output_path)
-    extract_journal(input_file=input_file, output_path=output_path)
-    extract_journal_in_year(input_file=input_file, output_path=output_path)
+    # extract_paper(input_file=input_file, output_path=output_path)
+    # extract_journal(input_file=input_file, output_path=output_path)
+    # extract_journal_in_year(input_file=input_file, output_path=output_path)
     extract_proceeding(input_file=input_file, output_path=output_path)
-    extract_conference(input_file=input_file, output_path=output_path)
-    extract_conference_detail(input_file=input_file, output_path=output_path)
-    extract_paper_conference(input_file=input_file, output_path=output_path)
-    extract_paper_journal(input_file=input_file, output_path=output_path)
-    extract_cite(input_file=input_file, output_path=output_path)
-    extract_author_and_write(input_file=input_file, output_path=output_path)
-    extract_keywords(input_file=input_file, output_path=output_path)
-    extract_paper_has_keywords(input_file=input_file, output_path=output_path)
-    extract_review(input_file=input_file, output_path=output_path)
-    extract_year(input_file=input_file, output_path=output_path)
-    extract_proceeding_in_year(input_file=input_file, output_path=output_path)
+    # extract_conference(input_file=input_file, output_path=output_path)
+    # extract_conference_detail(input_file=input_file, output_path=output_path)
+    # extract_paper_conference(input_file=input_file, output_path=output_path)
+    # extract_paper_journal(input_file=input_file, output_path=output_path)
+    # extract_cite(input_file=input_file, output_path=output_path)
+    # extract_author_and_write(input_file=input_file, output_path=output_path)
+    # extract_keywords(input_file=input_file, output_path=output_path)
+    # extract_paper_has_keywords(input_file=input_file, output_path=output_path)
+    # extract_review(input_file=input_file, output_path=output_path)
+    # extract_year(input_file=input_file, output_path=output_path)
+    # extract_proceeding_in_year(input_file=input_file, output_path=output_path)
 
     # extract_conference_proceeding(input_file=input_file, output_path=output_path)

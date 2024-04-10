@@ -42,7 +42,8 @@ def load_node_proceeding(session):
     session.run(
         """LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/Ziyong-Zhang/SDM_Lab_1/main/Data/proceeding.csv' AS node
             CREATE (:Proceeding {
-                proceeding_name: node.proceeding_name
+                proceeding_name: node.proceeding_name,
+                city: node.city
         })"""
     )
 
@@ -164,7 +165,7 @@ def load_relation_conference_in_year(session):
             MATCH (y:Year {year: relation.year})
             CREATE (con)-[:in_year]->(y)"""
     )
-    
+
 def load_relation_proceeding_in_year(session):
     session.run(
         """LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/Ziyong-Zhang/SDM_Lab_1/main/Data/proceeding_in_year.csv' AS relation
