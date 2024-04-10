@@ -14,7 +14,7 @@ def write_to_csv(data, filename):
             writer.writerow(row.values())
 
 
-# Query 1: Find the top 3 most cited papers of each conference. --- DONE 
+# Query 1: Find the top 3 most cited papers of each conference. 
 def find_top3_cited(session):
     query1 = """
     MATCH ()-[c:cites]->(p:Paper)-[:presented_in]->(con:Conference)
@@ -44,7 +44,7 @@ def find_top3_cited(session):
     print(f"top_cited_papers.csv written")
 
 
-# Query 2: For each conference find its community: i.e., those authors that have published papers on that conference in, at least, 4 different editions. --- DONE 
+# Query 2: For each conference find its community: i.e., those authors that have published papers on that conference in, at least, 4 different editions. 
 def find_commu(session):
     query2 = """
     MATCH (p:Paper)-[:written_by]->(a:Authors), (p)-[in_con:presented_in]->(con:Conference),
@@ -138,9 +138,9 @@ def main():
         print("connection successful!")
         with driver.session(database="neo4j") as session:
                 session.execute_write(find_top3_cited)
-                # session.execute_write(find_commu)
-                # session.execute_write(find_if)
-                # session.execute_write(find_hindex)
+                session.execute_write(find_commu)
+                session.execute_write(find_if)
+                session.execute_write(find_hindex)
                 print('Results output successfully!')
 
 if __name__ == "__main__":

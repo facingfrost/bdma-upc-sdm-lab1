@@ -119,32 +119,6 @@ def extract_journal_in_year(input_file, output_path):
 
 
 ####################################################################################
-#################  Proceedings       ###################################################
-####################################################################################
-# def extract_proceeding_from_csv(file_path):
-#     proceeding = {"proceeding_name": []}
-
-#     with open(file_path, newline='', encoding='utf-8') as csvfile:
-#         reader = csv.DictReader(csvfile)
-#         for row in reader:
-#             conference_name = row["Conference name"]
-#             if conference_name:  # if Conference name NOT empty，regarding as proceeding
-#                 proceeding["proceeding_name"].append(row["Source title"])
-    
-#     # Deduplicate
-#     proceeding["proceeding_name"] = list(set(proceeding["proceeding_name"]))
-#     return proceeding
-
-# def extract_proceeding(input_file, output_path):
-#     # extract proceeding info
-#     proceeding_data = extract_proceeding_from_csv(input_file)
-#     proceeding_name = 'proceeding.csv'
-#     # write proceeding.csv 
-#     output_file_path = os.path.join(output_path, proceeding_name)
-#     export_to_csv(proceeding_data, output_file_path)
-#     print("proceeding.csv write to:", output_file_path)
-
-####################################################################################
 #################  Conference       ################################################
 ####################################################################################
 def extract_conference_name(full_name):
@@ -245,43 +219,6 @@ def extract_conference_detail(input_file, output_path):
     output_file_path = os.path.join(output_path, conference_name)
     export_conference_to_csv(conference_data, output_file_path)
     print("conference_detail.csv write to:", output_file_path)
-
-
-# Relationship
-    
-####################################################################################
-#################  conference_belong_to_proceedings       ################################################
-####################################################################################
-
-# def extract_conference_proceeding_from_csv(input_file):
-#     conference_proceeding = {"start_id": [], "end_id": []}
-#     seen_combinations = set()
-
-#     with open(input_file, newline='', encoding='utf-8') as csvfile:
-#         reader = csv.DictReader(csvfile)
-#         for row in reader:
-#             conference_name = row["Conference name"].strip()
-#             source_title = row["Source title"].strip()
-#             if conference_name and source_title:
-#                 name = extract_conference_name(conference_name)
-#                 combined_key = (name, source_title)
-#                 if combined_key not in seen_combinations:
-#                     seen_combinations.add(combined_key)
-#                     conference_proceeding["start_id"].append(name)
-#                     conference_proceeding["end_id"].append(source_title)
-
-
-# def extract_conference_proceeding(input_file,output_path):
-#     # extract
-#     conference_proceeding_data = extract_conference_proceeding_from_csv(input_file)
-
-#     # write csv
-#     output_file_name = "conference_belong_to_proceeding.csv"
-#     output_file_path = os.path.join(output_path, output_file_name)
-#     export_to_csv(conference_proceeding_data, output_file_path)
-
-#     print("conference_proceeding.csv  write to:", output_file_path)
-
 
 
 ####################################################################################
@@ -417,16 +354,6 @@ def extract_author_and_write(input_file, output_path):
                 "author_name": row["author_name"][i],
                 "author_affiliation": affiliation
             })
-            # try:
-                # author_affiliation = row["author_affiliation"][i]
-                # affiliation = ",".join(author_affiliation.split(",")[1:])
-                # data.append({
-                #     "author_id": row["author_id"][i],
-                #     "author_name": row["author_name"][i],
-                #     "author_affiliation": affiliation
-                # })
-            # except IndexError:
-            #     print(f"IndexError occurred at index: {index}")
 
     for index, row in df.iterrows():
         for i in range(len(row["author_name"])):
@@ -566,21 +493,6 @@ def extract_year(input_file, output_path):
     df_year = df_year.drop_duplicates()
     df_year.to_csv(os.path.join(output_path, "year.csv"), index=True, sep=",")  # 指定逗号分隔符并保留索引
     print("Extract year success!")
-
-# def get_year(input_file):
-#     year = {"year": []}
-#     with open(input_file, newline='', encoding='utf-8') as csvfile:
-#         reader = csv.DictReader(csvfile)
-#         for row in reader:
-#             year["year"].append(row["Year"])
-#     year["year"] = list(set(year["year"]))
-#     return year
-# def extract_year(input_file, output_path):
-#     year_data = get_year(input_file)
-#     year_name = 'year.csv'
-#     output_file_path = os.path.join(output_path, year_name)
-#     export_to_csv(year_data, output_file_path)
-#     print("year.csv write to:", output_file_path)
 
 
 if __name__ == "__main__":
