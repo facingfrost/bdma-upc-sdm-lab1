@@ -1,7 +1,17 @@
 
 from neo4j import GraphDatabase
+import os
+import csv
 
-
+def write_to_csv(data, filename):
+    output_path = '/Users/wanglinhan/Desktop/BDMA/UPC/SDM/labs/bdma-upc-sdm-lab1/recommendation_res'
+    file_path = os.path.join(output_path, filename)
+    with open(file_path, 'w', newline='') as csvfile:
+        writer = csv.writer(csvfile)
+        if data:  # Write header only if data is not empty
+            writer.writerow([key for key in data[0].keys()])
+        for row in data:
+            writer.writerow(row.values())
 
 # The first thing to do is to find/define the research communities.
 find_community_query = """
@@ -207,22 +217,36 @@ def main():
         with driver.session(database="neo4j") as session:
                 community = session.run(find_community_query).data()
                 print('find_community_query Success!')
-                print(community)
-                print(len(community))
+                data = []
+                for record in community:
+                    data.append({"Year": record["p"]['year'], "link": record["p"]['link'], "abstract": record["p"]["abstract"], "doi": record["p"]["doi"]})
+                write_to_csv(data, "find_community.csv")
+                print(f"find_community.csv written")
                 related_conf = session.run(find_related_jour_conf).data()
                 print("find_related_jour_conf success!")
-                print(related_conf)
+                data = []
+                for record in related_conf:
+                    data.append({"conference_name": record['conference_or_journal'].get("name",0), "journal_name": record['conference_or_journal'].get("journal_name",0)})
+                write_to_csv(data, "find_jour_conf.csv")
+                print(f"find_jour_conf.csv written")
                 top_cited = session.run(find_related_jour_conf_topcited).data()
                 print("top cited found!")
-                print(top_cited)
+                data = []
+                for record in top_cited:
+                    data.append({"Year": record['most_cited_paper']['year'], "link": record['most_cited_paper']['link'], "abstract": record['most_cited_paper']["abstract"], "doi": record['most_cited_paper']["doi"]})
+                write_to_csv(data, "top_cited.csv")
                 reviewers = session.run(find_reviewers).data()
                 print("find reviewers success!")
-                print(reviewers)
+                data = []
+                for record in reviewers:
+                    data.append({"author_name": record['authors']['author_name'], "author_id": record['authors']['author_id']})
+                write_to_csv(data, "reviewers.csv")
                 gurus = session.run(find_gurus).data()
                 print("find gurus success!")
-                print(gurus)
-
-
+                data = []
+                for record in gurus:
+                    data.append({"author_name": record['a']['author_name'], "author_id": record['a']['author_id']})
+                write_to_csv(data, "gurus.csv")
 
 if __name__ == "__main__":
      main()
