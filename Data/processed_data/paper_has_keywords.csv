@@ -1,0 +1,2348 @@
+paper_id,keywords
+10.3390/s24041209,filtering process
+10.3390/s24041209,measurement while drilling (MWD)
+10.3390/s24041209,normalizing index
+10.3390/s24041209,sensor-based data
+10.3390/s24041209,Sweden
+10.3390/s24041209,tunneling
+10.1007/s11042-023-16751-6,Deep neural network DNN
+10.1007/s11042-023-16751-6,Gaussian blur
+10.1007/s11042-023-16751-6,Image contour
+10.1007/s11042-023-16751-6,Iris recognition
+10.1007/s11042-023-16751-6,Linear discriminate analysis LDA
+10.1109/ICICIS56802.2023.10430275,Continuous Sentences
+10.1109/ICICIS56802.2023.10430275,Corpora
+10.1109/ICICIS56802.2023.10430275,Marathi Dialects
+10.1109/ICICIS56802.2023.10430275,Pratt
+10.1109/TNET.2024.3352029,age of information
+10.1109/TNET.2024.3352029,caching
+10.1109/TNET.2024.3352029,Content distribution networks
+10.1109/TNET.2024.3352029,Costs
+10.1109/TNET.2024.3352029,Databases
+10.1109/TNET.2024.3352029,dynamic content
+10.1109/TNET.2024.3352029,Measurement
+10.1109/TNET.2024.3352029,Social networking (online)
+10.1109/TNET.2024.3352029,Sociology
+10.1109/TNET.2024.3352029,Statistics
+10.1109/TNET.2024.3352029,Video on demand
+10.1145/3592307.3592335,Fingerprint indoor localization
+10.1145/3592307.3592335,K-Nearest Neighbor
+10.1145/3592307.3592335,Linear Regression
+10.1145/3592307.3592335,Pathloss model
+10.1145/3592307.3592335,Polynomial Regression
+10.1145/3592307.3592335,RSSI
+10.1007/s40031-024-01006-1,Ensemble classifier
+10.1007/s40031-024-01006-1,Extreme learning machine
+10.1007/s40031-024-01006-1,High-dimensional data
+10.1007/s40031-024-01006-1,Medical database
+10.1007/s40031-024-01006-1,Neural network
+10.1007/s40031-024-01006-1,Prediction
+10.1007/s40031-024-01006-1,Weighted extreme learning method (WELM)
+10.1016/j.bspc.2023.105884,Arrhythmia
+10.1016/j.bspc.2023.105884,Convolutional Neural Network
+10.1016/j.bspc.2023.105884,Deep learning
+10.1016/j.bspc.2023.105884,Electrocardiogram
+10.1016/j.bspc.2023.105884,Long Short Term Memory
+10.1016/j.bspc.2023.105884,SHapley additive exPlanations
+10.1016/j.specom.2024.103039,Convolutional neural network
+10.1016/j.specom.2024.103039,Machine learning
+10.1016/j.specom.2024.103039,Sound pressure level
+10.1016/j.specom.2024.103039,Speech database
+10.1016/j.specom.2024.103039,Support vector machine
+10.1016/j.specom.2024.103039,Vocal intensity
+10.1109/ACCESS.2023.3344680,advanced persistent threat
+10.1109/ACCESS.2023.3344680,Cyber security
+10.1109/ACCESS.2023.3344680,cyber threat analysis
+10.1109/ACCESS.2023.3344680,cyber threat intelligence
+10.1109/ACCESS.2023.3344680,MITRE ATT&CK
+10.1109/TLT.2023.3322128,Artificial intelligence (AI) tools
+10.1109/TLT.2023.3322128,automation
+10.1109/TLT.2023.3322128,computer vision
+10.1109/TLT.2023.3322128,deep learning
+10.1109/TLT.2023.3322128,English as a foreign language (EFL)
+10.1109/TLT.2023.3322128,humanoid robot
+10.1109/TLT.2023.3322128,machine learning
+10.1109/TLT.2023.3322128,speech recognition
+10.1109/TLT.2023.3322128,translation
+10.1109/NEleX59773.2023.10421720,Apriori Algorithm
+10.1109/NEleX59773.2023.10421720,Association Rule Mining
+10.1109/NEleX59773.2023.10421720,FP growth Algorithm
+10.1109/NEleX59773.2023.10421720,Frequent Item Sets
+10.4230/LIPIcs.ICDT.2023.14,#P-hardness
+10.4230/LIPIcs.ICDT.2023.14,probabilistic databases
+10.4230/LIPIcs.ICDT.2023.14,Uniform reliability
+10.4230/LIPIcs.ICDT.2023.7,enumeration algorithms
+10.4230/LIPIcs.ICDT.2023.7,query evaluation
+10.4230/LIPIcs.ICDT.2023.7,SLP compression
+10.4230/LIPIcs.ICDT.2023.5,median
+10.4230/LIPIcs.ICDT.2023.5,order statistics
+10.4230/LIPIcs.ICDT.2023.5,selection algorithms
+10.4230/LIPIcs.ICDT.2023.5,sliding window
+10.4230/LIPIcs.ICDT.2023.8,Berge-Acyclic Queries
+10.4230/LIPIcs.ICDT.2023.8,Cardinality Bounding
+10.4230/LIPIcs.ICDT.2023.8,Cardinality Estimation
+10.4230/LIPIcs.ICDT.2023.8,Degree Bounds
+10.4230/LIPIcs.ICDT.2023.8,Functional Approximation
+10.4230/LIPIcs.ICDT.2023.8,Query Planning
+10.4230/LIPIcs.ICDT.2023.22,attribute-level uncertainty
+10.4230/LIPIcs.ICDT.2023.22,functional dependencies
+10.4230/LIPIcs.ICDT.2023.22,most probable database
+10.4230/LIPIcs.ICDT.2023.22,Probabilistic databases
+10.4230/LIPIcs.ICDT.2024.15,approximation
+10.4230/LIPIcs.ICDT.2024.15,Probabilistic query evaluation
+10.4230/LIPIcs.ICDT.2024.15,tuple-independent databases
+10.1145/3555776.3577772,bioinformatics
+10.1145/3555776.3577772,high-performance computing
+10.1145/3555776.3577772,lncRNA-RNA
+10.1145/3555776.3577772,MPI
+10.1145/3555776.3577772,OpenMP
+10.1145/3555776.3577772,parallel computing
+10.1109/ICRASET59632.2023.10420257,Alternative Safeguard
+10.1109/ICRASET59632.2023.10420257,Authentication
+10.1109/ICRASET59632.2023.10420257,Cloud Database
+10.1109/ICRASET59632.2023.10420257,Ticket Booking
+10.1109/ICRASET59632.2023.10420257,Ticket Checker
+10.1007/s12530-023-09559-0,Arrhythmia
+10.1007/s12530-023-09559-0,Convolutional Neural Network
+10.1007/s12530-023-09559-0,Electrocardiogram
+10.1007/s12530-023-09559-0,Residual Networks
+10.1109/SIoT60039.2023.10389856,Alexa
+10.1109/SIoT60039.2023.10389856,Connected Vehicles
+10.1109/SIoT60039.2023.10389856,FastAPI
+10.1109/SIoT60039.2023.10389856,Internet of Things
+10.1109/SIoT60039.2023.10389856,Voice Assistants
+10.1145/3539618.3592061,fairness
+10.1145/3539618.3592061,independence
+10.1145/3539618.3592061,inner product search
+10.1109/ACCESS.2023.3349242,clinical decision support
+10.1109/ACCESS.2023.3349242,continuous monitoring
+10.1109/ACCESS.2023.3349242,ECG signal
+10.1109/ACCESS.2023.3349242,heart rate variability
+10.1109/ACCESS.2023.3349242,Sepsis
+10.1109/ACCESS.2023.3349242,temporal convolutional networks
+10.1109/ICITDA60835.2023.10426919,database design
+10.1109/ICITDA60835.2023.10426919,health informatics
+10.1109/ICITDA60835.2023.10426919,pre-eclampsia disease
+10.1109/TC.2023.3329943,cloud computing
+10.1109/TC.2023.3329943,database management systems
+10.1109/TC.2023.3329943,Live migration
+10.1109/TC.2023.3329943,system virtualization
+10.1109/ICACTA58201.2023.10392861,language models
+10.1109/ICACTA58201.2023.10392861,natural language interfaces
+10.1109/ICACTA58201.2023.10392861,natural language processing
+10.1109/ICACTA58201.2023.10392861,NLSQL
+10.1145/3543873.3587563,Chase
+10.1145/3543873.3587563,Data Provenance
+10.1145/3543873.3587563,Research Data Management
+10.1145/3543873.3587563,System Demo
+10.1186/s13634-023-01094-z,Fractal dimension
+10.1186/s13634-023-01094-z,Fractal geometry
+10.1186/s13634-023-01094-z,Multi-fractal analysis
+10.1186/s13634-023-01094-z,Power spectral densities (PSD)
+10.1186/s13634-023-01094-z,The Drought Monitor database
+10.1109/IEMENTech60402.2023.10423480,database
+10.1109/IEMENTech60402.2023.10423480,edibility estimation
+10.1109/IEMENTech60402.2023.10423480,explanatory data analysis
+10.1109/IEMENTech60402.2023.10423480,FruityHub
+10.1145/3592980.3595323,database accelerator
+10.1145/3592980.3595323,Processing-in-Memory
+10.1145/3592980.3595323,query processing
+10.1007/s11760-024-03063-x,Electrocardiogram
+10.1007/s11760-024-03063-x,Epilepsy
+10.1007/s11760-024-03063-x,Epileptic seizures
+10.1007/s11760-024-03063-x,Heart rate variability analysis
+10.1007/s11760-024-03063-x,Prediction
+10.1007/s11760-024-03063-x,Threshold
+,artificial databases of biomedical images
+,Breast cancer
+,digital platform
+,generative adversarial networks. training data sets
+,image generation
+10.3390/info15010034,columnar databases
+10.3390/info15010034,linear time logic for finite traces
+10.3390/info15010034,temporal formal verification
+10.3390/info15010034,verified artificial intelligence
+10.1007/s11042-024-18990-7,AHA database
+10.1007/s11042-024-18990-7,Electrocardiogram
+10.1007/s11042-024-18990-7,Feature extraction
+10.1007/s11042-024-18990-7,Left and right atrium
+10.1007/s11042-024-18990-7,Left and right ventricle
+10.1007/s11042-024-18990-7,MIT-BIH arrhythmia database
+10.1007/s11042-024-18990-7,Preprocessing
+10.1007/s11042-023-16304-x,Cross-lingual database
+10.1007/s11042-023-16304-x,Deep learning
+10.1007/s11042-023-16304-x,EmoDB
+10.1007/s11042-023-16304-x,Ensemble soft voting classifier
+10.1007/s11042-023-16304-x,Gender-based emotion recognition
+10.1007/s11042-023-16304-x,RAVDESS
+10.1007/s11042-023-16304-x,Urdu language
+10.1007/s11042-024-18461-z,Brain MR
+10.1007/s11042-024-18461-z,Cross entropy
+10.1007/s11042-024-18461-z,Image segmentation
+10.1007/s11042-024-18461-z,Meta-heuristic
+10.1007/s11042-024-18461-z,Moth-flame optimization
+10.1016/j.commatsci.2024.112810,Biobased
+10.1016/j.commatsci.2024.112810,de novo polymer design
+10.1016/j.commatsci.2024.112810,Materials Informatics
+10.1016/j.commatsci.2024.112810,Polymer database
+10.1016/j.commatsci.2024.112810,Polymer design
+10.1016/j.commatsci.2024.112810,Polymer informatics
+10.1016/j.commatsci.2024.112810,Polymer library
+10.1016/j.commatsci.2024.112810,QSPR
+10.1016/j.commatsci.2024.112810,Quantitative structure–property relationships
+10.1016/j.commatsci.2024.112810,Repeat unit
+10.1016/j.commatsci.2024.112810,Repeat unit database
+10.1016/j.commatsci.2024.112810,Repeat unit library
+10.1016/j.procs.2023.12.161,administration tools
+10.1016/j.procs.2023.12.161,concept of the Internet of Things
+10.1016/j.procs.2023.12.161,educational platforms
+10.1016/j.procs.2023.12.161,microservice technologies
+10.1016/j.procs.2023.12.161,scientometrics
+10.1016/j.procs.2023.12.161,selection of scientific partners
+10.1109/DESSERT61349.2023.10416500,databases
+10.1109/DESSERT61349.2023.10416500,digital infrastructure
+10.1109/DESSERT61349.2023.10416500,dynamic databases
+10.1109/DESSERT61349.2023.10416500,functional safety
+10.1109/DESSERT61349.2023.10416500,small modular reactor
+10.1142/S0219467825500561,Face recognition
+10.1142/S0219467825500561,SCface database
+10.1142/S0219467825500561,single sample per person (SSPP)
+10.1142/S0219467825500561,virtual pose synthesizing
+,biometric identification
+,face recognition
+,Information technology
+10.1109/TC.2023.3326982,key-value storage
+10.1109/TC.2023.3326982,Log-structured merge tree
+10.1109/TC.2023.3326982,non-volatile memory
+10.1145/3584372.3588667,complexity
+10.1145/3584372.3588667,conjunctive query
+10.1145/3584372.3588667,constant delay
+10.1145/3584372.3588667,enumeration
+10.1145/3584372.3588667,fine-grained
+10.1145/3584372.3588667,self-joins
+10.1016/j.csbj.2024.03.015,Binding sites
+10.1016/j.csbj.2024.03.015,Databases
+10.1016/j.csbj.2024.03.015,Pocket detection
+10.1016/j.csbj.2024.03.015,Protein structure
+10.1016/j.csbj.2024.03.015,Protein-ligand interaction
+10.1016/j.csbj.2024.03.015,Structural bioinformatics
+10.1016/j.bspc.2023.105465,Biometrics
+10.1016/j.bspc.2023.105465,Electrocardiogram
+10.1016/j.bspc.2023.105465,Fiducial
+10.1016/j.bspc.2023.105465,Hybrid architecture
+10.1016/j.bspc.2023.105465,Non-fiducial
+10.1016/j.bspc.2023.105465,Outlier removal
+10.1016/j.bspc.2023.105465,Pattern recognition
+10.1016/j.bspc.2023.105465,Signal processing
+10.1109/TKDE.2023.3310038,Data privacy
+10.1109/TKDE.2023.3310038,oblivious index
+10.1109/TKDE.2023.3310038,oblivious join
+10.1109/TKDE.2023.3310038,oblivious RAM
+10.3934/electreng.2024004,classification
+10.3934/electreng.2024004,computed tomography scan
+10.3934/electreng.2024004,deep learning
+10.3934/electreng.2024004,detection
+10.3934/electreng.2024004,Keуwоrds: Covid-19
+10.3934/electreng.2024004,machine learning
+10.3934/electreng.2024004,X-Ray images
+10.1109/TMM.2023.3312851,Blind image quality assessment
+10.1109/TMM.2023.3312851,Low-light image enhancement
+10.1109/TMM.2023.3312851,optimization
+10.1016/j.ins.2023.119847,Internet of things
+10.1016/j.ins.2023.119847,Lossless compression
+10.1016/j.ins.2023.119847,Time series database
+10.1109/TSMC.2023.3301001,Broad learning (BL)
+10.1109/TSMC.2023.3301001,convolution neural networks (CNNs)
+10.1109/TSMC.2023.3301001,emotion recognition
+10.1109/TSMC.2023.3301001,"humanâÂ€Â""robot interaction"
+10.1109/TSMC.2023.3301001,long short-term memory (LSTM)
+10.1109/JIOT.2024.3373783,Analytical models
+10.1109/JIOT.2024.3373783,Cloud computing
+10.1109/JIOT.2024.3373783,Computational modeling
+10.1109/JIOT.2024.3373783,Databases
+10.1109/JIOT.2024.3373783,Distributed databases
+10.1109/JIOT.2024.3373783,exclusive lock
+10.1109/JIOT.2024.3373783,multi-server cloud database
+10.1109/JIOT.2024.3373783,Protocols
+10.1109/JIOT.2024.3373783,quasi-static Rayleigh fading channel with multiple antennas
+10.1109/JIOT.2024.3373783,queue system
+10.1109/JIOT.2024.3373783,Servers
+10.1109/JIOT.2024.3373783,shared lock
+10.1016/j.csbj.2023.12.001,Biomarker
+10.1016/j.csbj.2023.12.001,Cancer immunotherapy response
+10.1016/j.csbj.2023.12.001,Inflammatory response
+10.1016/j.csbj.2023.12.001,Tumor immunity
+10.1109/JIOT.2024.3352016,Authentication
+10.1109/JIOT.2024.3352016,authentication
+10.1109/JIOT.2024.3352016,cross-domain
+10.1109/JIOT.2024.3352016,Databases
+10.1109/JIOT.2024.3352016,Privacy
+10.1109/JIOT.2024.3352016,Protocols
+10.1109/JIOT.2024.3352016,Real-time systems
+10.1109/JIOT.2024.3352016,Security
+10.1109/JIOT.2024.3352016,VANETs
+10.1109/JIOT.2024.3352016,Vehicular ad hoc networks
+10.1109/JIOT.2024.3352016,virtual identities
+10.1109/VCIP59821.2023.10402708,Point cloud compression
+10.1109/VCIP59821.2023.10402708,Point clouds
+10.1109/VCIP59821.2023.10402708,Subjective quality
+10.1117/12.3021828,Ferric citrate
+10.1117/12.3021828,Hyperphosphatemia
+10.1117/12.3021828,Iron deficiency anemia
+10.1117/12.3021828,NDD-CKD
+10.1145/3579856.3582826,inner product
+10.1145/3579856.3582826,private intersection-sum
+10.1145/3579856.3582826,private join and compute
+10.1145/3579856.3582826,private set intersection
+10.1145/3579856.3582826,secure computation
+10.1145/3579856.3582826,two-party computation
+10.1186/s12859-024-05764-z,Experimental conditions
+10.1186/s12859-024-05764-z,Liquid–liquid phase separation
+10.1186/s12859-024-05764-z,Machine learning
+10.1186/s12859-024-05764-z,Protein
+10.1186/s12859-024-05764-z,RNA
+10.1016/j.future.2023.09.024,Artificial neural networks
+10.1016/j.future.2023.09.024,Cloud database systems
+10.1016/j.future.2023.09.024,Constrained performance optimization
+10.1016/j.future.2023.09.024,Genetic algorithms
+10.1109/DESSERT61349.2023.10416531,ambulatory blood pressure monitoring
+10.1109/DESSERT61349.2023.10416531,data mining
+10.1109/DESSERT61349.2023.10416531,data set clustering
+10.1109/DESSERT61349.2023.10416531,machine learning algorithms
+10.1145/3584372.3589935,bottom-$k$
+10.1145/3584372.3589935,coordinated samples
+10.1145/3584372.3589935,distance sketches
+10.1145/3584372.3589935,ppswor
+10.1145/3584372.3589935,weighted sampling
+10.1145/3579027.3608990,database evolution
+10.1145/3579027.3608990,software product lines
+10.1109/LA-CCI58595.2023.10409478,federated learning
+10.1109/LA-CCI58595.2023.10409478,image artifacts
+10.1109/LA-CCI58595.2023.10409478,machine learning
+10.1109/LA-CCI58595.2023.10409478,mammography
+10.1109/ICSC58660.2023.10449764,Deep Learning (DL)
+10.1109/ICSC58660.2023.10449764,Deep Neural Networks (DNN)
+10.1109/ICSC58660.2023.10449764,Identification of Arabic Dialects
+10.1109/ICSC58660.2023.10449764,MSA
+10.1109/ICSC58660.2023.10449764,OAC
+10.1109/ICSC58660.2023.10449764,Recurrent Neural Network (RNN)
+10.1109/ICSC58660.2023.10449764,RMDL
+10.1109/ICECA58529.2023.10395674,Cross-database
+10.1109/ICECA58529.2023.10395674,Face spoof detection
+10.1109/ICECA58529.2023.10395674,Gray-level co-occurrence matrix
+10.1109/ICECA58529.2023.10395674,Histogram of gradient
+10.1109/ICECA58529.2023.10395674,Random forest
+10.1109/ICECA58529.2023.10395674,Spatial features
+10.1109/ICAIHC59020.2023.10430485,anti-obesity
+10.1109/ICAIHC59020.2023.10430485,molecular docking
+10.1109/ICAIHC59020.2023.10430485,N-Acetylanonaine
+10.1109/ICAIHC59020.2023.10430485,network pharmacology
+10.1109/ICAIHC59020.2023.10430485,Tinosporacrispa
+10.1109/IEMENTech60402.2023.10423464,automated floral species identification
+10.1109/IEMENTech60402.2023.10423464,BongFloralpedia
+10.1109/IEMENTech60402.2023.10423464,deep neural networks
+10.1109/IEMENTech60402.2023.10423464,floriculture
+10.1109/IEMENTech60402.2023.10423464,flower image database
+10.1109/ICEFEET59656.2023.10452246,face database
+10.1109/ICEFEET59656.2023.10452246,Heterogeneous face recognition
+10.1109/ICEFEET59656.2023.10452246,NIR-VIS face recognition
+10.1109/ICEFEET59656.2023.10452246,Sketch-VIS face recognition
+10.4230/LIPIcs.MFCS.2023.39,Dynamic Complexity
+10.4230/LIPIcs.MFCS.2023.39,Planar embedding
+10.4230/LIPIcs.MFCS.2023.39,Planar graphs
+10.1109/TBIOM.2023.3327287,african
+10.1109/TBIOM.2023.3327287,biometric entropy
+10.1109/TBIOM.2023.3327287,demographic differentials
+10.1109/TBIOM.2023.3327287,equity measure
+10.1109/TBIOM.2023.3327287,Ethnicity
+10.1109/TBIOM.2023.3327287,iris recognition
+10.1016/j.patcog.2023.110166,Dynamic data
+10.1016/j.patcog.2023.110166,Erasable pattern mining
+10.1016/j.patcog.2023.110166,Incremental mining
+10.1016/j.patcog.2023.110166,Maximal erasable patterns
+10.1109/JBHI.2023.3311677,artificial intelligence
+10.1109/JBHI.2023.3311677,Big Data
+10.1109/JBHI.2023.3311677,biometrics
+10.1109/JBHI.2023.3311677,Databases
+10.1109/JBHI.2023.3311677,datasets
+10.1109/JBHI.2023.3311677,gait
+10.1109/JBHI.2023.3311677,healthcare
+10.1109/JBHI.2023.3311677,human locomotion
+10.1109/JBHI.2023.3311677,motion capture
+10.1109/JBHI.2023.3311677,recognition
+10.1504/IJESDF.2024.136024,database security'
+10.1504/IJESDF.2024.136024,database threats
+10.1504/IJESDF.2024.136024,integrity
+10.1504/IJESDF.2024.136024,machine learning
+10.1504/IJESDF.2024.136024,security techniques
+10.1145/3584371.3612990,computational genomics
+10.1145/3584371.3612990,distributed computing
+10.1145/3584371.3612990,genotyping algorithms
+10.1109/IC-RVITM60032.2023.10435190,Alignment Estimation
+10.1109/IC-RVITM60032.2023.10435190,Detection
+10.1109/IC-RVITM60032.2023.10435190,Modified KLT Algorithm
+10.1109/IC-RVITM60032.2023.10435190,Tracking
+10.4230/LIPIcs.ICDT.2023.6,Conjunctive Queries
+10.4230/LIPIcs.ICDT.2023.6,Subgraph Pattern Counting
+10.4230/LIPIcs.ICDT.2023.6,Subgraph Pattern Listing
+10.1145/3584372.3588666,conjunctive queries
+10.1145/3584372.3588666,join algorithms
+10.1145/3584372.3588666,lower bounds
+10.1145/3584372.3588666,sampling
+10.1109/TMM.2023.3312924,3D colored mesh
+10.1109/TMM.2023.3312924,Mesh saliency detection
+10.1109/TMM.2023.3312924,mesh simplification
+10.1109/TMM.2023.3312924,visual attention
+10.1145/3580305.3599395,database middleware
+10.1145/3580305.3599395,pre-trained language model
+10.1145/3580305.3599395,trojan attack
+10.1142/S0129065724500126,Automatic seizure detection
+10.1142/S0129065724500126,bidirectional long short-term memory
+10.1142/S0129065724500126,EEG
+10.1142/S0129065724500126,temporal convolutional network
+10.1016/j.compbiomed.2024.108066,Cancer
+10.1016/j.compbiomed.2024.108066,Database
+10.1016/j.compbiomed.2024.108066,Prediction
+10.1016/j.compbiomed.2024.108066,Synthetic lethality (SL)
+10.1145/3618257.3624843,bgp
+10.1145/3618257.3624843,internet routing registry
+10.1145/3618257.3624843,routing security
+10.3390/s24020507,bacterial infection
+10.3390/s24020507,deep learning
+10.3390/s24020507,directly smeared urine sample
+10.3390/s24020507,micro-hyperspectral technology
+10.3390/s24020507,positive–negative determination
+10.3390/s24020507,spectral feature
+10.1109/ICEDCS60513.2023.00084,database tables
+10.1109/ICEDCS60513.2023.00084,E-R diagram
+10.1109/ICEDCS60513.2023.00084,learning system
+10.1109/ICEDCS60513.2023.00084,mathematics subjects
+10.1109/JBHI.2023.3337261,dual-teacher
+10.1109/JBHI.2023.3337261,Insomnia
+10.1109/JBHI.2023.3337261,knowledge distillation
+10.1109/JBHI.2023.3337261,PSG staging
+10.1109/JBHI.2023.3337261,transfer learning
+10.1007/s11042-023-15139-w,Classification schemes
+10.1007/s11042-023-15139-w,Databases
+10.1007/s11042-023-15139-w,Expression recognition
+10.1007/s11042-023-15139-w,Facial expressions recognition
+10.1007/s11042-023-15139-w,Features
+10.1007/s11042-023-15139-w,Image processing
+10.36680/j.itcon.2024.006,bi-lingual analysis
+10.36680/j.itcon.2024.006,building maintenance
+10.36680/j.itcon.2024.006,facilities management
+10.36680/j.itcon.2024.006,Machine learning
+10.36680/j.itcon.2024.006,natural language processing
+10.36680/j.itcon.2024.006,text mining
+10.1016/j.eswa.2023.121924,Complex flows
+10.1016/j.eswa.2023.121924,Data reconstruction
+10.1016/j.eswa.2023.121924,Deep learning
+10.1016/j.eswa.2023.121924,Fluid dynamics
+10.1016/j.eswa.2023.121924,PDE surrogates
+10.1016/j.eswa.2023.121924,Singular value decomposition
+10.1109/DSC61021.2023.10354217,cyber risk evaluation
+10.1109/DSC61021.2023.10354217,mobile security
+10.1109/DSC61021.2023.10354217,software security
+10.4230/LIPIcs.ICDT.2024.4,aggregate queries
+10.4230/LIPIcs.ICDT.2024.4,annotated databases
+10.4230/LIPIcs.ICDT.2024.4,answer orderings
+10.4230/LIPIcs.ICDT.2024.4,commutative semirings
+10.4230/LIPIcs.ICDT.2024.4,conjunctive queries
+10.4230/LIPIcs.ICDT.2024.4,direct access
+10.4230/LIPIcs.ICDT.2024.4,provenance semirings
+10.4230/LIPIcs.ICDT.2024.4,query classification
+10.4230/LIPIcs.ICDT.2024.4,ranking function
+10.1145/3595647.3595651,Concurrency
+10.1145/3595647.3595651,Merkle Trees
+10.1145/3595647.3595651,Outsourced Databases
+10.1145/3595647.3595651,Verifiable Databases
+10.1145/3630202.3630225,databases
+10.1145/3630202.3630225,embedded
+10.1145/3630202.3630225,serverless
+10.1145/3617694.3623223,AI harms
+10.1145/3617694.3623223,AI safety
+10.1145/3617694.3623223,classroom exploration
+10.1145/3617694.3623223,educational tool
+10.1145/3617694.3623223,incident database
+10.1007/s12559-023-10193-w,Deep learning for script identification
+10.1007/s12559-023-10193-w,Document analysis
+10.1007/s12559-023-10193-w,Handcrafted features for script identification
+10.1007/s12559-023-10193-w,Multi-lingual database
+10.1007/s12559-023-10193-w,Multi-script database
+10.1007/s12559-023-10193-w,Optical character recognition
+10.1007/s12559-023-10193-w,Script identification
+10.4230/LIPIcs.ICDT.2023.24,conjunctive queries
+10.4230/LIPIcs.ICDT.2023.24,consistent query answering
+10.4230/LIPIcs.ICDT.2023.24,primary keys
+10.3390/s24051686,advanced aerial mobility
+10.3390/s24051686,database
+10.3390/s24051686,flight hazards
+10.3390/s24051686,helicopter operations
+10.3390/s24051686,low-altitude flight
+10.1145/3615522.3615555,Algorithmic Generation
+10.1145/3615522.3615555,Database Aesthetics
+10.1145/3615522.3615555,Deep Learning
+10.1145/3615522.3615555,Found Footage
+10.1145/3615522.3615555,Video
+10.1016/j.compbiomed.2024.108220,Cardiotocography
+10.1016/j.compbiomed.2024.108220,Fetal hypoxia
+10.1016/j.compbiomed.2024.108220,Machine learning
+10.1016/j.compbiomed.2024.108220,Obstetrics
+10.1016/j.compbiomed.2024.108220,Signal processing
+10.1016/j.compgeo.2024.106249,Dynamically installed anchor (DIA)
+10.1016/j.compgeo.2024.106249,Experimental database
+10.1016/j.compgeo.2024.106249,Holding capacity
+10.1016/j.compgeo.2024.106249,Machine learning (ML)
+10.1016/j.compgeo.2024.106249,Penetration depth
+10.1016/j.iswa.2023.200310,Automatic speech recognition (ASR)
+10.1016/j.iswa.2023.200310,Kannada database
+10.1016/j.iswa.2023.200310,NOIZEUS database
+10.1016/j.iswa.2023.200310,Normalized covariance metric (NCM)
+10.1016/j.iswa.2023.200310,Optimal smoothing and minimum controlled (OSMC)
+10.1016/j.iswa.2023.200310,Perceptual evaluation of speech quality (PESQ)
+10.1016/j.iswa.2023.200310,Recursive averaging
+10.1016/j.iswa.2023.200310,Speech enhancement
+10.1007/s11042-024-18298-6,Butterfly optimization algorithm
+10.1007/s11042-024-18298-6,Convolutional neural network
+10.1007/s11042-024-18298-6,Long short-term memory network
+10.1007/s11042-024-18298-6,Speaker recognition
+10.1007/s11042-024-18298-6,Speech signal
+10.1109/ICITES59818.2023.10356864,database alarm
+10.1109/ICITES59818.2023.10356864,dynamic matching
+10.1109/ICITES59818.2023.10356864,event extraction
+10.1109/ICITES59818.2023.10356864,GCN
+10.1109/ICITES59818.2023.10356864,self-attention mechanism
+10.1109/ICEDCS60513.2023.00131,Database optimization query
+10.1109/ICEDCS60513.2023.00131,Distance education
+10.1109/ICEDCS60513.2023.00131,Student behavior analysis
+10.1007/s11042-023-15959-w,Affective analysis
+10.1007/s11042-023-15959-w,EmoMatchSpanishDB
+10.1007/s11042-023-15959-w,Language resources
+10.1007/s11042-023-15959-w,Machine learning
+10.1007/s11042-023-15959-w,Speech emotion recognition
+10.1109/ACII59096.2023.10388135,affective computing
+10.1109/ACII59096.2023.10388135,content analysis
+10.1109/ACII59096.2023.10388135,database
+10.1109/ACII59096.2023.10388135,emotion elicitation
+10.1109/ACII59096.2023.10388135,movie clips
+10.1109/ACII59096.2023.10388135,multimodal
+10.1109/ACII59096.2023.10388135,subjectivity
+10.1109/BIOSIG58226.2023.10345994,child biometrics
+10.1109/BIOSIG58226.2023.10345994,contactless palmprint recognition
+10.1109/BIOSIG58226.2023.10345994,contactless palmprint recognition for children
+10.1007/s11042-023-15714-1,Downsampling
+10.1007/s11042-023-15714-1,Heart Sound Signal
+10.1007/s11042-023-15714-1,Pattern Matching
+10.1007/s11042-023-15714-1,Phonocardiography
+10.1007/s11042-023-15714-1,Signal Compression
+,Database
+,Exasol
+,Machine Learning
+,SQL
+10.1145/3620678.3624656,Decision Forest
+10.1145/3620678.3624656,Machine Learning System
+10.1016/j.ins.2024.120262,Data mining
+10.1016/j.ins.2024.120262,Minimum side effects
+10.1016/j.ins.2024.120262,Privacy-preserving
+10.1016/j.ins.2024.120262,Rare pattern
+10.1109/TII.2023.3297139,Cyber-physical systems security
+10.1109/TII.2023.3297139,data mining
+10.1109/TII.2023.3297139,deception attack
+10.1109/TII.2023.3297139,false data injection attack (FDIA)
+10.1109/TII.2023.3297139,sequential pattern mining
+10.1109/ICIC60109.2023.10381942,Data anonymization
+10.1109/ICIC60109.2023.10381942,data utility
+10.1109/ICIC60109.2023.10381942,inference attack
+10.1109/ICIC60109.2023.10381942,sensitive information
+10.1109/ICIC60109.2023.10381942,transaction database
+10.1109/MICC59384.2023.10419720,Behavioural Prediction
+10.1109/MICC59384.2023.10419720,BPNN
+10.1109/MICC59384.2023.10419720,Edge Computing
+10.1109/MICC59384.2023.10419720,Industrial loT
+10.1109/MICC59384.2023.10419720,Time-Series Database
+10.1109/ICDACAI59742.2023.00127,data analysis
+10.1109/ICDACAI59742.2023.00127,Database system
+10.1109/ICDACAI59742.2023.00127,intelligent operation
+10.1109/ICDACAI59742.2023.00127,machine learning
+10.1109/ICDACAI59742.2023.00127,monitor
+10.1016/j.sasc.2023.200070,Database
+10.1016/j.sasc.2023.200070,Emotion
+10.1016/j.sasc.2023.200070,Human-computer interaction
+10.1016/j.sasc.2023.200070,Learner modeling
+10.1016/j.sasc.2023.200070,New Year Painting
+10.1109/AMCAI59331.2023.10431516,classification
+10.1109/AMCAI59331.2023.10431516,dysphonia
+10.1109/AMCAI59331.2023.10431516,machine learning
+10.1109/AMCAI59331.2023.10431516,Parkinson's disease
+10.1109/AMCAI59331.2023.10431516,sustained vowel
+10.1109/AMCAI59331.2023.10431516,voice analysis
+10.1109/AMCAI59331.2023.10431516,voice descriptors
+10.4230/LIPIcs.ICDT.2024.20,axiom
+10.4230/LIPIcs.ICDT.2024.20,conditional independence
+10.4230/LIPIcs.ICDT.2024.20,decomposition
+10.4230/LIPIcs.ICDT.2024.20,functional dependency
+10.4230/LIPIcs.ICDT.2024.20,semiring
+10.1016/j.media.2024.103087,Ischemia
+10.1016/j.media.2024.103087,Localization
+10.1016/j.media.2024.103087,Myocardial infarction
+10.1016/j.media.2024.103087,Sparse representation
+10.1016/j.media.2024.103087,Virtual electrophysiology
+10.1016/j.media.2024.103087,Visualized ECG
+10.1145/3545947.3576350,auditing
+10.1145/3545947.3576350,authentication
+10.1145/3545947.3576350,authorization
+10.1145/3545947.3576350,change tracking
+10.1145/3545947.3576350,data encryption
+10.1145/3545947.3576350,database administration
+10.1145/3545947.3576350,database security
+10.1109/CATS58046.2023.10424267,block chain
+10.1109/CATS58046.2023.10424267,data analysis
+10.1109/CATS58046.2023.10424267,Data systems
+10.1109/CATS58046.2023.10424267,database management systems
+10.1109/CATS58046.2023.10424267,databases
+10.1109/CATS58046.2023.10424267,DBMS
+10.1109/CATS58046.2023.10424267,security
+10.1109/ACCESS.2024.3362294,ANN classifier
+10.1109/ACCESS.2024.3362294,features extractions
+10.1109/ACCESS.2024.3362294,hyper parameters tuning
+10.1109/ACCESS.2024.3362294,Olive fruit pre-processing
+10.1109/ACCESS.2024.3362294,olives detecting and extracting
+10.1109/ACCESS.2024.3362294,SVM classifier
+10.1145/3592686.3592756,Archaeological
+10.1145/3592686.3592756,Database
+10.1145/3592686.3592756,Database construction
+10.1145/3592686.3592756,Heritage Protection
+10.1145/3592686.3592756,Model reconstruction
+10.1145/3592686.3592756,Model repair
+10.1145/3592686.3592756,System design
+10.1109/TDSC.2023.3264567,Developer logs
+10.1109/TDSC.2023.3264567,NVD
+10.1109/TDSC.2023.3264567,patch
+10.1109/TDSC.2023.3264567,versions
+10.1109/TDSC.2023.3264567,vulnerability
+10.1109/3ICT60104.2023.10391650,Clustering
+10.1109/3ICT60104.2023.10391650,Customer Segmentation
+10.1109/3ICT60104.2023.10391650,Database Marketing
+10.1109/3ICT60104.2023.10391650,K-Means
+10.1109/3ICT60104.2023.10391650,RFM Analysis
+10.1016/j.engappai.2024.108036,Deep learning
+10.1016/j.engappai.2024.108036,Finger-vein recognition
+10.1016/j.engappai.2024.108036,Generative adversarial network
+10.1016/j.engappai.2024.108036,Multiple degradation factors
+10.1016/j.engappai.2024.108036,Non-uniform illumination and noise
+,climate protection
+,CO<sub>2</sub>emission reduction
+,Disy Cadenza
+,nature conservation
+,Peatland protection
+,PHP
+,PostGIS
+,restoration measures
+,web GIS application
+10.1109/TNSE.2023.3300768,clustering
+10.1109/TNSE.2023.3300768,machine learning
+10.1109/TNSE.2023.3300768,neural networks
+10.1109/TNSE.2023.3300768,time-varying
+10.1109/TNSE.2023.3300768,Wireless indoor localization
+10.1109/TMM.2023.3303725,cross-domain interaction
+10.1109/TMM.2023.3303725,cross-scale integration
+10.1109/TMM.2023.3303725,deep learning
+10.1109/TMM.2023.3303725,Image quality assessment
+10.1109/BigDIA60676.2023.10429411,Data Integration
+10.1109/BigDIA60676.2023.10429411,In-Database Machine Learning
+10.1109/BigDIA60676.2023.10429411,Machine Learning Framework
+10.1109/BigDIA60676.2023.10429411,Performance Optimization
+10.1145/3633512,conjunctive queries
+10.1145/3633512,I/O-efficient
+10.1145/3633512,Joins
+10.1145/3633512,lower bounds
+10.1145/3633512,massively parallel computation
+10.1145/3575693.3575699,Data integrity
+10.1145/3575693.3575699,Database constraints
+10.1145/3575693.3575699,Static analysis
+10.1145/3575693.3575699,Web applications
+10.13052/jcsm2245-1439.1311,DBN
+10.13052/jcsm2245-1439.1311,security computer
+10.13052/jcsm2245-1439.1311,update database
+10.1109/IMCOM60618.2024.10418292,Automated Indexing
+10.1109/IMCOM60618.2024.10418292,Index Selection
+10.1109/IMCOM60618.2024.10418292,Index Tuning
+10.1109/IMCOM60618.2024.10418292,ML for Database
+10.1109/IMCOM60618.2024.10418292,Reinforcement Learning
+10.1016/j.ins.2024.120257,Clickstream pattern mining
+10.1016/j.ins.2024.120257,Incremental pattern mining
+10.1016/j.ins.2024.120257,Pre-large concept
+10.1016/j.ins.2024.120257,Progressive search border
+10.1016/j.bspc.2023.105823,Breast cancer
+10.1016/j.bspc.2023.105823,Breast nodule classification
+10.1016/j.bspc.2023.105823,Datasets
+10.1016/j.bspc.2023.105823,Deep learning
+10.1016/j.bspc.2023.105823,Machine learning
+10.1109/SmartCloud58862.2023.00020,content-addressable memory
+10.1109/SmartCloud58862.2023.00020,DNA Sequencing. Bioinformatics
+10.1109/SmartCloud58862.2023.00020,Field-programmable gate array
+10.1109/SUMMA60232.2023.10349480,artificial neural network
+10.1109/SUMMA60232.2023.10349480,authentication
+10.1109/SUMMA60232.2023.10349480,database
+10.1109/SUMMA60232.2023.10349480,information system
+10.1109/SUMMA60232.2023.10349480,user
+10.1016/j.compag.2023.108500,Cow
+10.1016/j.compag.2023.108500,Dairy
+10.1016/j.compag.2023.108500,Lameness
+10.1016/j.compag.2023.108500,Machine learning
+10.1016/j.compag.2023.108500,Public database
+10.1016/j.compag.2023.108500,Support vector machine
+10.1145/3638837.3638845,Database
+10.1145/3638837.3638845,OpenFlow
+10.1145/3638837.3638845,Ryu
+10.1145/3638837.3638845,SDN
+10.1145/3584371.3613022,computational models
+10.1145/3584371.3613022,crowdsourcing
+10.1145/3584371.3613022,data integration
+10.1145/3584371.3613022,knowledge ecosystem
+10.1145/3584371.3613022,molecular mechanism
+10.1145/3584371.3613022,query reformulation
+10.1145/3555776.3577652,ad hoc querying
+10.1145/3555776.3577652,biological databases
+10.1145/3555776.3577652,data integration
+10.1145/3555776.3577652,query reformulation
+10.1145/3555776.3577652,schema abstraction
+10.1145/3555776.3577652,schema graph
+10.1016/j.specom.2024.103047,Dysarthria
+10.1016/j.specom.2024.103047,eGeMAPS
+10.1016/j.specom.2024.103047,HuBERT
+10.1016/j.specom.2024.103047,OpenSMILE
+10.1016/j.specom.2024.103047,Pre-trained models
+10.1016/j.specom.2024.103047,Severity level classification
+10.1016/j.specom.2024.103047,Wav2vec2
+10.1016/j.compbiomed.2024.108224,Ageing
+10.1016/j.compbiomed.2024.108224,Aorta
+10.1016/j.compbiomed.2024.108224,Blood pressure waveform
+10.1016/j.compbiomed.2024.108224,Cardiovascular health monitoring
+10.1016/j.compbiomed.2024.108224,Cardiovascular simulator
+10.1016/j.compbiomed.2024.108224,Central blood pressure
+10.1016/j.compbiomed.2024.108224,Heartrate
+10.1016/j.compbiomed.2024.108224,Peripheral resistance
+10.1016/j.compbiomed.2024.108224,PWV
+10.1016/j.compbiomed.2024.108224,Stroke volume
+10.1016/j.compbiomed.2024.108224,Vascular age
+10.3233/JIFS-232918,Data mining
+10.3233/JIFS-232918,fuzzy frequent itemsets
+10.3233/JIFS-232918,multiple linguistic terms
+10.3233/JIFS-232918,quantitative dataset
+10.3233/JIFS-232918,type-2 fuzzy set
+10.1007/s11128-024-04346-5,Decoy state
+10.1007/s11128-024-04346-5,Multiphoton pulses
+10.1007/s11128-024-04346-5,Non-ideal light sources
+10.1007/s11128-024-04346-5,Quantum private query
+10.1007/s11128-024-04346-5,User as the light source
+10.1117/12.3021729,Bioinformatics
+10.1117/12.3021729,Esophageal squamous cell carcinoma
+10.1117/12.3021729,Molecular docking
+10.1117/12.3021729,Network pharmacology
+10.1117/12.3021729,Saussurea involucrate
+10.1109/ICSIMA59853.2023.10373467,Compressive Sensing
+10.1109/ICSIMA59853.2023.10373467,Electrocardiogram
+10.1109/ICSIMA59853.2023.10373467,Heart Rate Variability
+10.1109/ICSIMA59853.2023.10373467,QRS Complex Detection
+10.1109/ICSIMA59853.2023.10373467,RR Interval
+10.1109/ICTBIG59752.2023.10456032,Convolutional Neural Network
+10.1109/ICTBIG59752.2023.10456032,Database Management
+10.1109/ICTBIG59752.2023.10456032,Deep Learning
+10.1109/ICTBIG59752.2023.10456032,Face Recognition
+10.1109/ICTBIG59752.2023.10456032,Generative Adversarial Networks
+10.1109/TMI.2023.3302473,Deep learning
+10.1109/TMI.2023.3302473,fundus images
+10.1109/TMI.2023.3302473,long-tailed classification
+10.1109/TMI.2023.3302473,multi-label classification
+10.1109/TMI.2023.3302473,retinal diseases
+10.1109/JIOT.2023.3327738,Electrocardiogram (ECG)
+10.1109/JIOT.2023.3327738,empirical mode decomposition (EMD)
+10.1109/JIOT.2023.3327738,explainable artificial intelligence (XAI)
+10.1109/JIOT.2023.3327738,multilayered convolutional neural network (CNN)
+10.1109/JIOT.2023.3327738,user recognition
+10.1007/s11042-023-16508-1,Biometric database generation
+10.1007/s11042-023-16508-1,Generative adversarial networks
+10.1007/s11042-023-16508-1,ID preserving
+10.1007/s11042-023-16508-1,Iris identification
+10.1007/s00034-023-02544-7,ECOC
+10.1007/s00034-023-02544-7,Emotional
+10.1007/s00034-023-02544-7,Hilbert transformation
+10.1007/s00034-023-02544-7,kNN
+10.1007/s00034-023-02544-7,SVM
+10.1007/s00034-023-02544-7,Wavelet packet
+10.1016/j.bspc.2023.105793,ECOC
+10.1016/j.bspc.2023.105793,Hilbert transformation
+10.1016/j.bspc.2023.105793,k-NN
+10.1016/j.bspc.2023.105793,PCG
+10.1016/j.bspc.2023.105793,SVM
+10.1016/j.bspc.2023.105793,Wavelet packet
+10.1108/VJIKMS-09-2021-0222,Bibliometric
+10.1108/VJIKMS-09-2021-0222,Co-creation
+10.1108/VJIKMS-09-2021-0222,Co-innovation
+10.1108/VJIKMS-09-2021-0222,Social media
+10.1108/VJIKMS-09-2021-0222,Social network
+10.1016/j.dsm.2023.12.002,Divide and recombine approach
+10.1016/j.dsm.2023.12.002,EM algorithm
+10.1016/j.dsm.2023.12.002,Managerial implications
+10.1016/j.dsm.2023.12.002,Reliability
+10.1016/j.dsm.2023.12.002,Warranty database
+10.1016/j.dsm.2023.12.002,Weibull regression model
+10.1109/TAI.2024.3376319,Artificial intelligence
+10.1109/TAI.2024.3376319,Databases
+10.1109/TAI.2024.3376319,filtering algorithm
+10.1109/TAI.2024.3376319,Heat pumps
+10.1109/TAI.2024.3376319,heating control systems
+10.1109/TAI.2024.3376319,Heating systems
+10.1109/TAI.2024.3376319,Internet of Things
+10.1109/TAI.2024.3376319,Physiology
+10.1109/TAI.2024.3376319,semantic data augmentation
+10.1109/TAI.2024.3376319,Semantics
+10.1109/TAI.2024.3376319,supervised learning
+10.1007/s11042-023-17854-w,Contact lens detection
+10.1007/s11042-023-17854-w,Fingerprint spoof detection
+10.1007/s11042-023-17854-w,Iris spoof detection
+10.1007/s11042-023-17854-w,Presentation attack detection
+10.1007/s11042-023-17854-w,Print attacks
+10.1007/s11042-023-16066-6,Face expression recognition
+10.1007/s11042-023-16066-6,Hybrid deep network
+10.1007/s11042-023-16066-6,Video pre-processing
+10.1109/SITA60746.2023.10373743,DataBase
+10.1109/SITA60746.2023.10373743,File ranking
+10.1109/SITA60746.2023.10373743,Neirest Neighbor
+10.1109/SITA60746.2023.10373743,Pattern matching
+10.1109/SITA60746.2023.10373743,Time Series
+10.1016/j.iswa.2023.200320,Latent palmprint
+10.1016/j.iswa.2023.200320,Minutiae importance
+10.1016/j.iswa.2023.200320,Minutiae types
+10.1016/j.iswa.2023.200320,Orientation field
+10.1016/j.iswa.2023.200320,Palmprint indexing
+10.1016/j.iswa.2023.200320,Palmprint segmentation
+,Collocation
+,corpora
+,database
+,dictionaries
+,gold standard
+,Russian language
+10.1145/3584372.3588676,join size estimation
+10.1145/3584372.3588676,uniform sampling
+10.1145/3584372.3588676,worst-case optimal
+10.1007/s00366-023-01813-y,Artificial neural network
+10.1007/s00366-023-01813-y,Data driven
+10.1007/s00366-023-01813-y,Multiscale finite element
+10.1007/s00366-023-01813-y,Nonlinear homogenization
+10.1007/s00366-023-01813-y,Proper orthogonal decomposition
+10.1007/s12065-022-00800-4,Deep neural networks
+10.1007/s12065-022-00800-4,Discrete wavelet transform
+10.1007/s12065-022-00800-4,Multiresolution analysis
+10.1007/s12065-022-00800-4,Plant disease detection
+10.1007/s12065-022-00800-4,Precision agriculture
+10.1007/s12065-022-00800-4,Smart farming
+10.1145/3633053.3633059,Automated Assessment
+10.1145/3633053.3633059,Databases
+10.1145/3633053.3633059,SQL
+10.1145/3633053.3633059,Web-based Learning
+10.1109/MITS.2023.3346842,Intelligent sensors
+10.1109/MITS.2023.3346842,Magnetic sensors
+10.1109/MITS.2023.3346842,Magnetoacoustic effects
+10.1109/MITS.2023.3346842,Magnetometers
+10.1109/MITS.2023.3346842,Roads
+10.1109/MITS.2023.3346842,Sensor systems
+10.1109/MITS.2023.3346842,Sensors
+10.1109/MODELS-C59198.2023.00009,data exchange optimization
+10.1109/MODELS-C59198.2023.00009,data interoperability
+10.1109/MODELS-C59198.2023.00009,data specification
+10.1109/MODELS-C59198.2023.00009,multi-model databases
+10.1145/3576915.3624394,DBMS
+10.1145/3576915.3624394,Isolation Level
+10.1145/3576915.3624394,Race Condition
+10.1145/3576915.3624394,Transaction
+10.1145/3576915.3624394,Web Application
+10.1145/3584371.3612997,enhancer-promoter interaction
+10.1145/3584371.3612997,maximum flow
+10.1145/3584371.3612997,negative set
+10.1145/3584371.3612997,TransEPI
+10.1007/s40031-024-01027-w,Artificial bee colonies (BGOA-ABC)
+10.1007/s40031-024-01027-w,Double deep neural network
+10.1007/s40031-024-01027-w,Enhanced IPCT
+10.1007/s40031-024-01027-w,The image database resource initiative (LIDC-IDRI) and the lung image database consortium
+10.1007/s10055-023-00900-1,Arousal
+10.1007/s10055-023-00900-1,Database
+10.1007/s10055-023-00900-1,Emotion
+10.1007/s10055-023-00900-1,Psychophysiology
+10.1007/s10055-023-00900-1,Valence
+10.1007/s10055-023-00900-1,Virtual reality
+10.1145/3581783.3611860,deep learning
+10.1145/3581783.3611860,feature fusion
+10.1145/3581783.3611860,video database
+10.1145/3581783.3611860,video quality assessment
+10.1145/3589132.3625623,Apache parquet
+10.1145/3589132.3625623,mobility data
+10.1145/3589132.3625623,spatio-temporal
+10.1145/3589132.3625623,trajectories
+10.1007/s11042-023-16261-5,Mutual information
+10.1007/s11042-023-16261-5,PCA
+10.1007/s11042-023-16261-5,RMSE
+10.1007/s11042-023-16261-5,SSIM
+10.1007/s11042-023-16261-5,WPCA
+10.1109/THMS.2023.3329536,Convolution neural network (CNN)
+10.1109/THMS.2023.3329536,prostheses
+10.1109/THMS.2023.3329536,surface electromyogram (sEMG) signal
+10.1109/THMS.2023.3329536,upper limb
+10.1109/THMS.2023.3329536,window length
+10.1109/THMS.2023.3329536,window overlap
+10.1109/TLA.2024.10431420,deep Learning
+10.1109/TLA.2024.10431420,EEG
+10.1109/TLA.2024.10431420,insomnia
+10.1109/TLA.2024.10431420,sleep
+10.1109/ICCCIS60361.2023.10425178,Cellular automata
+10.1109/ICCCIS60361.2023.10425178,Henon map
+10.1109/ICCCIS60361.2023.10425178,Image encryption
+10.1109/ICCCIS60361.2023.10425178,Tampering database attack
+10.1007/s11042-024-18691-1,Backpropogation Neural Network
+10.1007/s11042-024-18691-1,Context Window Based Texture of Pixels (CWTP)
+10.1007/s11042-024-18691-1,Decision Clustering
+10.1007/s11042-024-18691-1,Decision Tree Clustering
+10.1007/s11042-024-18691-1,Human cognition
+10.1007/s11042-024-18691-1,Intensity Level Based Multifractal Dimension (ILMFD)
+10.1007/s11042-024-18691-1,Multi-level Artificial Neural Network (MLANN)
+10.1016/j.eswa.2023.121709,CERUG-EN database
+10.1016/j.eswa.2023.121709,Convolution neural network
+10.1016/j.eswa.2023.121709,CVL database
+10.1016/j.eswa.2023.121709,Histogram of oriented features
+10.1016/j.eswa.2023.121709,IAM database
+10.1016/j.eswa.2023.121709,Offline writer identification
+10.1016/j.eswa.2023.121709,Saliency
+10.1016/j.eswa.2023.121709,Scale invariant feature transform (SIFT)
+10.1016/j.eswa.2023.121709,Sparse principal component analysis
+10.1016/j.eswa.2023.121709,SVM
+10.1109/APWiMob59963.2023.10365603,analysis
+10.1109/APWiMob59963.2023.10365603,corpus
+10.1109/APWiMob59963.2023.10365603,forensic
+10.1109/APWiMob59963.2023.10365603,performance
+,Biometric Authenticity
+,Biometric Security
+,Cross-Database Testing
+,Liveness Detection
+,Spoofing Attacks
+10.1109/ACCESS.2024.3366455,Analytical databases
+10.1109/ACCESS.2024.3366455,column aliases
+10.1109/ACCESS.2024.3366455,function references
+10.1109/ACCESS.2024.3366455,indexing
+10.1109/ACCESS.2024.3366455,performance
+10.1145/3592980.3595316,B+ tree
+10.1145/3592980.3595316,cache-aware layout
+10.1145/3592980.3595316,in-memory index
+10.1109/SITA60746.2023.10373691,Artificial Intelligence
+10.1109/SITA60746.2023.10373691,Machine Learning
+10.1109/SITA60746.2023.10373691,Morphological analysis
+10.1109/SITA60746.2023.10373691,NLP
+10.1109/SITA60746.2023.10373691,Stemming
+10.1016/j.ins.2024.120421,Pattern mining
+10.1016/j.ins.2024.120421,Temporal data mining
+10.1016/j.ins.2024.120421,Temporal duration-based patterns
+10.1016/j.ins.2024.120421,Time interval-based data
+10.1109/ACCESS.2024.3383313,Databases
+10.1109/ACCESS.2024.3383313,Parallel Computing
+10.1109/ACCESS.2024.3383313,Planning
+10.1109/ACCESS.2024.3383313,Quantum algorithm
+10.1109/ACCESS.2024.3383313,Quantum annealing
+10.1109/ACCESS.2024.3383313,Quantum computing
+10.1109/ACCESS.2024.3383313,Quantum Computing
+10.1109/ACCESS.2024.3383313,Qubit
+10.1109/ACCESS.2024.3383313,Robots
+10.1109/ACCESS.2024.3383313,Sampling-Based Motion Planning
+10.1145/3592980.3595311,CXL
+10.1145/3592980.3595311,Database Management Systems
+10.1145/3592980.3595311,DBMS
+10.1145/3592980.3595311,Far memory
+10.1145/3592980.3595311,In-Memory Database
+10.1145/3592980.3595311,Memory pool
+10.1109/ACCESS.2024.3380198,Databases
+10.1109/ACCESS.2024.3380198,Grover’s algorithm
+10.1109/ACCESS.2024.3380198,program synthesis
+10.1109/ACCESS.2024.3380198,Programming
+10.1109/ACCESS.2024.3380198,quantum algorithm
+10.1109/ACCESS.2024.3380198,Quantum computing
+10.1109/ACCESS.2024.3380198,quantum computing
+10.1109/ACCESS.2024.3380198,quantum program
+10.1109/ACCESS.2024.3380198,Qubit
+10.1109/ACCESS.2024.3380198,Search problems
+10.1109/ACCESS.2024.3380198,Synthesizers
+10.1109/ACCESS.2024.3380198,Vectors
+10.1145/3544549.3585884,bayesian mixed models
+10.1145/3544549.3585884,dataset
+10.1145/3544549.3585884,human-computer interaction
+10.1145/3544549.3585884,human-robot interaction
+10.1145/3544549.3585884,kitchen
+10.1145/3544549.3585884,robots
+10.1145/3577163.3595091,digital watermarking
+10.1145/3577163.3595091,histogram shifting
+10.1145/3577163.3595091,prediction error.
+10.1145/3577163.3595091,reversible database watermarking
+10.1109/JIOT.2024.3365714,Authentication
+10.1109/JIOT.2024.3365714,biometric system
+10.1109/JIOT.2024.3365714,Biometrics (access control)
+10.1109/JIOT.2024.3365714,Databases
+10.1109/JIOT.2024.3365714,Feature extraction
+10.1109/JIOT.2024.3365714,Fingerprint recognition
+10.1109/JIOT.2024.3365714,Fingers
+10.1109/JIOT.2024.3365714,identification security
+10.1109/JIOT.2024.3365714,Puppet attack
+10.1109/JIOT.2024.3365714,Security
+10.1109/JIOT.2024.3365714,support vector machine
+10.1145/3539618.3591702,Personalized recommendation
+10.1145/3539618.3591702,Ranking ensemble
+10.1145/3539618.3591702,User intents
+10.1109/AIIIP61647.2023.00007,Domestic Independent and Controllable Environment
+10.1109/AIIIP61647.2023.00007,Knowledge Database
+10.1109/AIIIP61647.2023.00007,Knowledge Graph
+10.1109/AIIIP61647.2023.00007,Retrieval Analysis
+10.1016/j.iswa.2024.200343,Intelligent classroom
+10.1016/j.iswa.2024.200343,Micro expression
+10.1016/j.iswa.2024.200343,NMF
+10.1016/j.iswa.2024.200343,Regularization of dual graph
+10.1145/3620678.3624668,database system
+10.1145/3620678.3624668,multi-tenant
+10.1145/3620678.3624668,user disengagement ratio
+10.1109/TIFS.2023.3326364,discriminative analysis
+10.1109/TIFS.2023.3326364,domain adaptation
+10.1109/TIFS.2023.3326364,Finger vein recognition
+10.1109/TIFS.2023.3326364,jointly embedding
+10.1109/TIFS.2023.3326364,low-rank representation
+10.1109/CANDAR60563.2023.00028,deep semi-supervised learning
+10.1109/CANDAR60563.2023.00028,mean teacher method
+10.1109/CANDAR60563.2023.00028,Multi-building and multi-floor indoor localization
+10.1109/CANDAR60563.2023.00028,Wi-Fi fingerprinting
+10.2478/amns.2023.2.00811,Classifier performance evaluation
+10.2478/amns.2023.2.00811,Goodness-of-fit algorithm
+10.2478/amns.2023.2.00811,Long- and short-term memory networks
+10.2478/amns.2023.2.00811,Second language acquisition
+10.2478/amns.2023.2.00811,Thesaurus
+10.1186/s12859-024-05631-x,Data integration
+10.1186/s12859-024-05631-x,Database
+10.1186/s12859-024-05631-x,Male subfertility
+10.1186/s12859-024-05631-x,Multi-omics
+10.1186/s12859-024-05631-x,Sperm maturation
+10.1145/3627535.3638478,GPU-Parallel Algorithm
+10.1145/3627535.3638478,Radix Select
+10.1145/3627535.3638478,Top-K
+10.1109/TBDATA.2023.3342619,Artificial intelligence framework
+10.1109/TBDATA.2023.3342619,Big Data system
+10.1109/TBDATA.2023.3342619,cloud platform
+10.1109/TBDATA.2023.3342619,database management system
+10.1109/TBDATA.2023.3342619,geographic information system
+10.1109/TBDATA.2023.3342619,resource management
+10.1109/TBDATA.2023.3342619,spatio-temporal Big Data
+10.1016/j.jnlest.2024.100234,Fine-grained grid computing (FGGC)
+10.1016/j.jnlest.2024.100234,Indoor localization
+10.1016/j.jnlest.2024.100234,Path loss
+10.1016/j.jnlest.2024.100234,Random forest
+10.1016/j.jnlest.2024.100234,Reference points (RPs)
+10.1145/3611643.3613893,database-centric system
+10.1145/3611643.3613893,field testing
+10.1145/3611643.3613893,Performance analysis
+10.1145/3611643.3613893,performance issue
+10.1145/3611643.3613893,performance regression
+10.1145/3611643.3613893,root cause analysis
+10.1016/j.displa.2023.102625,Auxiliary network
+10.1016/j.displa.2023.102625,Database
+10.1016/j.displa.2023.102625,Medical image
+10.1016/j.displa.2023.102625,Quality assessment
+10.1145/3564246.3585175,doubly efficient PIR
+10.1145/3564246.3585175,FHE for RAM
+10.1109/ISCTech60480.2023.00094,data integration
+10.1109/ISCTech60480.2023.00094,data management
+10.1109/ISCTech60480.2023.00094,real estate mass appraisal
+10.1109/ISCTech60480.2023.00094,spatial database
+10.1016/j.neunet.2024.106267,Cosine convolutional neural network (CosCNN)
+10.1016/j.neunet.2024.106267,Cosine kernel
+10.1016/j.neunet.2024.106267,Electroencephalogram (EEG)
+10.1016/j.neunet.2024.106267,Field programmable gate array (FPGA)
+10.1016/j.neunet.2024.106267,Network quantization
+10.1016/j.neunet.2024.106267,Seizure detection
+10.1109/ACCESS.2023.3349148,Bag-of-words
+10.1109/ACCESS.2023.3349148,ECG biometrics recognition
+10.1109/ACCESS.2023.3349148,feature learning
+10.1109/ACCESS.2023.3349148,total variation
+10.1109/JBHI.2023.3331975,Knowledge distillation (KD)
+10.1109/JBHI.2023.3331975,lightweight hybrid model (LHM)
+10.1109/JBHI.2023.3331975,multiscale Markov transition field (MMTF)
+10.1109/JBHI.2023.3331975,photoplethysmography (PPG)
+10.1109/JBHI.2023.3331975,real-time assessment
+10.1016/j.bspc.2024.106040,CNN
+10.1016/j.bspc.2024.106040,ECG
+10.1016/j.bspc.2024.106040,Physiological signal diagnosis
+10.1016/j.bspc.2024.106040,Transformer
+10.1016/j.bspc.2024.106040,WPS
+10.1145/3588195.3592982,compaction
+10.1145/3588195.3592982,key-value storage
+10.1145/3588195.3592982,LSM-tree
+10.1145/3588195.3592982,optimization
+10.2478/amns.2023.2.00862,Database
+10.2478/amns.2023.2.00862,Higher education
+10.2478/amns.2023.2.00862,Isomorphic multimodality
+10.2478/amns.2023.2.00862,Management system
+10.2478/amns.2023.2.00862,Semi-supervised fusion features
+10.1109/TPAMI.2024.3350049,Databases
+10.1109/TPAMI.2024.3350049,Distortion
+10.1109/TPAMI.2024.3350049,Face image database
+10.1109/TPAMI.2024.3350049,Face recognition
+10.1109/TPAMI.2024.3350049,Feature extraction
+10.1109/TPAMI.2024.3350049,Image quality
+10.1109/TPAMI.2024.3350049,image quality assessment
+10.1109/TPAMI.2024.3350049,Quality assessment
+10.1109/TPAMI.2024.3350049,Transformer
+10.1109/TPAMI.2024.3350049,Transformers
+10.1145/3637494.3637516,Database
+10.1145/3637494.3637516,Feature Encoding
+10.1145/3637494.3637516,Query Optimization
+10.1145/3637494.3637516,Transformer
+10.1109/TIFS.2024.3368892,Benchmark testing
+10.1109/TIFS.2024.3368892,Biometrics
+10.1109/TIFS.2024.3368892,database
+10.1109/TIFS.2024.3368892,Databases
+10.1109/TIFS.2024.3368892,fingerprint recognition
+10.1109/TIFS.2024.3368892,Fingerprint recognition
+10.1109/TIFS.2024.3368892,Image segmentation
+10.1109/TIFS.2024.3368892,latent fingerprints
+10.1109/TIFS.2024.3368892,NIST
+10.1109/TIFS.2024.3368892,Optical imaging
+10.1109/TIFS.2024.3368892,performance evaluation
+10.1109/TIFS.2024.3368892,Tablet computers
+10.1145/3614008.3614044,Downhole positioning
+10.1145/3614008.3614044,PnP
+10.1145/3614008.3614044,pose estimation
+10.1145/3555041.3589400,join sampling framework
+10.1145/3555041.3589400,multi-way joins
+10.1145/3555041.3589400,random sampling
+10.1145/3555041.3589400,union sampling
+10.1109/TMM.2024.3371218,Attention mechanism
+10.1109/TMM.2024.3371218,Databases
+10.1109/TMM.2024.3371218,Degradation
+10.1109/TMM.2024.3371218,Image color analysis
+10.1109/TMM.2024.3371218,Image database
+10.1109/TMM.2024.3371218,Image quality
+10.1109/TMM.2024.3371218,Image quality assessment (IQA)
+10.1109/TMM.2024.3371218,Imaging
+10.1109/TMM.2024.3371218,Measurement
+10.1109/TMM.2024.3371218,Transformer
+10.1109/TMM.2024.3371218,Transformers
+10.1109/TMM.2024.3371218,Underwater image
+10.1145/3603163.3609049,algorithmic profiling
+10.1145/3603163.3609049,content moderation
+10.1145/3603163.3609049,database aesthetics
+10.1145/3603163.3609049,Digital literacy
+10.1145/3603163.3609049,hyperlinking
+10.1016/j.procs.2023.11.007,Analysis
+10.1016/j.procs.2023.11.007,Data Mining Technology
+10.1016/j.procs.2023.11.007,Database
+10.1016/j.procs.2023.11.007,Design
+10.1016/j.procs.2023.11.007,Software Engineering
+10.1016/j.cpc.2023.108935,New database
+10.1016/j.cpc.2023.108935,Photon flux and heating
+10.1016/j.cpc.2023.108935,Photon transport physics
+10.1016/j.cpc.2023.108935,RMC
+10.1016/j.cpc.2023.108935,Verification
+10.2478/amns.2023.1.00473,Database
+10.2478/amns.2023.1.00473,Embedded system
+10.2478/amns.2023.1.00473,Independent time step algorithm
+10.2478/amns.2023.1.00473,Main function
+10.2478/amns.2023.1.00473,Software programming
+10.1109/BIGCOM61073.2023.00024,Partial Video Copy Detection
+10.1109/BIGCOM61073.2023.00024,Video Copy Detection
+10.1109/BIGCOM61073.2023.00024,Video Copy Localization
+10.1145/3589132.3625601,classification
+10.1145/3589132.3625601,decision trees
+10.1145/3589132.3625601,index structures
+10.1145/3589132.3625601,search engine
+10.1002/widm.1525,clinical application
+10.1002/widm.1525,database
+10.1002/widm.1525,interdisciplinary research
+10.1002/widm.1525,robotic surgery
+10.1002/widm.1525,therapeutic evidence
+10.1145/3555041.3589402,failure recovery
+10.1145/3555041.3589402,in-memory database
+10.1145/3555041.3589402,main memory
+10.1007/s00778-024-00846-z,Database
+10.1007/s00778-024-00846-z,In-memory database
+10.1007/s00778-024-00846-z,Instant recovery
+10.1007/s00778-024-00846-z,Main memory database
+10.1007/s00778-024-00846-z,System failure
+10.1109/ICICIS58388.2023.10391183,completeness
+10.1109/ICICIS58388.2023.10391183,cost model
+10.1109/ICICIS58388.2023.10391183,dynamic fragmentation
+10.1109/ICICIS58388.2023.10391183,horizontal fragmentation
+10.1109/ICICIS58388.2023.10391183,hybrid fragmentation
+10.1109/ICICIS58388.2023.10391183,multimedia fragmentation
+10.1109/ICICIS58388.2023.10391183,vertical fragmentation
+10.1109/TIFS.2023.3280742,feature extraction
+10.1109/TIFS.2023.3280742,Fingerprint recognition
+10.1109/TIFS.2023.3280742,forensic science
+10.1109/TIFS.2023.3280742,image databases
+10.1109/TIFS.2023.3280742,latent fingerprints
+10.1186/s12859-024-05634-8,Abundance
+10.1186/s12859-024-05634-8,Benchmark
+10.1186/s12859-024-05634-8,Classification
+10.1186/s12859-024-05634-8,Long sequenced reads
+10.1186/s12859-024-05634-8,Metagenomics
+10.1145/3555041.3590816,compilers
+10.1145/3555041.3590816,databases
+10.1145/3555041.3590816,modern hardware
+10.1145/3555041.3590816,networking
+10.2478/amns.2023.2.01470,CART algorithm
+10.2478/amns.2023.2.01470,Decision tree
+10.2478/amns.2023.2.01470,ELMo model
+10.2478/amns.2023.2.01470,LSTM network
+10.2478/amns.2023.2.01470,Reinforcement learning mechanism
+10.1016/j.eswa.2024.123388,Convolutional neural network
+10.1016/j.eswa.2024.123388,Hybrid representations
+10.1016/j.eswa.2024.123388,Mesh conformity
+10.1016/j.eswa.2024.123388,Robotics mapping
+10.5194/isprs-archives-XLVIII-1-W1-2023-311-2023,aesthetic judgement
+10.5194/isprs-archives-XLVIII-1-W1-2023-311-2023,fMRI
+10.5194/isprs-archives-XLVIII-1-W1-2023-311-2023,GIS
+10.5194/isprs-archives-XLVIII-1-W1-2023-311-2023,landscape assessment
+10.5194/isprs-archives-XLVIII-1-W1-2023-311-2023,Mobile Mapping Technology
+10.5194/isprs-archives-XLVIII-1-W1-2023-311-2023,view
+10.1145/3631802.3631821,Data Systems Education
+10.1145/3631802.3631821,Databases
+10.1145/3631802.3631821,Misconceptions
+10.1145/3631802.3631821,SQL
+10.1145/3545945.3569727,context
+10.1145/3545945.3569727,database
+10.1145/3545945.3569727,design
+10.1145/3545945.3569727,education
+10.1145/3545945.3569727,engagement
+10.1109/SUMMA60232.2023.10349498,batch process
+10.1109/SUMMA60232.2023.10349498,data processing
+10.1109/SUMMA60232.2023.10349498,database design
+10.1109/SUMMA60232.2023.10349498,isoprene
+10.1109/SUMMA60232.2023.10349498,polymerization
+10.1109/BIOSIG58226.2023.10345997,eHealth
+10.1109/BIOSIG58226.2023.10345997,Face database
+10.1109/BIOSIG58226.2023.10345997,Thermal spectrum
+10.1109/BIOSIG58226.2023.10345997,Visible spectrum
+10.1109/BIOSIG58226.2023.10345997,Weight estimation
+10.1145/3609956.3609968,Interval Adjustment
+10.1145/3609956.3609968,Query Processing
+10.1145/3609956.3609968,Temporal Data
+10.1145/3609956.3609968,Temporal Joins
+10.1016/j.jbi.2024.104603,Adverse drug events
+10.1016/j.jbi.2024.104603,Joint task learning
+10.1016/j.jbi.2024.104603,Multi-task learning
+10.1016/j.jbi.2024.104603,Named entity recognition
+10.1016/j.jbi.2024.104603,Pipeline approach
+10.1016/j.jbi.2024.104603,Relation extraction
+10.1145/3592980.3595300,database system
+10.1145/3592980.3595300,FPGA
+10.1145/3592980.3595300,large key
+10.1145/3592980.3595300,sorting
+10.1145/3592980.3595300,wide table
+10.1109/SSI58917.2023.10387755,AI
+10.1109/SSI58917.2023.10387755,database
+10.1109/SSI58917.2023.10387755,IMU
+10.1109/SSI58917.2023.10387755,Industry 4.0
+10.1109/SSI58917.2023.10387755,motion capture
+10.1016/j.cmpb.2024.108117,artificial intelligence
+10.1016/j.cmpb.2024.108117,Database
+10.1016/j.cmpb.2024.108117,Machine Learning
+10.1016/j.cmpb.2024.108117,Mammography
+10.1016/j.cmpb.2024.108117,Radiology information systems
+10.1016/j.cmpb.2024.108117,Teaching materials
+10.3390/s24041259,EMG
+10.3390/s24041259,feature extraction
+10.3390/s24041259,hand gesture recognition
+10.3390/s24041259,surface electromyography
+10.3390/s24041259,transformer
+10.1007/s11633-022-1402-8,African iris recognition
+10.1007/s11633-022-1402-8,biometrics
+10.1007/s11633-022-1402-8,iris image database
+10.1007/s11633-022-1402-8,iris recognition
+10.1007/s11633-022-1402-8,racial bias
+10.5194/isprs-archives-XLVIII-4-W6-2022-261-2023,Coastal inundation
+10.5194/isprs-archives-XLVIII-4-W6-2022-261-2023,Geographical Information System (GIS)
+10.5194/isprs-archives-XLVIII-4-W6-2022-261-2023,Radar Altimetry Database System (RADS)
+10.5194/isprs-archives-XLVIII-4-W6-2022-261-2023,sea level rise
+10.5194/isprs-archives-XLVIII-4-W6-2022-261-2023,shoreline
+10.1016/j.csbj.2024.01.013,Databases
+10.1016/j.csbj.2024.01.013,Gene interactions
+10.1016/j.csbj.2024.01.013,Mutual information
+10.1016/j.csbj.2024.01.013,Python package
+10.1016/j.csbj.2024.01.013,Transcription factor binding motifs
+10.3233/JIFS-231852,Artificial fish swarm algorithm
+10.3233/JIFS-231852,data mining
+10.3233/JIFS-231852,frequent itemset mining
+10.3233/JIFS-231852,high average utility itemsets
+10.3233/JIFS-231852,itemset mining
+10.3233/JIFS-231852,utility mining
+10.1109/ACCESS.2024.3362247,Deep learning
+10.1109/ACCESS.2024.3362247,early fusion
+10.1109/ACCESS.2024.3362247,facial expressions
+10.1109/ACCESS.2024.3362247,infrared
+10.1109/ACCESS.2024.3362247,late fusion
+10.1109/ACCESS.2024.3362247,MSX
+10.1109/ACCESS.2024.3362247,ResNet-18
+10.1109/ACCESS.2024.3362247,transfer learning
+10.1109/ACCESS.2024.3362247,visible
+10.1007/s11042-023-17013-1,Deep belief network
+10.1007/s11042-023-17013-1,Densenet
+10.1007/s11042-023-17013-1,Facial expression recognition
+10.1007/s11042-023-17013-1,Occlusion
+10.1007/s11042-023-17013-1,Persistent contrastive divergence
+10.1007/s00521-023-09296-0,Bayesian optimization process
+10.1007/s00521-023-09296-0,CatBoost
+10.1007/s00521-023-09296-0,Ensemble learning
+10.1007/s00521-023-09296-0,Flat slabs
+10.1007/s00521-023-09296-0,Punching shear strength
+10.1007/s00521-023-09296-0,XGBoot
+10.1109/CANDARW60564.2023.00013,concurrency control
+10.1109/CANDARW60564.2023.00013,decentralization
+10.1109/CANDARW60564.2023.00013,OLTP
+10.1109/CANDARW60564.2023.00013,real-time database system
+10.1109/CANDARW60564.2023.00013,transaction priority
+10.1109/CIPAE60493.2023.00019,Computer
+10.1109/CIPAE60493.2023.00019,data structure
+10.1109/CIPAE60493.2023.00019,database management system
+10.1109/CIPAE60493.2023.00019,hotel data storage
+10.1109/CIPAE60493.2023.00019,information technology
+10.1145/3581641.3584067,database systems
+10.1145/3581641.3584067,Empirical study
+10.1145/3581641.3584067,human-computer interaction
+10.23919/SICE59929.2023.10354252,ADL
+10.23919/SICE59929.2023.10354252,Co-creation
+10.23919/SICE59929.2023.10354252,Independence care
+10.23919/SICE59929.2023.10354252,Motion data analysis
+10.1016/j.conengprac.2024.105843,Database-driven approach
+10.1016/j.conengprac.2024.105843,Hydraulic excavator
+10.1016/j.conengprac.2024.105843,Model predictive control
+10.1016/j.conengprac.2024.105843,Modeling
+10.1002/sam.11673,classification
+10.1002/sam.11673,feature selection
+10.1002/sam.11673,nonparametric quantifier
+10.1002/sam.11673,signature verification
+10.1002/sam.11673,statistical learning
+10.1145/3615890.3628537,pictorial querying
+10.1145/3615890.3628537,searching geospatial objects
+10.1145/3615890.3628537,spatial pattern matching
+10.1109/ACCESS.2024.3357689,hybrid genetic algorithms
+10.1109/ACCESS.2024.3357689,order assignment
+10.1109/ACCESS.2024.3357689,order batching
+10.1109/ACCESS.2024.3357689,Order picking system
+10.1109/ACCESS.2024.3357689,systematic literature review
+10.1109/IISEC59749.2023.10391023,Database Deployment
+10.1109/IISEC59749.2023.10391023,Database deployment automation
+10.1109/IISEC59749.2023.10391023,Goal modeling
+10.1109/IISEC59749.2023.10391023,Requirements analysis
+10.1109/ICRAMET60171.2023.10366632,flow-level
+10.1109/ICRAMET60171.2023.10366632,LSTM
+10.1109/ICRAMET60171.2023.10366632,machine learning
+10.1109/ICRAMET60171.2023.10366632,RMSE
+10.1109/ICRAMET60171.2023.10366632,traffic generator
+10.1007/s10489-023-05172-5,Columnar temporal databases
+10.1007/s10489-023-05172-5,Data mining
+10.1007/s10489-023-05172-5,Partial periodic patterns
+10.1007/s10489-023-05172-5,Pattern mining
+10.1016/j.compgeo.2023.105934,Bayesian updating
+10.1016/j.compgeo.2023.105934,Cross correlations
+10.1016/j.compgeo.2023.105934,Multivariate probability distribution
+10.1016/j.compgeo.2023.105934,Probabilistic site characterization
+10.1016/j.compgeo.2023.105934,SZ-CLAY/11/5130 database
+10.1016/j.csi.2023.103801,Healthcare
+10.1016/j.csi.2023.103801,Knowledge extraction
+10.1016/j.csi.2023.103801,Ontology
+10.1016/j.csi.2023.103801,Reasoning
+10.1016/j.csi.2023.103801,Security
+10.1109/VizSec60606.2023.00011,Human-centered computing-Visualization-Visualization design and evaluation methods
+10.1109/VizSec60606.2023.00011,Human-centered computing-Visualization-Visualization techniques-Treemaps
+10.1109/IEMENTech60402.2023.10423485,Attendance system
+10.1109/IEMENTech60402.2023.10423485,Database management
+10.1109/IEMENTech60402.2023.10423485,QR code
+10.1109/IEMENTech60402.2023.10423485,student database
+10.1016/j.comtox.2024.100304,"GenRA, REACH"
+10.1016/j.comtox.2024.100304,New Approach Methods (NAMS)
+10.1016/j.comtox.2024.100304,Read-across
+10.1016/j.comtox.2024.100304,Similarity context
+10.1145/3583133.3590662,Ising Machines
+10.1145/3583133.3590662,Quantum Annealing
+10.1145/3583133.3590662,QUBO
+10.1145/3583120.3586957,combinatorial optimization
+10.1145/3583120.3586957,machine learning
+10.1145/3583120.3586957,scheduling
+10.1145/3583120.3586957,wireless backscatter communications
+10.1145/3576841.3589614,Cyber-Risk assessment
+10.1145/3576841.3589614,Cybersecurity
+10.1145/3576841.3589614,Industrial Control Systems
+10.1145/3576841.3589614,MITRE ATT&CK Database
+10.1145/3576841.3589614,NVD Database
+10.1145/3576841.3589614,Programmable Logic Controller
+10.3390/s24031008,characterization of biomedical devices
+10.3390/s24031008,monitoring of vital signs
+10.3390/s24031008,optical signal simulator
+10.1145/3555041.3590817,database systems
+10.1145/3555041.3590817,simple but effective ideas
+10.1145/3555041.3590817,simplicity
+10.1109/NKCon59507.2023.10396396,Internet of Things (IoT)
+10.1109/NKCon59507.2023.10396396,MySQL
+10.1109/NKCon59507.2023.10396396,phpMyAdmin
+10.3233/JIFS-223030,Data mining
+10.3233/JIFS-223030,FP-Tree
+10.3233/JIFS-223030,fuzzy logic
+10.3233/JIFS-223030,market analysis
+10.3233/JIFS-223030,precision
+10.3233/JIFS-223030,prediction accuracy
+10.3233/JIFS-223030,processing time
+10.3233/JIFS-223030,recall
+10.3233/JIFS-223030,temporal data mining
+10.1109/ICTBIG59752.2023.10456144,Bibliometric analysis
+10.1109/ICTBIG59752.2023.10456144,E-banking
+10.1109/ICTBIG59752.2023.10456144,Electronic banking
+10.1109/ICTBIG59752.2023.10456144,ICT
+10.1109/ICTBIG59752.2023.10456144,Scopus database
+10.1109/BIOSIG58226.2023.10345977,Contactless fingerprint recognition
+10.1109/BIOSIG58226.2023.10345977,generalizability
+10.1109/BIOSIG58226.2023.10345977,presentation attack detection
+10.1109/BIOSIG58226.2023.10345977,security
+10.1109/TBIOM.2024.3377686,Biometric Sample Quality
+10.1109/TBIOM.2024.3377686,Biometrics (access control)
+10.1109/TBIOM.2024.3377686,Contactless Fingerprint
+10.1109/TBIOM.2024.3377686,Databases
+10.1109/TBIOM.2024.3377686,Fingerprint
+10.1109/TBIOM.2024.3377686,Fingerprint recognition
+10.1109/TBIOM.2024.3377686,Fingers
+10.1109/TBIOM.2024.3377686,Image matching
+10.1109/TBIOM.2024.3377686,Prediction algorithms
+10.1109/TBIOM.2024.3377686,Quality assessment
+10.1016/j.procs.2023.12.042,File sharing
+10.1016/j.procs.2023.12.042,File transfer
+10.1016/j.procs.2023.12.042,Firebase database
+10.1016/j.procs.2023.12.042,IP address
+10.1016/j.procs.2023.12.042,QR generation
+10.1016/j.procs.2023.12.042,Transfer history
+10.1109/MNET.2024.3374080,Active TCP/IP Stack Probing
+10.1109/MNET.2024.3374080,Databases
+10.1109/MNET.2024.3374080,Feature extraction
+10.1109/MNET.2024.3374080,Machine learning
+10.1109/MNET.2024.3374080,Monitoring
+10.1109/MNET.2024.3374080,Network Device Identification
+10.1109/MNET.2024.3374080,Object recognition
+10.1109/MNET.2024.3374080,Protocols
+10.1109/MNET.2024.3374080,TCPIP
+10.3233/ATDE221245,Bibliometric Analysis
+10.3233/ATDE221245,Crop Disease
+10.3233/ATDE221245,Deep Learning
+10.3233/ATDE221245,Machine Learning
+10.3233/ATDE221245,Network Analysis
+10.3233/ATDE221245,Neural Networks
+10.3233/ATDE221245,Plant Disease
+10.1201/9781032684994-76,False face
+10.1201/9781032684994-76,High precision
+10.1201/9781032684994-76,Spoofing discovery
+10.1201/9781032684994-76,True positive
+10.1109/ICSSS58085.2023.10407074,Adaptable Database Migration Service
+10.1109/ICSSS58085.2023.10407074,Big Bang
+10.1109/ICSSS58085.2023.10407074,Cloud computing
+10.1109/ICSSS58085.2023.10407074,Efficiency
+10.1109/ICSSS58085.2023.10407074,Lift and Shift
+10.1109/ICSSS58085.2023.10407074,Microsoft Azure
+10.1109/ICSSS58085.2023.10407074,Migration Resources
+10.1109/ICSSS58085.2023.10407074,Novel Trickle approach
+10.1109/ICSSS58085.2023.10407074,Refactoring
+10.1109/ICSSS58085.2023.10407074,Replatforming
+10.1109/ICSSS58085.2023.10407074,Virtual Machine
+10.1109/ICDSAAI59313.2023.10452571,Anonymizer
+10.1109/ICDSAAI59313.2023.10452571,Database
+10.1109/ICDSAAI59313.2023.10452571,Masking
+10.1109/ICDSAAI59313.2023.10452571,Passive Aggressive classifier
+10.1109/ICDSAAI59313.2023.10452571,PostgreSQL
+10.1145/3615887.3627753,Californian History
+10.1145/3615887.3627753,Digital Humaities
+10.1145/3615887.3627753,Geospatial Database
+10.1145/3615887.3627753,The American Civil War
+10.1145/3615887.3627753,United Daughters of the Confederacy
+10.1109/HPEC58863.2023.10363590,AOCL
+10.1109/HPEC58863.2023.10363590,AOCL-Compression
+10.1109/HPEC58863.2023.10363590,BWT
+10.1109/HPEC58863.2023.10363590,BZIP2
+10.1109/HPEC58863.2023.10363590,Compression
+10.1109/HPEC58863.2023.10363590,Database systems
+10.1109/HPEC58863.2023.10363590,Decompression
+10.1109/HPEC58863.2023.10363590,DEFLATE
+10.1109/HPEC58863.2023.10363590,Dictionary coding
+10.1109/HPEC58863.2023.10363590,Entropy coding
+10.1109/HPEC58863.2023.10363590,FSE
+10.1109/HPEC58863.2023.10363590,Hash chain
+10.1109/HPEC58863.2023.10363590,Hash table
+10.1109/HPEC58863.2023.10363590,Huffman coding
+10.1109/HPEC58863.2023.10363590,Lossless data compression
+10.1109/HPEC58863.2023.10363590,LZ4
+10.1109/HPEC58863.2023.10363590,LZ4HC
+10.1109/HPEC58863.2023.10363590,LZ77
+10.1109/HPEC58863.2023.10363590,LZ78
+10.1109/HPEC58863.2023.10363590,LZMA
+10.1109/HPEC58863.2023.10363590,MTF
+10.1109/HPEC58863.2023.10363590,NoSQL
+10.1109/HPEC58863.2023.10363590,RLE
+10.1109/HPEC58863.2023.10363590,Snappy
+10.1109/HPEC58863.2023.10363590,SQL
+10.1109/HPEC58863.2023.10363590,ZLIB
+10.1109/HPEC58863.2023.10363590,ZSTD
+10.1007/s00521-024-09577-2,Feature optimization
+10.1007/s00521-024-09577-2,Machine learning
+10.1007/s00521-024-09577-2,Multilingual speech emotion recognition
+10.1007/s00521-024-09577-2,Speech signal processing
+10.1007/s00521-024-09577-2,Variational mode decomposition
+10.1109/PuneCon58714.2023.10450006,authentication
+10.1109/PuneCon58714.2023.10450006,Biometric
+10.1109/PuneCon58714.2023.10450006,encryption
+10.1109/PuneCon58714.2023.10450006,facial biometric
+10.1109/PuneCon58714.2023.10450006,privacy
+10.1109/PuneCon58714.2023.10450006,security
+10.3390/s24051698,biomedical signal processing
+10.3390/s24051698,ECG interpretive software testing
+10.3390/s24051698,electrocardiogram (ECG)
+10.3390/s24051698,MIT-BIH Arrhythmia Database
+10.3390/s24051698,QRS detection
+10.1145/3589462.3589488,Error
+10.1145/3589462.3589488,Hamming distance
+10.1145/3589462.3589488,Neural network
+10.1145/3589462.3589488,Noise
+10.1145/3589462.3589488,Phoneme
+10.1145/3589462.3589488,Signal
+10.1145/3589462.3589488,Speech recognition
+,Data Lakes
+,Database Systems
+,Dremel
+,Parquet
+10.4230/LIPIcs.ICDT.2023.12,centrality measures
+10.4230/LIPIcs.ICDT.2023.12,data centrality
+10.4230/LIPIcs.ICDT.2023.12,Databases
+10.4230/LIPIcs.ICDT.2023.12,graph theory
+10.4230/LIPIcs.ICDT.2023.12,tree structures
+10.4230/LIPIcs.ICDT.2023.3,graph algorithms
+10.4230/LIPIcs.ICDT.2023.3,graph degeneracy
+10.4230/LIPIcs.ICDT.2023.3,homomorphism counting
+10.4230/LIPIcs.ICDT.2023.3,subgraph counting
+10.4230/LIPIcs.ICDT.2023.19,Quantile summaries
+10.4230/LIPIcs.ICDT.2023.19,Rank estimation
+10.4230/LIPIcs.ICDT.2023.19,Streaming algorithms
+10.4230/LIPIcs.ICDT.2023.20,Bag Semantics
+10.4230/LIPIcs.ICDT.2023.20,Probabilistic Databases
+10.4230/LIPIcs.ICDT.2023.20,Probabilistic Query Evaluation
+10.4230/LIPIcs.ICDT.2023.10,Algorithms
+10.4230/LIPIcs.ICDT.2023.10,Complexity
+10.4230/LIPIcs.ICDT.2023.10,Diversity of Solutions
+10.4230/LIPIcs.ICDT.2023.10,Query Answering
+10.1016/j.eswa.2023.122754,Breadth-first based pruning
+10.1016/j.eswa.2023.122754,Incremental mining
+10.1016/j.eswa.2023.122754,Pattern storage
+10.1016/j.eswa.2023.122754,Sequential pattern
+10.1016/j.eswa.2023.122754,Tree-based mining
+10.1145/3614321.3614381,Brazil
+10.1145/3614321.3614381,e-court
+10.1145/3614321.3614381,e-justice
+10.1145/3614321.3614381,judicial database
+10.1145/3614321.3614381,jurimetry
+10.1145/3614321.3614381,justice administration
+10.1145/3614321.3614381,open-data
+10.1016/j.engappai.2023.107500,Hydrocarbon
+10.1016/j.engappai.2023.107500,Machine learning
+10.1016/j.engappai.2023.107500,Recovery factor
+10.1016/j.engappai.2023.107500,Regression
+10.1016/j.engappai.2023.107500,XGBoost
+10.1109/COMNETSAT59769.2023.10420796,AES-256
+10.1109/COMNETSAT59769.2023.10420796,data security
+10.1109/COMNETSAT59769.2023.10420796,database
+10.1109/COMNETSAT59769.2023.10420796,encryption
+10.1109/COMNETSAT59769.2023.10420796,RSA
+10.1007/s11042-024-18488-2,Auto-correloblock
+10.1007/s11042-024-18488-2,CBIR
+10.1007/s11042-024-18488-2,Feature vector
+10.1007/s11042-024-18488-2,HEVC
+10.1007/s11042-024-18488-2,Intra-prediction
+10.1016/j.bspc.2023.105899,Classification
+10.1016/j.bspc.2023.105899,Feature Selection
+10.1016/j.bspc.2023.105899,Particle Swarm Optimization Algorithm
+10.1016/j.bspc.2023.105899,Phonocardiogram
+10.1016/j.calphad.2023.102658,Al–Ni–Ti
+10.1016/j.calphad.2023.102658,First-principles
+10.1016/j.calphad.2023.102658,SQS
+10.1016/j.calphad.2023.102658,Thermodynamic database
+10.1016/j.compbiomed.2024.108124,Aldosterone
+10.1016/j.compbiomed.2024.108124,CYP11B2
+10.1016/j.compbiomed.2024.108124,Databases
+10.1016/j.compbiomed.2024.108124,Heart failure
+10.1016/j.compbiomed.2024.108124,Machine learning
+10.1016/j.compbiomed.2024.108124,NR3C2
+10.1016/j.compbiomed.2024.108124,Open access platforms
+10.1109/ICOIACT59844.2023.10455894,Cosine similarity
+10.1109/ICOIACT59844.2023.10455894,Indonesian meaning similarity
+10.1109/ICOIACT59844.2023.10455894,NLP)
+10.1109/ICOIACT59844.2023.10455894,Synonim ID
+10.1109/ICOIACT59844.2023.10455894,TF/IDF
+10.1016/j.compbiomed.2024.108195,Baicalein
+10.1016/j.compbiomed.2024.108195,CREBBP
+10.1016/j.compbiomed.2024.108195,Dopaminergic neurons
+10.1016/j.compbiomed.2024.108195,EP300
+10.1016/j.compbiomed.2024.108195,ERK2
+10.1016/j.compbiomed.2024.108195,MAPK1
+10.1016/j.compbiomed.2024.108195,MD simulations
+10.1016/j.compbiomed.2024.108195,Network pharmacology
+10.1016/j.compbiomed.2024.108195,Parkinson's disease
+10.1016/j.compbiomed.2024.108195,Rasagiline
+10.1109/IW_MSS59200.2023.10368597,Convolutional Neural Networks (CNN)
+10.1109/IW_MSS59200.2023.10368597,Multi-Binary Classification (MBC)
+10.1109/IW_MSS59200.2023.10368597,multiclass classification
+10.1109/IW_MSS59200.2023.10368597,Non-Destructive Testing (NDT)
+10.1109/IW_MSS59200.2023.10368597,X-ray images
+10.1007/s00500-023-09418-9,AGMRF model
+10.1007/s00500-023-09418-9,Bayes-driven DCNN
+10.1007/s00500-023-09418-9,Microstructure feature
+10.1007/s00500-023-09418-9,Query imagery
+10.1007/s00500-023-09418-9,Reference imagery
+10.1007/s00500-023-09418-9,Structure feature
+10.1007/s00500-023-09418-9,Texture feature
+10.1109/C358072.2023.10436245,Business intelligence
+10.1109/C358072.2023.10436245,Clickstream
+10.1109/C358072.2023.10436245,Monte Carlo cross validation
+10.1109/C358072.2023.10436245,Support vector machines
+10.1109/TIP.2023.3333217,full reference (FR) models
+10.1109/TIP.2023.3333217,HDR VQA database
+10.1109/TIP.2023.3333217,HDRMAX
+10.1109/TIP.2023.3333217,High dynamic range (HDR)
+10.1109/TIP.2023.3333217,video quality assessment (VQA)
+10.2478/amns.2023.2.00315,Bio-visual perceptual machine model
+10.2478/amns.2023.2.00315,Database
+10.2478/amns.2023.2.00315,Graphic design
+10.2478/amns.2023.2.00315,Visual aesthetics
+10.2478/amns.2023.2.00315,Visual information model
+10.1016/j.bspc.2024.106069,Content-based medical image retrieval
+10.1016/j.bspc.2024.106069,Coyote-Moth Optimization Algorithm (Cmoa)
+10.1016/j.bspc.2024.106069,Inception V3 Cnn
+10.1016/j.bspc.2024.106069,Modified cosine similarity
+10.1007/s10851-024-01178-x,Compressive learning
+10.1007/s10851-024-01178-x,Deep priors
+10.1007/s10851-024-01178-x,Denoising
+10.1007/s10851-024-01178-x,Regularization
+10.1145/3641819,Additional Key Words and PhrasesVulnerability
+10.1145/3641819,knowledge graph
+10.1145/3641819,link prediction
+10.1145/3641819,threat modeling
+,Database
+,ISO/IEC-25010 standard
+,motivational intentions
+,supply and demand of educational services
+,user needs
+,web community
+10.1109/GHTC56179.2023.10354568,database
+10.1109/GHTC56179.2023.10354568,integration
+10.1109/GHTC56179.2023.10354568,sustainable management
+10.1109/GHTC56179.2023.10354568,telemetry
+10.1109/GHTC56179.2023.10354568,water infrastructure
+10.1109/GHTC56179.2023.10354568,water monitoring
+10.1109/TLT.2023.3273926,Classroom feedback systems
+10.1109/TLT.2023.3273926,clustering
+10.1109/TLT.2023.3273926,computer science education
+10.1109/TLT.2023.3273926,feature engineering
+10.1109/TLT.2023.3273926,teaching programming
+10.1109/ICEIC61013.2024.10457244,beam selection with load balancing
+10.1109/ICEIC61013.2024.10457244,cumulative distribution function
+10.1109/ICEIC61013.2024.10457244,fingerprint database
+10.1109/ICEIC61013.2024.10457244,signal-to-interference-plus-noise ratio
+10.1109/ICEIC61013.2024.10457244,unmanned aerial vehicle
+10.1109/ICSIMA59853.2023.10373533,compressed ECG sensing
+10.1109/ICSIMA59853.2023.10373533,Heart rate variability
+10.1109/ICSIMA59853.2023.10373533,power spectral analysis
+10.1109/ICSIMA59853.2023.10373533,wearable IoT devices
+10.1109/OCIT59427.2023.10430516,Breast Ultrasound
+10.1109/OCIT59427.2023.10430516,Carotid Ultrasound
+10.1109/OCIT59427.2023.10430516,Chest-XRay
+10.1109/OCIT59427.2023.10430516,Deep Learning
+10.1109/OCIT59427.2023.10430516,Particle swarm optimization
+10.1109/ACCESS.2024.3381032,career path recommendation model
+10.1109/ACCESS.2024.3381032,Computational modeling
+10.1109/ACCESS.2024.3381032,Computer science
+10.1109/ACCESS.2024.3381032,Data mining
+10.1109/ACCESS.2024.3381032,Data models
+10.1109/ACCESS.2024.3381032,Educational data mining
+10.1109/ACCESS.2024.3381032,Engineering profession
+10.1109/ACCESS.2024.3381032,grounded theory
+10.1109/ACCESS.2024.3381032,Information technology
+10.1109/ACCESS.2024.3381032,information technology
+10.1109/ACCESS.2024.3381032,naïve bayes
+10.1109/ACCESS.2024.3381032,Recommender systems
+10.1109/ICoSNIKOM60230.2023.10364398,Communication
+10.1109/ICoSNIKOM60230.2023.10364398,Database
+10.1109/ICoSNIKOM60230.2023.10364398,Monitoring
+10.1109/ICoSNIKOM60230.2023.10364398,Position
+10.1109/ICoSNIKOM60230.2023.10364398,Sensor System
+10.1109/ICoSNIKOM60230.2023.10364398,Website
+10.1016/j.cviu.2024.103927,Emotions
+10.1016/j.cviu.2024.103927,Facial expression recognition
+10.1016/j.cviu.2024.103927,Facial muscle activation
+10.1016/j.cviu.2024.103927,Linear discriminant
+10.1016/j.cviu.2024.103927,Multilayer perceptron
+10.1016/j.cviu.2024.103927,Support vector machine
+10.1109/TIFS.2023.3324326,Credential database
+10.1109/TIFS.2023.3324326,dictionary guessing attack
+10.1109/TIFS.2023.3324326,key server renewal
+10.1109/TIFS.2023.3324326,threshold
+10.1109/JBHI.2024.3352513,Biases
+10.1109/JBHI.2024.3352513,Biological system modeling
+10.1109/JBHI.2024.3352513,Brain modeling
+10.1109/JBHI.2024.3352513,Databases
+10.1109/JBHI.2024.3352513,Deep learning
+10.1109/JBHI.2024.3352513,Deep learning
+10.1109/JBHI.2024.3352513,Diseases
+10.1109/JBHI.2024.3352513,Magnetic resonance imaging
+10.1109/JBHI.2024.3352513,Shortcut learning
+10.1109/JBHI.2024.3352513,Training
+10.1007/s10115-023-01948-w,Data mining
+10.1007/s10115-023-01948-w,High-utility itemset mining
+10.1007/s10115-023-01948-w,Knowledge discovery
+10.1007/s10115-023-01948-w,Memory efficient mining
+10.1007/s11042-023-17997-w,Abnormal episodes
+10.1007/s11042-023-17997-w,Convolution neural network (CNN)
+10.1007/s11042-023-17997-w,Derivative images
+10.1007/s11042-023-17997-w,Electrocardiogram (ECG)
+10.1007/s11042-023-17997-w,Ventricular ectopic beat (VEB) episodes
+10.1109/CISCT57197.2023.10351356,Chest radiography pictures
+10.1109/CISCT57197.2023.10351356,CNN
+10.1109/CISCT57197.2023.10351356,Computed tomography (CT) scan
+10.1109/CISCT57197.2023.10351356,Covid-19
+10.1109/CISCT57197.2023.10351356,Polymerase chain response
+10.1109/CISCT57197.2023.10351356,ResNet101
+10.1109/CISCT57197.2023.10351356,ResNet50
+10.1109/ACCESS.2023.3345452,behavioral biometrics
+10.1109/ACCESS.2023.3345452,biometric verification
+10.1109/ACCESS.2023.3345452,challenge
+10.1109/ACCESS.2023.3345452,Keystroke dynamics
+10.1109/ACCESS.2023.3345452,KVC
+10.1145/3597926.3598116,Static Taint Analysis
+10.1145/3597926.3598116,Stored XSS
+10.1145/3597926.3598116,Vulnerability Detection
+10.1145/3597926.3598116,Web Application Security
+10.1109/TMM.2023.3301276,face quality
+10.1109/TMM.2023.3301276,GAN
+10.1109/TMM.2023.3301276,generative priors
+10.1109/TMM.2023.3301276,Image quality assessment
+10.1109/TMM.2023.3301276,subjective study
+10.1145/3580305.3599405,autoregressive models
+10.1145/3580305.3599405,in-database operators
+10.1145/3580305.3599405,lsm store
+10.1145/3594315.3594407,anchor-free
+10.1145/3594315.3594407,lightweight network
+10.1145/3594315.3594407,one-stage detector
+10.1109/ICICyTA60173.2023.10428947,API Database
+10.1109/ICICyTA60173.2023.10428947,Cloud Computing
+10.1109/ICICyTA60173.2023.10428947,Deployment
+10.1109/ICICyTA60173.2023.10428947,Google Cloud Platform
+10.1109/ICICyTA60173.2023.10428947,Image Classification
+10.1109/ICICyTA60173.2023.10428947,PaaS
+10.1080/09540091.2024.2323059,encrypted databases
+10.1080/09540091.2024.2323059,evaluation model
+10.1080/09540091.2024.2323059,SQL queries
+10.1016/j.knosys.2024.111449,Nonoverlapping
+10.1016/j.knosys.2024.111449,Repetitive negative sequential pattern
+10.1016/j.knosys.2024.111449,Repetitive sequential pattern
+10.1016/j.knosys.2024.111449,Self-adaptive gap
+10.1016/j.knosys.2024.111449,Sequential pattern mining
+10.1109/TPAMI.2023.3334760,Biometrics
+10.1109/TPAMI.2023.3334760,fingerprint database
+10.1109/TPAMI.2023.3334760,fingerprint recognition
+10.1109/TPAMI.2023.3334760,optical coherence tomography
+10.1109/TPAMI.2023.3334760,total internal reflection
+10.2478/amns.2023.1.00093,Artificial intelligence
+10.2478/amns.2023.1.00093,Database construction
+10.2478/amns.2023.1.00093,Digital regeneration
+10.2478/amns.2023.1.00093,Hunan embroidery stitch
+10.2478/amns.2023.1.00093,Mechanics model
+10.1007/s00530-023-01240-5,Knowledge
+10.1007/s00530-023-01240-5,Question classification
+10.1007/s00530-023-01240-5,Transformer
+10.1007/s00530-023-01240-5,Video question answering
+10.1145/3592307.3592330,Deep learning
+10.1145/3592307.3592330,Fingerprint technique
+10.1145/3592307.3592330,Generative Adversarial Networks (GANs)
+10.1145/3592307.3592330,Indoor localization
+10.1145/3592307.3592330,Multilayer Perceptron (MLP)
+10.1145/3616712.3616791,current issues
+10.1145/3616712.3616791,Digital marketing
+10.1145/3616712.3616791,literature review
+10.1145/3616712.3616791,tourism destination
+10.1109/ACIIS59385.2023.10367332,computer vision
+10.1109/ACIIS59385.2023.10367332,intelligent city
+10.1109/ACIIS59385.2023.10367332,literature review
+10.1109/ACIIS59385.2023.10367332,smart city
+10.1016/j.micpro.2023.104987,Computer aided engineering
+10.1016/j.micpro.2023.104987,Database management
+10.1016/j.micpro.2023.104987,Electronic design automation
+10.1016/j.micpro.2023.104987,IP cores
+10.1016/j.micpro.2023.104987,System-level design
+10.1016/j.compgeo.2024.106135,Data-centric Geotechnics
+10.1016/j.compgeo.2024.106135,Database
+10.1016/j.compgeo.2024.106135,Deep Excavations in Clay
+10.1016/j.compgeo.2024.106135,Hierarchical Bayesian Model (HBM)
+10.1016/j.compgeo.2024.106135,Observational Method
+10.1016/j.compgeo.2024.106135,Wall Deflection
+10.1145/3544549.3585794,database management system
+10.1145/3544549.3585794,error
+10.1145/3544549.3585794,query execution plan
+10.1145/3544549.3585794,SQL
+10.1145/3544549.3585794,usability
+10.1016/j.cogsys.2024.101216,Challenge
+10.1016/j.cogsys.2024.101216,Database
+10.1016/j.cogsys.2024.101216,Deep learning
+10.1016/j.cogsys.2024.101216,Feature
+10.1016/j.cogsys.2024.101216,Neural network
+10.1016/j.cogsys.2024.101216,Vector
+10.2478/amns.2023.2.01066,Adaptive thresholding method
+10.2478/amns.2023.2.01066,Image grayscaling
+10.2478/amns.2023.2.01066,Internet technology
+10.2478/amns.2023.2.01066,Visual communication database
+10.2478/amns.2023.2.01066,Yi lacquer art
+10.1016/j.compbiomed.2024.108201,Biomarkers
+10.1016/j.compbiomed.2024.108201,Cancers
+10.1016/j.compbiomed.2024.108201,Lysosome
+10.1016/j.compbiomed.2024.108201,Machine learning
+10.1016/j.compbiomed.2024.108201,Preeclampsia
+10.2478/amns.2023.2.01665,Application development
+10.2478/amns.2023.2.01665,Database
+10.2478/amns.2023.2.01665,Mapreduce programming
+10.2478/amns.2023.2.01665,MVC architecture
+10.2478/amns.2023.2.01665,Paillier homomorphic encryption
+10.1109/ICEDCS60513.2023.00059,Convolutional neural network
+10.1109/ICEDCS60513.2023.00059,Image classification
+10.1109/ICEDCS60513.2023.00059,Image database
+10.1109/ICEDCS60513.2023.00059,MHPA
+10.1109/SIPAIM56729.2023.10373523,cytology
+10.1109/SIPAIM56729.2023.10373523,machine learning
+10.1109/SIPAIM56729.2023.10373523,malignancy prediction
+10.1109/SIPAIM56729.2023.10373523,pathomics
+10.1109/SIPAIM56729.2023.10373523,radiomics
+10.1109/SIPAIM56729.2023.10373523,Thyroid nodule
+10.1109/SIPAIM56729.2023.10373523,ultrasound
+10.1145/3609987.3609994,Database
+10.1145/3609987.3609994,Developers
+10.1145/3609987.3609994,Interview
+10.1145/3609987.3609994,Perceptions
+10.1145/3609987.3609994,Students
+10.1145/3609987.3609994,Technology adoption
+10.1007/s41315-023-00310-1,Convolutional neural networks
+10.1007/s41315-023-00310-1,Deep learning
+10.1007/s41315-023-00310-1,Face database
+10.1007/s41315-023-00310-1,Face recognition
+10.1007/s41315-023-00310-1,Smart attendance system
+10.1109/ICACIC59454.2023.10435349,android application
+10.1109/ICACIC59454.2023.10435349,chemical elements
+10.1109/ICACIC59454.2023.10435349,cloud database
+10.1109/ICACIC59454.2023.10435349,reactions
+10.1109/ICACIC59454.2023.10435349,speech recognition
+10.1016/j.procs.2023.11.108,Database Design
+10.1016/j.procs.2023.11.108,DB2 Database
+10.1016/j.procs.2023.11.108,Digital Teaching Case Base System
+10.1016/j.procs.2023.11.108,Function Design
+10.1109/CISCT57197.2023.10351417,Bluetooth
+10.1109/CISCT57197.2023.10351417,Cloud
+10.1109/CISCT57197.2023.10351417,communication
+10.1109/CISCT57197.2023.10351417,DBMS
+10.1109/CISCT57197.2023.10351417,Electricity
+10.1109/CISCT57197.2023.10351417,IoT
+10.1109/CISCT57197.2023.10351417,Lora
+10.1109/CISCT57197.2023.10351417,microprocessors
+10.1109/CISCT57197.2023.10351417,MQTT
+10.1109/CISCT57197.2023.10351417,OLED
+10.1109/CISCT57197.2023.10351417,Raspberry Pi
+10.1109/CISCT57197.2023.10351417,security
+10.1109/CISCT57197.2023.10351417,Signal processing
+10.1109/CISCT57197.2023.10351417,Smart Transformer
+10.1109/CISCT57197.2023.10351417,Wi-Fi
+10.1016/j.compgeo.2023.105967,Degree of understanding
+10.1016/j.compgeo.2023.105967,Fuzzy bearing resistance
+10.1016/j.compgeo.2023.105967,Fuzzy clustering and partitioning
+10.1016/j.compgeo.2023.105967,Possibility theory
+10.1016/j.compgeo.2023.105967,Probability–to–possibility transformation
+10.1016/j.compgeo.2023.105967,Reliability assessment
+10.1109/LA-CCI58595.2023.10409408,Emotion Recognition
+10.1109/LA-CCI58595.2023.10409408,Facial Expressions
+10.1109/LA-CCI58595.2023.10409408,Hybrid Architecture
+10.1109/LA-CCI58595.2023.10409408,Personalized Therapies
+10.1109/ACCESS.2024.3349487,Braille
+10.1109/ACCESS.2024.3349487,cryptography
+10.1109/ACCESS.2024.3349487,password
+10.1109/ACCESS.2024.3349487,security
+10.1109/ACCESS.2024.3349487,transformation
+10.5194/isprs-archives-XLVIII-1-W1-2023-511-2023,geospatial data
+10.5194/isprs-archives-XLVIII-1-W1-2023-511-2023,MMS
+10.5194/isprs-archives-XLVIII-1-W1-2023-511-2023,mobile mapping
+10.5194/isprs-archives-XLVIII-1-W1-2023-511-2023,OSM
+10.5194/isprs-archives-XLVIII-1-W1-2023-511-2023,point cloud
+10.5194/isprs-archives-XLVIII-1-W1-2023-511-2023,topographic database
+10.5194/isprs-archives-XLVIII-1-W1-2023-511-2023,UAS
+10.5194/isprs-archives-XLVIII-1-W1-2023-511-2023,urban management
+10.1016/j.ascom.2024.100791,Astrochemistry
+10.1016/j.ascom.2024.100791,Astronomical databases: miscellaneous
+10.1016/j.ascom.2024.100791,Line: identification
+10.1016/j.ascom.2024.100791,Methods: numerical
+10.1016/j.ascom.2024.100791,Molecular data
+10.1016/j.eswa.2023.121489,Data mining
+10.1016/j.eswa.2023.121489,High-utility itemset mining
+10.1016/j.eswa.2023.121489,Negative profit
+10.1016/j.eswa.2023.121489,Unstable negative profits
+10.1016/j.jvcir.2023.104033,3D facial expression
+10.1016/j.jvcir.2023.104033,Affective database
+10.1016/j.jvcir.2023.104033,Ecological validity
+10.1016/j.jvcir.2023.104033,Facial expression recognition
+10.1016/j.jvcir.2023.104033,Human-computer interaction
+10.1016/j.jvcir.2023.104033,Spontaneous expressions
+10.1145/3584372.3588672,complexity
+10.1145/3584372.3588672,concurrency control
+10.1145/3584372.3588672,robustness
+10.1108/JMTM-03-2023-0114,Industry 4.0
+10.1108/JMTM-03-2023-0114,Lean manufacturing
+10.1108/JMTM-03-2023-0114,Manufacturing technology
+10.1108/JMTM-03-2023-0114,Network theory
+10.1016/j.cad.2023.103630,CAD assembly
+10.1016/j.cad.2023.103630,Collision-free solver
+10.1016/j.cad.2023.103630,Database expansion
+10.1016/j.cad.2023.103630,Part retrieval and reuse
+10.1016/j.cad.2023.103630,Reassembly strategies
+10.1145/3634848.3634859,A/B Test
+10.1145/3634848.3634859,Software Requirements
+10.1145/3634848.3634859,Software Testing
+10.1145/3634848.3634859,UX/UI Design
+10.1007/s10115-023-02009-y,Database indexing
+10.1007/s10115-023-02009-y,Geographical information systems (GIS)
+10.1007/s10115-023-02009-y,Mobility datasets
+10.1007/s10115-023-02009-y,RDBMS
+10.1007/s10115-023-02009-y,Spatiotemporal databases
+10.1007/s10115-023-02009-y,Temporal databases
+10.1016/j.specom.2023.103008,Causal processing
+10.1016/j.specom.2023.103008,Convolutional encoder–decoder
+10.1016/j.specom.2023.103008,Deep learning
+10.1016/j.specom.2023.103008,Phase estimation
+10.1016/j.specom.2023.103008,Quality and intelligibility
+10.1016/j.specom.2023.103008,Recurrent networks
+10.1016/j.specom.2023.103008,Speech enhancement
+10.1117/12.2683433,Active defense
+10.1117/12.2683433,Database security
+10.1117/12.2683433,Instruction set randomization
+10.1109/ICNGN59831.2023.10396786,operator pushdown
+10.1109/ICNGN59831.2023.10396786,parallel computing
+10.1109/ICNGN59831.2023.10396786,query task fragmentation
+10.1109/ICNGN59831.2023.10396786,storage and compute separation
+10.1145/3594441.3594448,Ivey case
+10.1145/3594441.3594448,Metauniverse model
+10.1145/3594441.3594448,Reform of Accounting Case Teaching
+10.1145/3594441.3594448,The Harvard case
+10.1145/3583788.3583819,5G
+10.1145/3583788.3583819,Fingerprint database
+10.1145/3583788.3583819,Indoor positioning
+10.1145/3583788.3583819,Machine learning
+10.1145/3615833.3628590,learned index
+10.1145/3615833.3628590,spatial relationship query
+10.1145/3584372.3588680,cardinality estimation
+10.1145/3584372.3588680,data summary
+10.1016/j.bspc.2023.105791,Deep learning method
+10.1016/j.bspc.2023.105791,IMSF-Net
+10.1016/j.bspc.2023.105791,Permutation importance algorithm
+10.1016/j.bspc.2023.105791,PPG-based blood pressure estimation
+10.1016/j.bspc.2023.105791,UCI database
+10.1109/ICAICA58456.2023.10405528,machine learning
+10.1109/ICAICA58456.2023.10405528,Natural language processing
+10.1109/ICAICA58456.2023.10405528,SQL injection
+10.1109/ICAICA58456.2023.10405528,SVM
+10.1109/ICAICA58456.2023.10405528,word2vec
+10.1109/TII.2023.3324940,Distance optimization
+10.1109/TII.2023.3324940,human action monitoring
+10.1109/TII.2023.3324940,reference learning
+10.1145/3576840.3578281,Contextsensitive tracking
+10.1145/3576840.3578281,New IR features
+10.1145/3576840.3578281,post-retraction retrieval
+10.1145/3576840.3578281,Retracted research papers
+10.1109/TKDE.2024.3359710,Arrays
+10.1109/TKDE.2024.3359710,big table
+10.1109/TKDE.2024.3359710,data mining
+10.1109/TKDE.2024.3359710,database
+10.1109/TKDE.2024.3359710,Databases
+10.1109/TKDE.2024.3359710,dynamic cardinality estimation
+10.1109/TKDE.2024.3359710,Estimation
+10.1109/TKDE.2024.3359710,Hash functions
+10.1109/TKDE.2024.3359710,Memory management
+10.1109/TKDE.2024.3359710,Probability distribution
+10.1109/TKDE.2024.3359710,Registers
+10.1109/TKDE.2024.3359710,sketch
+10.1109/TCSS.2024.3355113,Adaptation models
+10.1109/TCSS.2024.3355113,Affinity graph diffusion
+10.1109/TCSS.2024.3355113,Databases
+10.1109/TCSS.2024.3355113,domain shift
+10.1109/TCSS.2024.3355113,Face recognition
+10.1109/TCSS.2024.3355113,facial expression recognition
+10.1109/TCSS.2024.3355113,graph learning
+10.1109/TCSS.2024.3355113,matrix factorization
+10.1109/TCSS.2024.3355113,Optimization
+10.1109/TCSS.2024.3355113,Representation learning
+10.1109/TCSS.2024.3355113,Space mapping
+10.1109/TCSS.2024.3355113,Sparse matrices
+10.4230/LIPIcs.ICDT.2024.23,Degree Constraints
+10.4230/LIPIcs.ICDT.2024.23,Join Sampling
+10.4230/LIPIcs.ICDT.2024.23,Polymatroid Bounds
+10.4230/LIPIcs.ICDT.2024.23,Subgraph Sampling
+10.1016/j.cageo.2023.105479,Machine learning
+10.1016/j.cageo.2023.105479,Rating cone index
+10.1016/j.cageo.2023.105479,Soil moisture
+10.1016/j.cageo.2023.105479,Soil strength
+10.1007/s11042-023-15393-y,Agricultural pests and diseases
+10.1007/s11042-023-15393-y,Database
+10.1007/s11042-023-15393-y,Multimedia technology adoption
+10.1016/j.compbiomed.2024.108072,Adaptive feature transfer
+10.1016/j.compbiomed.2024.108072,Annotated data scarcity
+10.1016/j.compbiomed.2024.108072,Domain discrepancy
+10.1016/j.compbiomed.2024.108072,Heartbeat classification
+10.1016/j.compbiomed.2024.108072,Unsupervised learning
+10.1145/3552326.3567494,Checkpointing
+10.1145/3552326.3567494,Deterministic databases
+10.1145/3552326.3567494,Logging
+10.1145/3552326.3567494,Non-volatile memory
+10.1145/3552326.3567494,Recovery
+10.1016/j.eswa.2023.122841,Convolutional Neural Network
+10.1016/j.eswa.2023.122841,Database executor
+10.1016/j.eswa.2023.122841,Decision optimization
+10.1109/TIT.2023.3344717,Federated submodel learning
+10.1109/TIT.2023.3344717,private set union
+10.1109/TIT.2023.3344717,symmetric private information retrieval
+10.1109/JIOT.2024.3358349,Cloud computing
+10.1109/JIOT.2024.3358349,cloud computing
+10.1109/JIOT.2024.3358349,Data privacy
+10.1109/JIOT.2024.3358349,Databases
+10.1109/JIOT.2024.3358349,Indoor positioning
+10.1109/JIOT.2024.3358349,inner product encryption
+10.1109/JIOT.2024.3358349,IP networks
+10.1109/JIOT.2024.3358349,Location awareness
+10.1109/JIOT.2024.3358349,Privacy
+10.1109/JIOT.2024.3358349,privacy preserving
+10.1109/JIOT.2024.3358349,WiFi localization
+10.1109/JIOT.2024.3358349,Wireless fidelity
+10.1007/s10489-023-05231-x,Fire Engineering
+10.1007/s10489-023-05231-x,Flame images
+10.1007/s10489-023-05231-x,Image analysis
+10.1007/s10489-023-05231-x,Semantic segmentation
+10.1007/s10489-023-05231-x,Smart firefighting
+10.1109/TSG.2023.3276390,Closed-loop prediction
+10.1109/TSG.2023.3276390,small hydropower power generation prediction
+10.1109/TSG.2023.3276390,time-series data matching
+10.1109/TSG.2023.3276390,transfer learning
+10.1109/ICEBE59045.2023.00043,Android
+10.1109/ICEBE59045.2023.00043,biometrics
+10.1109/ICEBE59045.2023.00043,Business Model Canvas
+10.1109/ICEBE59045.2023.00043,multi-factor authentication
+10.1109/ICEBE59045.2023.00043,security
+10.1109/ICEBE59045.2023.00043,Value Proposition Canvas
+10.1016/j.aei.2023.102293,BERT
+10.1016/j.aei.2023.102293,Flash flood
+10.1016/j.aei.2023.102293,Multi-label text classification
+10.1016/j.aei.2023.102293,Text classification
+10.1016/j.jmgm.2023.108669,Drug design
+10.1016/j.jmgm.2023.108669,Drug discovery
+10.1016/j.jmgm.2023.108669,Fragment based design
+10.1016/j.jmgm.2023.108669,Fragment-based drug design (FBDD)
+10.1016/j.jmgm.2023.108669,Structure based design
+10.1145/3555041.3589404,databases
+10.1145/3555041.3589404,quantum computing
+10.1145/3555041.3589404,quantum machine learning
+10.1109/ICEDCS60513.2023.00105,Big data
+10.1109/ICEDCS60513.2023.00105,database
+10.1109/ICEDCS60513.2023.00105,information system
+10.1109/ICEDCS60513.2023.00105,network
+10.1109/ICEDCS60513.2023.00105,visualization
+10.1109/JBHI.2024.3368049,atrial fibrillation
+10.1109/JBHI.2024.3368049,attention network
+10.1109/JBHI.2024.3368049,Databases
+10.1109/JBHI.2024.3368049,deep learning
+10.1109/JBHI.2024.3368049,Electrocardiography
+10.1109/JBHI.2024.3368049,Estimation
+10.1109/JBHI.2024.3368049,heart rate variability
+10.1109/JBHI.2024.3368049,Heart rate variability
+10.1109/JBHI.2024.3368049,motion analysis
+10.1109/JBHI.2024.3368049,Motion segmentation
+10.1109/JBHI.2024.3368049,remote photoplethysmography
+10.1109/JBHI.2024.3368049,Standards
+10.1109/JBHI.2024.3368049,Videos
+10.1016/j.compgeo.2023.105933,Machine learning
+10.1016/j.compgeo.2023.105933,Macro-mechanical properties prediction
+10.1016/j.compgeo.2023.105933,Rock
+10.1016/j.compgeo.2023.105933,Upscaling
+10.1007/s11128-024-04288-y,Bell state
+10.1007/s11128-024-04288-y,Entanglement swapping
+10.1007/s11128-024-04288-y,Multi-user quantum private query
+10.1007/s11128-024-04288-y,Two-way quantum identity authentication
+10.1108/IR-11-2023-0284,Kernelized movement primitives (KMP)
+10.1108/IR-11-2023-0284,Obstacle avoidance
+10.1108/IR-11-2023-0284,Physical human–robot interaction
+10.1108/IR-11-2023-0284,Trajectory adaptation
+10.1109/TKDE.2024.3363009,Approximation algorithms
+10.1109/TKDE.2024.3363009,Automobiles
+10.1109/TKDE.2024.3363009,Clustering algorithms
+10.1109/TKDE.2024.3363009,Databases
+10.1109/TKDE.2024.3363009,Decision making
+10.1109/TKDE.2024.3363009,Logistics
+10.1109/TKDE.2024.3363009,Minimization
+10.1109/TKDE.2024.3363009,Multi-criteria decision-making
+10.1109/TKDE.2024.3363009,Rank-regret
+10.1109/TKDE.2024.3363009,Regret-ratio
+10.1109/TKDE.2024.3363009,Skyline
+10.1109/TKDE.2024.3363009,Top-k query
+10.1016/j.patcog.2023.110240,Adaptive characteristics
+10.1016/j.patcog.2023.110240,Attention-based dropout
+10.1016/j.patcog.2023.110240,Hierarchically-salient features
+10.1016/j.patcog.2023.110240,Robust object recognition
+10.1109/BigDIA60676.2023.10429609,high-dimensional data
+10.1109/BigDIA60676.2023.10429609,nearest neighbors' search
+10.1109/BigDIA60676.2023.10429609,similarity metrics
+10.1109/BigDIA60676.2023.10429609,similarity search
+10.1109/BigDIA60676.2023.10429609,vector databases
+10.1016/j.bspc.2023.105750,Nonlinear features
+10.1016/j.bspc.2023.105750,Paroxysmal atrial fibrillation
+10.1016/j.bspc.2023.105750,R-R interval time series
+10.1016/j.bspc.2023.105750,Time-domain features
+10.1016/j.ins.2024.120272,3D classification meta-learner
+10.1016/j.ins.2024.120272,3D meta-features
+10.1016/j.ins.2024.120272,3D point-cloud classification
+10.1016/j.ins.2024.120272,Algorithm selection
+10.1016/j.ins.2024.120272,Meta-learning
+10.1016/j.bspc.2023.105799,Atrial fibrillation
+10.1016/j.bspc.2023.105799,Domain adaptation
+10.1016/j.bspc.2023.105799,Dynamic adaptive module
+10.1016/j.bspc.2023.105799,Dynamic transfer learning
+10.1016/j.bspc.2023.105799,ECG
+10.1016/j.bspc.2023.105799,MCC loss
+10.3390/s24010008,antenna sensing
+10.3390/s24010008,database
+10.3390/s24010008,deep learning
+10.3390/s24010008,electromagnetic imaging
+10.1109/CIPAE60493.2023.00053,Association Rules
+10.1109/CIPAE60493.2023.00053,B/S mode
+10.1109/CIPAE60493.2023.00053,SQL Server database
+10.1016/j.displa.2023.102585,Spatio-temporal modeling
+10.1016/j.displa.2023.102585,Temporal information
+10.1016/j.displa.2023.102585,Video quality assessment
+10.1016/j.bspc.2023.105502,ACE2
+10.1016/j.bspc.2023.105502,Asthma
+10.1016/j.bspc.2023.105502,Comorbidity
+10.1016/j.bspc.2023.105502,COVID-19
+10.1016/j.bspc.2023.105502,Host factor
+10.1016/j.bspc.2023.105502,SARS-CoV-2
+10.1186/s40537-023-00857-7,Class Imbalance Problem
+10.1186/s40537-023-00857-7,Clinical decision support
+10.1186/s40537-023-00857-7,Clinical prediction model
+10.1186/s40537-023-00857-7,External validation
+10.1186/s40537-023-00857-7,Machine learning
+10.1186/s40537-023-00857-7,Patient-level prediction
+10.1145/3552326.3587434,dynamic datasets
+10.1145/3552326.3587434,index structure
+10.1145/3552326.3587434,key distribution
+10.1145/3639390.3639393,Articulated Body Pose Estimation
+10.1145/3639390.3639393,Artificial Intelligence
+10.1145/3639390.3639393,Data Mining
+10.1145/3639390.3639393,Gait Recognition
+10.1145/3639390.3639393,Sequential Pattern Mining
+,Human-in-the-loop
+,In-context Learning
+,Large Language Model
+,Machine Translation
+,Natural Language Processing
+,Prompt Engineering
+10.1109/TSC.2024.3356728,Cloud computing
+10.1109/TSC.2024.3356728,Databases
+10.1109/TSC.2024.3356728,Encryption
+10.1109/TSC.2024.3356728,Multiparty Computation
+10.1109/TSC.2024.3356728,Private Set Intersection
+10.1109/TSC.2024.3356728,Protocols
+10.1109/TSC.2024.3356728,Receivers
+10.1109/TSC.2024.3356728,Search problems
+10.1109/TSC.2024.3356728,Searchable Encryption
+10.1109/TSC.2024.3356728,Servers
+10.1177/17298806241229270,6 DOF pose estimation
+10.1177/17298806241229270,deep learning
+10.1177/17298806241229270,monocular image
+10.1177/17298806241229270,Robot vision systems
+10.1109/THMS.2024.3351138,Canthus
+10.1109/THMS.2024.3351138,Estimation
+10.1109/THMS.2024.3351138,face photograph
+10.1109/THMS.2024.3351138,Face recognition
+10.1109/THMS.2024.3351138,Faces
+10.1109/THMS.2024.3351138,facial feature
+10.1109/THMS.2024.3351138,Facial features
+10.1109/THMS.2024.3351138,Head
+10.1109/THMS.2024.3351138,head-pose estimation
+10.1109/THMS.2024.3351138,Magnetic heads
+10.1109/THMS.2024.3351138,Solid modeling
+10.1109/THMS.2024.3351138,three-dimensional (3-D) face model
+10.14733/cadaps.2024.S17.132-143,Artificial Intelligence
+10.14733/cadaps.2024.S17.132-143,Computer Vision
+10.14733/cadaps.2024.S17.132-143,Driving Operation
+10.14733/cadaps.2024.S17.132-143,Driving Safety
+10.14733/cadaps.2024.S17.132-143,Virtual Reality Solutions
+10.1016/j.eswa.2023.121324,Aerodynamic database prediction
+10.1016/j.eswa.2023.121324,Computational fluid dynamics
+10.1016/j.eswa.2023.121324,Deep learning
+10.1016/j.eswa.2023.121324,Machine learning
+10.1016/j.eswa.2023.121324,Surrogate models
+10.1109/ACCESS.2023.3346997,biometrics
+10.1109/ACCESS.2023.3346997,domain adaptation
+10.1109/ACCESS.2023.3346997,Electrocardiogram
+10.1109/ACCESS.2023.3346997,multi-branch architecture
+10.1109/ACCESS.2023.3346997,weight fusion adaptive attention mechanism
+10.1007/s12530-023-09562-5,Chaotic iteration
+10.1007/s12530-023-09562-5,Dynamical system
+10.1007/s12530-023-09562-5,Feature extraction
+10.1007/s12530-023-09562-5,Video face recognition
+10.1145/3539618.3591637,heterogeneous data lake
+10.1145/3539618.3591637,query answering
+10.1145/3539618.3591637,relational schema
+10.1145/3613917.3613923,classifier fusion
+10.1145/3613917.3613923,deep learning
+10.1145/3613917.3613923,handwritten character recognition
+10.1145/3613917.3613923,Houma alliance book
+10.1016/j.egyai.2023.100331,Agrivoltaic
+10.1016/j.egyai.2023.100331,Global horizontal irradiance
+10.1016/j.egyai.2023.100331,Machine learning
+10.1016/j.egyai.2023.100331,Site adaptation
+10.1016/j.egyai.2023.100331,STRÅNG
+10.1016/j.egyai.2023.100331,Sweden
+10.5194/isprs-archives-XLVIII-M-2-2023-1665-2023,Abandoned assets
+10.5194/isprs-archives-XLVIII-M-2-2023-1665-2023,database
+10.5194/isprs-archives-XLVIII-M-2-2023-1665-2023,Emilia
+10.5194/isprs-archives-XLVIII-M-2-2023-1665-2023,interoperability
+10.5194/isprs-archives-XLVIII-M-2-2023-1665-2023,vocabularies
+10.5194/isprs-archives-XLVIII-M-2-2023-1665-2023,WebGIS
+10.5194/isprs-archives-XLVIII-4-W7-2023-261-2023,COVID-19
+10.5194/isprs-archives-XLVIII-4-W7-2023-261-2023,Database
+10.5194/isprs-archives-XLVIII-4-W7-2023-261-2023,FOSS GIS
+10.5194/isprs-archives-XLVIII-4-W7-2023-261-2023,health geography
+10.5194/isprs-archives-XLVIII-4-W7-2023-261-2023,WebGIS
+10.1145/3555776.3577733,database systems
+10.1145/3555776.3577733,log optimization
+10.1145/3555776.3577733,non volatile memory
+10.1145/3555776.3577733,relational database
+10.1145/3555776.3577733,storage systems
+10.1145/3580305.3599352,preference learning
+10.1145/3580305.3599352,streaming algorithms
+10.1145/3580305.3599352,user interaction
+10.1109/TMM.2024.3356029,Databases
+10.1109/TMM.2024.3356029,Depth image-based rendering
+10.1109/TMM.2024.3356029,Distortion
+10.1109/TMM.2024.3356029,Feature extraction
+10.1109/TMM.2024.3356029,Image quality
+10.1109/TMM.2024.3356029,image quality assessment
+10.1109/TMM.2024.3356029,local distortion
+10.1109/TMM.2024.3356029,Measurement
+10.1109/TMM.2024.3356029,quality of experience (QoE)
+10.1109/TMM.2024.3356029,synthesized views
+10.1109/TMM.2024.3356029,Three-dimensional displays
+10.1109/TMM.2024.3356029,Visualization
+10.1145/3552326.3567492,Databases
+10.1145/3552326.3567492,Verification
+10.1145/3580305.3599543,clinical time series
+10.1145/3580305.3599543,irregularly sampled time series
+10.1145/3580305.3599543,multi-scale representation
+10.1016/j.aei.2023.102224,Compaction
+10.1016/j.aei.2023.102224,Database
+10.1016/j.aei.2023.102224,LSM-tree
+10.1016/j.aei.2023.102224,Time-series
+10.1145/3588195.3595942,concurrency control
+10.1145/3588195.3595942,many-core machines
+10.1145/3588195.3595942,timestamp allocation
+10.1016/j.future.2024.03.012,Database systems
+10.1016/j.future.2024.03.012,Indexing scheme
+10.1016/j.future.2024.03.012,Main memory
+10.1016/j.future.2024.03.012,Multi-versioning
+10.1016/j.future.2024.03.012,Prefetching
+10.1145/3593856.3595905,access control
+10.1145/3593856.3595905,database-backed applications
+10.12694/scpe.v25i1.2296,Chinese education
+10.12694/scpe.v25i1.2296,DBN-BP algorithm
+10.12694/scpe.v25i1.2296,Emotional characteristics
+10.12694/scpe.v25i1.2296,International teaching
+10.12694/scpe.v25i1.2296,Speech database
+10.1109/TCSS.2024.3374642,Adverse event (AE)
+10.1109/TCSS.2024.3374642,Databases
+10.1109/TCSS.2024.3374642,Drugs
+10.1109/TCSS.2024.3374642,FDA
+10.1109/TCSS.2024.3374642,Implants
+10.1109/TCSS.2024.3374642,Machine learning algorithms
+10.1109/TCSS.2024.3374642,Manufacturer and User Facility Device Experience (MAUDE) database
+10.1109/TCSS.2024.3374642,Medical devices
+10.1109/TCSS.2024.3374642,natural language processing (NLP)
+10.1109/TCSS.2024.3374642,Pain
+10.1109/TCSS.2024.3374642,regulatory science
+10.1109/TCSS.2024.3374642,spinal cord stimulator (SCS)
+10.1109/VCIP59821.2023.10402756,Blind Image Quality Assessment (BIQA)
+10.1109/VCIP59821.2023.10402756,Filter Pruning
+10.1109/VCIP59821.2023.10402756,Model Compression
+10.1080/15472450.2022.2106564,Crowdsourced probe vehicle data
+10.1080/15472450.2022.2106564,machine learning
+10.1080/15472450.2022.2106564,pre-crash traffic dynamics
+10.1080/15472450.2022.2106564,real-time crash risk prediction
+10.1080/15472450.2022.2106564,rear-end crash
+10.1016/j.bspc.2023.105615,Multi-task learning
+10.1016/j.bspc.2023.105615,Signal reconstruction
+10.1016/j.bspc.2023.105615,Single-channel EEG
+10.1016/j.bspc.2023.105615,Sleep staging
+10.1016/j.bspc.2023.105615,Time series segmentation
+10.1016/j.csbj.2023.11.024,Cell heterogeneity
+10.1016/j.csbj.2023.11.024,Cell to cell communication
+10.1016/j.csbj.2023.11.024,Multi-method automatic cell-type annotation
+10.1016/j.csbj.2023.11.024,Single cell integration database
+10.1016/j.patcog.2023.110170,Attention mechanism
+10.1016/j.patcog.2023.110170,Database
+10.1016/j.patcog.2023.110170,Multi-view finger vein recognition
+10.1016/j.patcog.2023.110170,Transformer
+10.1016/j.bspc.2023.105611,Bioinformatic analysis
+10.1016/j.bspc.2023.105611,Cerebral aneurysms
+10.1016/j.bspc.2023.105611,Drug
+10.1016/j.bspc.2023.105611,Machine-learning strategies
+10.1016/j.bspc.2023.105611,Rupture
+10.1145/3640824.3640869,database
+10.1145/3640824.3640869,evolutionary algorithm
+10.1145/3640824.3640869,query perception
+10.1145/3640824.3640869,reinforcement learning
+10.1145/3640824.3640869,tuning parameters
+10.1109/CIPAE60493.2023.00081,big data analysis
+10.1109/CIPAE60493.2023.00081,hash encryption algorithm
+10.1109/CIPAE60493.2023.00081,Hub airport
+10.1109/CIPAE60493.2023.00081,information security
+10.1109/CIPAE60493.2023.00081,safety monitoring platform
+10.1109/CIPAE60493.2023.00081,situational awareness
+10.1016/j.compbiomed.2024.108256,Biomarker
+10.1016/j.compbiomed.2024.108256,ncRS database
+10.1016/j.compbiomed.2024.108256,Non-coding RNA
+10.1016/j.compbiomed.2024.108256,Pathogenesis
+10.1016/j.compbiomed.2024.108256,Sepsis
+10.1145/3577193.3593734,array database
+10.1145/3577193.3593734,scientific data management
+10.1145/3577193.3593734,versioning
+10.1145/3606843.3606859,classification
+10.1145/3606843.3606859,Electrocardiogram
+10.1145/3606843.3606859,long short-term memory
+10.1145/3606843.3606859,residual network
+10.1145/3606843.3606859,Squeeze-and-Excitation attention
+10.1145/3543873.3587586,multiple hypothesis testing
+10.1145/3543873.3587586,pattern mining
+10.1145/3543873.3587586,significant pattern
+10.1145/3543873.3587586,weighted pattern.
+10.1007/s41019-023-00235-6,Database
+10.1007/s41019-023-00235-6,Large language model
+10.1016/j.eswa.2023.122050,Content awareness
+10.1016/j.eswa.2023.122050,Error awareness
+10.1016/j.eswa.2023.122050,Expansibility
+10.1016/j.eswa.2023.122050,gMAD competition
+10.1016/j.eswa.2023.122050,No-reference image quality assessment
+10.1016/j.eswa.2023.122491,Fire resistance
+10.1016/j.eswa.2023.122491,ML
+10.1016/j.eswa.2023.122491,Reinforced concrete columns
+10.1016/j.eswa.2023.122491,Stacking ensemble
+10.1016/j.eswa.2023.122491,TVAE
+10.1016/j.iswa.2024.200351,Artificial intelligence
+10.1016/j.iswa.2024.200351,Machine-learning methods
+10.1016/j.iswa.2024.200351,Speech emotion recognition
